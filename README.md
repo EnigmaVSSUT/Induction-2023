@@ -21,15 +21,15 @@ Here at Enigma, we have always given more emphasis on knowledge transfer and tha
 
 Enigma inductions are not primarily exams. They consist of 3 stages:
 
-1. **Knowledge Transfer**
+1. **Knowledge Transfer** 🔃
 > We will be having Knowledge Transfer workshops on Open Source, Web Development, AI/ML and Competitive Programming according to the schedule that will be provided to you.
 
 
-2. **Assessment**
+2. **Assessment** 🏹
 > You would have to submit tasks provided after workshops in the respective domains which will be assessed.
 
 
-3. **Personal Interview**
+3. **Personal Interview** 👨‍⚖️
 > Selected candidates from the previous two stages will advance to the next stage, i.e., a Personal Interview.
 
 
@@ -46,21 +46,21 @@ The first part of the induction you have to perform task on **basics of Git & Gi
     - [Task-1: Git Basics-I](coming soon!)<br>
     - [Task-2: Git Basics-II](coming soon!)
 <br>
-## Week-2 (27 - 3 April) | Web Development 🧑🏻‍💻
+## Week-2 (27 - 3 April) | Web Development <img src="./assets/webdev.gif" width="60">
 Second week will be a walk around on one of the most popular technologies of modern world, Web Development. You will be learning the basics of web development, the languages like HTML, CSS, JavaScript and others to come on the way.<br>
     * [Introduction & Resources]<br>
     - [Task-1: HTML CSS] (coming soon!)<br>
     - [Task-2: Javascript] (coming soon!)
 <br>
 
-## Week-3 (4 - 8 April) | Competitive Programming :woman_technologist:
+## Week-3 (4 - 8 April) | Competitive Programming <img src="./assets/maze.gif" width="30">
 <br>
 Third week starts with a rigorous learning of competitive coding and python with some interesting modules. After that, their will be a series of tasks to test your understanding.
 
 Competitive Programming<br>
     - Task: **Coming Soon!**
 <br>
-## Week-4 (9 - 14 April) | Artificial Intelligence and Machine Learning :woman_technologist:
+## Week-4 (9 - 14 April) | Artificial Intelligence and Machine Learning <img src="./assets/Ai.gif" width="60">
 <br>
 Fourth week starts with a rigorous learning of competitive coding and python with some interesting modules. After that, their will be a series of tasks to test your understanding.
 
