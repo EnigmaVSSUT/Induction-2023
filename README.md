@@ -1,7 +1,21 @@
 <img src="">
 
 >### "You don't have to be great to start, but you have to start to be great." <br> -Zig Ziglar
-**<a href="https://enigmavssut.com/">Enigma - The Web & Coding Club</a>** welcomes all freshers to Induction 2023 and we hope that you all are excited and ready to learn new stuff, and eventually get inducted into the club.
+
+
+<h1>
+<a href="https://enigmavssut.com/">
+
+$${ \space   \space  \color{#57AF50}Enigma \space \color{#57AF50}web  \space \color{#57AF50}and  \space \color{#57AF50}coding  \space \color{#57AF50} {club}}$$
+
+
+
+</a> 
+
+</h1>
+We welcome all freshers to Induction 2023 and we hope that you all are excited and ready to learn new stuff, and eventually get inducted into the club.
+
+
 
 Here at Enigma, we have always given more emphasis on knowledge transfer and that is how we would start your Enigma journey too 😎
 
@@ -27,7 +41,7 @@ __N.B.: All the tasks will have their own deadlines__
 
 Let's brief the 4 -week long venture. It is a well planned path for all the newbies out there to groom up their coding skills. The whole process is to be continued for a month starting from 20th March 2023 and it will be conducted in three parts:
 
-## Week-1 (20 - 26 March) | Open Source 💻
+## Week-1 (20 - 26 March) | Open Source 
 The first part of the induction you have to perform task on **basics of Git & Github**. You will be provided with all sorts of materials which will be an apt way to learn from.<br>
     - [Task-1: Git Basics-I](coming soon!)<br>
     - [Task-2: Git Basics-II](coming soon!)
