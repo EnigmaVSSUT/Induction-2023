@@ -1,6 +1,6 @@
 # Task 1
 
-In this task, you'll learn basics of git and github.
+In this task, you'll learn basics of Git and Github.
 
 ## How to get started?
 Head over to https://github.com/EnigmaVSSUT/Induction-2023 and click on the fork button. This creates a copy of this repository in your repositories so you can start working on the project without directly making changes in the owner's code.
