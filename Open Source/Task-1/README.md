@@ -20,10 +20,10 @@ Now that you have your own copy of the repository it's time to make a copy of it
  
 <ol>
 
-<li>Now go to your forked repository, click on clone and copy the repo address. This will be used to clone the repository to your local system. </li>
+<li>Now go to your forked repository, click on code and copy the repo address. This will be used to clone the repository to your local system. </li>
 <img src="assets/i2.png">
 <br/>
-The link might look different for you and will have your username in place of EnigmaVSSUT.
+The link might look different for you and will have your username in place of SatyaSP.
 <br/>
 <br/>
  
