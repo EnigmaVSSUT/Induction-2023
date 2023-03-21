@@ -43,7 +43,7 @@ Let's brief the 4 -week long venture. It is a well planned path for all the newb
 
 ## Week-1 (20 - 26 March) | Open Source <img src="./assets/octocat-github.gif" width="60">
 The first part of the induction you have to perform task on **basics of Git & Github**. You will be provided with all sorts of materials which will be an apt way to learn from.<br>
-    - [Task-1: Git Basics-I](./Open_Source/Task-1/)<br>
+    - [Task-1: Git Basics-I](Coming soon! )<br>
     - [Task-2: Git Basics-II](coming soon!)
 <br>
 ## Week-2 (27 - 3 April) | Web Development <img src="./assets/webdev.gif" width="60">
