@@ -35,7 +35,7 @@ Type the command <code>git clone <i>copied_repo_address</i></code>
 <br/>
 
 
-<li>Now create a text file named <i>your_name.txt</i> inside the <code><b>open_source/Task-1</b></code> folder. Add your details like <ul><li>name</li> <li>registration number</li><li>branch</li> <li>your hobbies</li> </ul>Now save the file.
+<li>Now create a text file named <i>your_name.txt</i> inside the <code><b>Open Source/Task-1</b></code> folder. Add your details like <ul><li>name</li> <li>registration number</li><li>branch</li> <li>your hobbies</li> </ul>Now save the file.
  
 For reference see the file [Satyajit_Pradhan.txt](Satyajit_Pradhan.txt) in the Task-1 folder.
 <br/>
