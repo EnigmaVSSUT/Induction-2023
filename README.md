@@ -55,15 +55,14 @@ Second week will be a walk around on one of the most popular technologies of mod
 
 ## Week-3 (4 - 8 April) | Competitive Programming <img src="./assets/maze.gif" width="30">
 <br>
-Third week starts with a rigorous learning of competitive coding and python with some interesting modules. After that, their will be a series of tasks to test your understanding.
+Third week starts with a rigorous learning of competitive coding with some interesting modules. After that, their will be a series of tasks to test your understanding.
 
 Competitive Programming<br>
     - Task: **Coming Soon!**
 <br>
 ## Week-4 (9 - 14 April) | Artificial Intelligence and Machine Learning <img src="./assets/Ai.gif" width="60">
 <br>
-Fourth week starts with a rigorous learning of competitive coding and python with some interesting modules. After that, their will be a series of tasks to test your understanding.
-
+Fourth week is a walk through the revolutionary domain of AI/ML with an exciting task to boost your interest and give you an overview of the field.
 
 <hr>
 
