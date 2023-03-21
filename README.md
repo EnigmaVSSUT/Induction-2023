@@ -39,7 +39,7 @@ __N.B.: All the tasks will have their own deadlines__
 
 ## Schedule
 
-Let's brief the 4 -week long venture. It is a well planned path for all the newbies out there to groom up their coding skills. The whole process is to be continued for a month starting from 20th March 2023 and it will be conducted in three parts:
+Let's brief the 4 -week long venture. It is a well planned path for all the newbies out there to groom up their coding skills. The whole process is to be continued for a month starting from 20th March 2023 and it will be conducted in four parts:
 
 ## Week-1 (20 - 26 March) | Open Source <img src="./assets/octocat-github.gif" width="60">
 The first part of the induction you have to perform task on **basics of Git & Github**. You will be provided with all sorts of materials which will be an apt way to learn from.<br>
