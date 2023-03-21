@@ -2,6 +2,17 @@
 
 In this task, you'll learn basics of Git and Github.
 
+
+<h1>What is Git ?</h1>
+Git is a distributed version control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows. 
+
+<br/>
+
+<h1>What is GitHub ?</h1>
+It is a web-based Git repository. This hosting service has cloud-based storage. GitHub offers all distributed version control and source code management functionality of Git while adding its own features. It makes it easier to collaborate using Git. 
+
+<br/>
+
 ## How to get started?
 Head over to https://github.com/EnigmaVSSUT/Induction-2023 and click on the fork button. This creates a copy of this repository in your repositories so you can start working on the project without directly making changes in the owner's code.
 
@@ -59,7 +70,10 @@ Wait till the pull request is approved and merged to the original repository.
 <br/>
 
 ## Feel free to ask any doubts in our discord server
-
+<a  href='https://discord.gg/NFhdcSQy'>
+ 
+<img width='100px' src="https://raw.githubusercontent.com/EnigmaVSSUT/Induction-2023/main/assets/discord.png">
+</a>
  
 <br/><br/>
 # Congrats on completing task 1 on git and GitHub! 
