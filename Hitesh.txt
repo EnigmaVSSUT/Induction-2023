@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main ()
+{
+	printf("Name: Hitesh kumar jena \n");
+	printf("Regd no: 2202070090 \n");
+	printf("Branch: Electronics and telecommunication Engineering \n");
+	printf("Hobbies: reading books , playing chess \n");
+	return 0;
+}
