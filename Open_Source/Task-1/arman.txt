@@ -1,13 +1,7 @@
-<<<<<<< HEAD
+
 Name : Arman Singh
 Regd No : 2202080009
 Branch : Information Technology
 hobby : playing outer game
 domain:andriod development
-=======
-Name : Arman Singh
-Regd No : 2202080009
-Branch : Information Technology
-hobby : playing outer game
-domain:andriod development
->>>>>>> 3a57f54351b58eba3683e037339d56033219aa7a
+
