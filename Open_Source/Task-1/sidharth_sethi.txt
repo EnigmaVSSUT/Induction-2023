@@ -1,0 +1,4 @@
+Sidharth Sethi
+reg no=2202090123
+branch=Mechanical Engineering
+hobbies=coding
