@@ -2,4 +2,4 @@ Name : A Harekrushna Nayak
 Regd No : 2202080012
 Branch : Information Technology
 hobby : sketching,reading nonfiction
-domain : web development ,AI ML 
+Domain : web development ,AI ML 
