@@ -1,5 +1,7 @@
 Name : 	Rajat kumar padhi
 Regd No : 2202030049
-Branch : Civil Engineering
-Hobby : Badminton
-Domain: Ai/Ml
+Branch: Civil Engineering
+Hobby: Badminton....
+Domain:Web development,Ai/Ml
+
+>
