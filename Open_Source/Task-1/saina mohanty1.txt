@@ -2,4 +2,5 @@ NAME : SAINA MOHANTY
 REGISTRATION NO : 2202090073
 MECHANICAL
 HOBBIES : READING,DRAWING
-domain : web devlopment,ar\vr
+DOMAIN: web development, ar/vr
+
