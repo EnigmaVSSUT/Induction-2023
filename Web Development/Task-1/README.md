@@ -1,6 +1,6 @@
 1. First of all, **`pull the upstream repository`** (like you did in Open Source Task-2) to update your local repository
 
-2.	Create a **webpage** having **`About Me`**, **`My Interests`**, **`My skills`**, **`My Hobbies`**. You can add other sections, images or multiple pages, that's up to your creativity. To get you started, a screenshot of a sample webpage is provided. [View Sample webpage](./Sample%20Webpage.jpeg)
+2.	Create a **webpage** having **`About Me`**, **`My Interests`**, **`Gallery`**, **`Contact Me`**. You can add other sections, images or multiple pages, that's up to your creativity. To get you started, a screenshot of a sample webpage is provided. [View Sample webpage](./Sample%20Webpage.jpeg)
 
 3.	Change the text and images according to your preferences.
 
