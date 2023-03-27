@@ -2,3 +2,4 @@ Name : Subham Mishra
 Regd No : 2202070007
 Branch : Electronics & Telecommunication Engg
 Hobby : Photography
+Domain : AI/ML, Web Developement
