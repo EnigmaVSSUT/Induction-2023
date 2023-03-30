@@ -2,3 +2,4 @@ Name: Shivnath Pradhan
 Regd No: 2202080039
 Branch:Information Technology
 Hobby: Playing Cricket
+Domain: Web Development, AI/ML

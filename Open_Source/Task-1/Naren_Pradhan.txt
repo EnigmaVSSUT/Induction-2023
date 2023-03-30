@@ -2,3 +2,4 @@ Name : Naren Pradhan
 Registration Number : 2202070074
 Branch : Electronics & Telecommunication Engineering
 Hobbies : Listening to soothing music, reading articles about new technologies and watching movies.
+Domain : Competitive Programming, Web Development, CyberSecurity.
