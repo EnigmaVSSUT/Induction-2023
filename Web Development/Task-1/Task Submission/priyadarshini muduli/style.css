@@ -16,13 +16,14 @@ body{
 }
 h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 80px;
-    padding-right:0px;
+    font-size: 60px;
+    text-align: center; 
 }
 .me2
 {
     float: right;
-    font-size:30px;
+    height: 400px;
+    width: 300px;
     padding-left:10px;
     padding-right:50px;
 }
@@ -31,12 +32,13 @@ h1{
     font-size: 30px;
     width: 65%;
     
-    padding-bottom: 30px;
+    padding: 30px 10px;
 }
 
 
 
 .p2{
+    padding:30px 10px;
     font-size:30px;
     text-align:right;
     width:90%
@@ -48,7 +50,7 @@ h1{
 .interest
 {
     float: left;
-   font-size:30px;
+  
    padding-left:30px;
    padding-right:30px; 
    
