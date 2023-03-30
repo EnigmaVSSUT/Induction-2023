@@ -1,0 +1,66 @@
+body{
+    border-top:100px solid purple;
+    border-right:100px solid purple;
+    border-left:100px solid purple;
+    border-bottom:100px solid purple;
+    padding:0px 30px 30px 30px;
+    text-align: center;
+    background-color:antiquewhite;
+
+}
+.header{
+    padding-bottom:10px;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    padding-right:0px;
+}
+.me2
+{
+    float: right;
+    font-size:30px;
+    padding-left:10px;
+    padding-right:50px;
+}
+.p1{
+    text-align: left;
+    font-size: 30px;
+    width: 65%;
+    
+    padding-bottom: 30px;
+}
+
+
+
+.p2{
+    font-size:30px;
+    text-align:right;
+    width:90%
+}
+
+
+
+
+.interest
+{
+    float: left;
+   font-size:30px;
+   padding-left:30px;
+   padding-right:30px; 
+   
+}
+a
+{
+ font-size:30px;
+ padding: 0px 50px;
+}
+.tag
+{
+    font-size:20px;
+    color:black;
+
+}
