@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+  }
+  
+  p {
+    text-align: left;
+    margin-right: 10px;
+  }
+
+  .box{
+    width: 100%;
+  }
