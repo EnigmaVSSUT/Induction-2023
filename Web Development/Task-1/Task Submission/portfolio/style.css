@@ -1,0 +1,54 @@
+
+ 
+ img{
+   height: 100%;
+   width: 100%;
+ }
+
+.image-container{
+   height: 100px;
+   width: 100px;
+   position: relative;
+   left:700px;
+   
+}
+
+.heading{
+text-align: center;
+}
+
+.about{
+     font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+}
+
+.h2{
+   text-align: center;
+}
+
+.insta-button{
+ 
+ height: 80px;
+ width: 80px;
+ padding-top: 150px;
+ border: 2px solid white;
+ border-radius: 15px;
+}
+
+
+.twitter{
+
+   height: 80px;
+   width: 80px;
+   position: relative;
+   bottom: 100px;
+   left: 110px;
+    
+}
+
+.follow{
+   position: relative;
+   top: 140px;
+
+}
+
