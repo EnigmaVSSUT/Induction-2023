@@ -1,0 +1,136 @@
+
+body {
+     background-image: url("bg2.jpg");
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: white;
+     font-family:  'Alkatra','Poppins', cursive, sans-serif;
+}
+.header {
+    background-color: rgb(138, 96, 76);
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    padding: 30px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329a1 74%);
+    
+    border-top-left-radius: 92px;
+    border-bottom-right-radius: 92px;
+
+}
+img {
+    float: right;
+    width: 12rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    border-top-left-radius:50%;
+    border-bottom-left-radius:50%;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.icon ul li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: rgb(219, 8, 8);
+}
+h2{
+    
+    text-align: center;
+    
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329a1 74%);
+    
+
+    width: 20%;
+    justify-content: center;
+    margin: 0 auto;
+    border-top-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+p{
+    
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329a1 74%);
+    
+
+   margin: 0 auto;
+      font-size: x-large;
+    padding: 70px;
+    border-top-left-radius: 92px;
+    border-bottom-right-radius: 92px;
+
+}
+.tee .imai{
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin: 1.3rem auto;
+   margin-bottom: 0;
+    
+}
+.tee .imai img{
+    width: 20%;
+    border-radius: 16%;
+}
+.icon img{
+    display: flex;
+    align-items: center;
+    width: 3rem;
+    margin-right: 6rem;
+    border-radius: 0;
+}
+
+
+/* RESPONSIVENESS
+ */
+ @media only screen and (max-width: 600px) {
+    h2{
+        width: 90%;
+       margin: 1rem;
+       border-radius: 27%;
+    }
+    .icon img{
+        width: 2rem;
+        margin: 1rem auto;
+        margin-right: 4rem;
+        justify-content: space-around;
+    }
+    img{
+        border-radius: 22px;
+        margin-right: 2rem;
+    }
+    p{
+        font-size: large;
+    }
+
+
+ }
+ @media only screen and (min-width: 602.40px){
+    p{
+        margin: 2rem;
+        font-size: larger;
+    }
+    h2{
+        width: 50%;
+    }
+    .icon{
+        padding-right: 2rem;
+    }
+    .icon img{
+        margin: 1rem auto;
+        margin-right: 3rem;
+        margin-left: 1rem;
+       
+    }
+    .tee .imai img{
+        width: 25%;
+    }
+ }
