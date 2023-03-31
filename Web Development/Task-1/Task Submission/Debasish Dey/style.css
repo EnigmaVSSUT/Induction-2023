@@ -1,0 +1,274 @@
+body{
+    background-image: url(w2.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+h1{
+    color: #000000;
+    text-align: center;
+}
+
+
+.about{
+    width: 80%;
+    padding: 60px 0px;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(19deg, #615e5ef8 45%, #fffefeec 170%);
+    filter: opacity(90%);
+    border-radius: 3%;
+}
+
+.gallery{
+    display: flex;
+    width: 80%;
+    padding: 50px 0px;
+    margin-left: 2.5%;
+    background-image: linear-gradient(19deg, #615e5ef8 55%, #fffefeec 170%);
+    margin: auto;
+    margin-top: 0%;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    filter: opacity(90%);
+    border-radius: 3%;
+
+}
+
+.bg{
+    background: rgba(225, 225, 225, .2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.photos{
+    margin-top: -1%;
+}
+.pic3:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.w4:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.bleach:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.photos h1{
+    color: rgba(250, 246, 250, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    
+}
+
+.photos img{
+    width: 290px;
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+    display: inline-block;
+    margin: 10px 20px;
+    border-radius: 0%;
+    
+}
+
+.about img{
+    margin-top: 1px;
+    height: auto;
+    width: 340px;
+    fill-opacity: 50%;
+    border-radius: 0%;
+
+}
+
+#main1{
+    display: none;
+    width: 1130px;
+    max-width: 95%;
+    margin-top: -4%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text{
+    width: 600px;
+
+}
+
+.about-text h1{
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    line-height: 28px;
+
+}
+
+.gallery h1{
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-top: 5%;
+}
+
+.about-text p{
+    color: rgb(240, 245, 245);
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin-top: -4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Hobbies{
+    width: 1130px;
+    max-width: 95%;
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#hobbies1{
+    display: none;
+    width: 1130px;
+    max-width: 95%;
+    margin: 16px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Fire{
+    margin-top: 25px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.contact h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(0, 127, 110);
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 1280px) {
+    #pic3{width: 320px;}
+    #w4{width: 320px;}
+    #bleach{width: 252px;}
+    .photos img{margin: 0%;}
+}
+
+@media screen and (max-width: 1189px) {
+    #pic3{width: 320px;}
+    #w4{width: 320px;}
+    #bleach{width: 252px;}
+    .photos img{margin: 0%;}
+}
+
+@media screen and (min-width: 1100px) {
+    #pic3{width: 280px;}
+    #w4{width: 280px;}
+    #bleach{width: 252;}
+    .photos img{margin: 0%;}
+}
+
+@media screen and (max-width: 1100px) {
+    .photos img{
+        /* display: flex;
+        flex-direction: row; */
+        margin: 0%;
+    }
+    #pic3{width: 280px;}
+    #w4{width: 280px;}
+    #bleach{width: 250px;}
+    #about-text1{padding-left: 10px; }
+    #about-text2{padding-right: 10px;}
+
+}
+
+@media screen and (max-width: 1092px) {
+    #pic3{width: 265px;}
+    #w4{width: 265px;}
+    #bleach{width: 241px;}
+    .photos img{margin: 0%;}
+}
+
+@media screen and (max-width: 1038px) {
+    #pic3{width: 260px;}
+    #w4{width: 260px;}
+    #bleach{width: 236px;}
+    .photos img{margin: 0%;}
+}
+
+@media screen and (max-width: 970px) {
+    #pic3{width: 350px;}
+    #w4{width: 350px;}
+    #bleach{width: 348px;}
+    .photos img{
+        margin: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    #gallery{
+        height: 50vh;
+        }
+}
+
+@media screen and (max-width: 750px) {
+    #main{display: none;}
+    #main1{display: block;}
+    .about-text{width: 400px;}
+    #hobbies1{display: block;}
+    #hobbies{display: none;}
+
+}
+
+@media screen and (max-width: 650px) {
+    #mypic{width: 300px;}
+    #pic3{width: 300px;}
+    #w4{width: 300px;}
+    #bleach{width: 298px;}
+}
+
+@media screen and (max-width: 500px) {
+    #mypic{width: 280px;}
+    #pic3{width: 280px;}
+    #w4{width: 280px;}
+    #bleach{width: 278px;}
+    .about-text{width: 300px;}
+    #bgimg3{width: 300px;}
+}
+
+@media screen and (max-width: 425px){
+    #mypic{width: 230px;}
+    #pic3{width: 230px;}
+    #w4{width: 230px;}
+    #bleach{width: 228px;}
+    .about-text{width: 250px;}
+}
+
+@media screen and (max-width: 380px){
+    #bgimg3{width: 250px;}
+    #gallery{height: 80vh;}
+    /* #insta{display: block;}
+    #fb{display: block;}
+    #email{display: block;}
+    #twitter{display: block;} */
+    .links{display: block;}
+}
