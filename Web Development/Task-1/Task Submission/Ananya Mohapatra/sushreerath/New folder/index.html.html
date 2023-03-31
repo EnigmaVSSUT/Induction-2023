@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/3b8fe383e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="hero">
+            
+            <div class="details">
+                <h1>MY PORTFOLIO PAGE</h1>
+
+                
+                
+                <h2>I,m Sushree<span> Suman Rath</span></h2>
+                <p>This is my official portfolio website to show all
+                    <br>details and the basic knowledge that i have
+                    <br>about web development.
+                </p>
+                <a href="#">DOWNLOAD CV</a>
+              </div>
+              <div class="images">
+                <img src="me1.jpg" class="shape">
+              </div>
+    </div>
+</div>
+<div class="hero">
+  <div id= "about">
+    <div class="conatiner">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="about.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello everyone this is Sushree Suman Rath currecntly 
+                    pursuing my bachelors of technology degree
+                    in <br>Veer Surendra Sai University of Technology,Burla.
+                    I have completed my mariculation from<br> Gouri shankar
+                    Residential English Medium School
+                    and my intermediate from
+                    <br> Buxi Jagabandhu English Medium School
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab"id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web Interfences</li>
+                            <li><span>Web development</span><br>WEb  development</li>
+                            <li><span>App development</span><br>Building android/ios apps</li>
+                        
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023-ongoing</span><br>HTML AND CSS</li>
+                            <li><span>2021-2023</span><br>C language</li>
+                            
+                        
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022-2026</span><br>VSSUT</li>
+                            <li><span>2021</span><br>BJEM SCHOOL</li>
+                            <li><span>2019</span><br>GSREM SCHOOL</li>
+                        
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+         <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I have started web designing recently,
+                    from youtube.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>I have started web designing recently,
+                    from youtube.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>I have started web designing recently,
+                    from youtube.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+         </div>
+    </div>
+</div> 
+<div>
+    <div class="interests"></div>
+    <h1 class="sub-title"> INTERESTS</h1>
+    <p>I love listening to BTS and old bollywood songs
+        <img src="bts1.jpeg"></a>
+        <img src="kishorekumar.jpeg"></a>
+    </p>
+    <div class="domains">
+    <h1 class="sub-title">DOMAINS</h1>
+    <ul><li>Web development</li>
+    <li>App development</li>
+    </ul>
+    <img src="web.jpeg">
+    <img src="app.jpeg">
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">CONTACT ME </h1>
+                <p><i class="fa-solid fa-envelope"></i>contact503@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9863202292</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://linkedIn.com/"><i class ="fa-brands fa-linkedin"></i></a>
+                </div>
+            <a href="cv.pdf" download class="btn.btn2">DOWNLOAD CV</a>
+            </div>
+            <div class="contact-right"></div>
+                       <form>
+                              <input type="text" name="Name" placeholder="Your Name" required>
+                              <input type="email" name="email" placeholder="Your email" required>
+                              <input type="message" rows="6" placeholder="your message" required>
+                              <button type="submit">Submit</button>
+                          </form>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+function opentab(tabname)
+{
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+   event.currentTarget.classList.add("active-link");
+   document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+</body>
+</html>
