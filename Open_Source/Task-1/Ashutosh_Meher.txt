@@ -2,4 +2,3 @@ Name - Ashutosh Meher
 Registration Number - 2202050041
 Branch - Electrical Engineering
 Hobbies - Playing Cricket & also watching Cricket, watching comedy shows etc.
-Domains - Competitive Coding, Web Development
