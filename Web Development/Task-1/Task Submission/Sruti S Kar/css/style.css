@@ -1,0 +1,208 @@
+body {
+    background: linear-gradient(to bottom, #e2ecee, #e4ccea);
+    border: 10px outset rgb(112, 183, 194);
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+h1 {
+  border: 5px inset #021d31;
+  color: rgb(0, 8, 10);
+  text-align: center;
+  font-size: 3.8vw;
+  font-family: "Poppins";
+}
+
+.p1 {
+    font-size:3vw;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p2 {
+    font-size:3vw;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+    .img1{
+        padding: 20px;
+        height:400px;
+        width: 40%;
+        margin-left: 55%;
+        margin-top:20px;
+        margin-bottom:20px;
+        background:linear-gradient(to bottom, #052565, #67b1dc,#03437b); 
+
+        }
+
+.div1 {
+    float: left;
+    background: linear-gradient(to right, #eff1ed, #c199b7);
+    color: rgb(3, 2, 17);
+    font-family: "Times new roman", Times, serif;   
+    margin-top: 20px;
+    margin-bottom:20px;
+    font-size: 1.4vw;
+    color:black;
+    padding: 20px;
+    height: 400px;
+    width: 40%;
+    clear: both;
+
+}
+
+.img2 {
+    float: left;
+    border: 5px solid rgb(214, 168, 201);
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 40%;
+    height: 300px;
+    overflow: hidden;
+    clear: both;
+    }
+
+.div2 {
+    font-size: 1.4vw;
+    background: linear-gradient(to left, #ecf1ec, #c292ba);
+    width:40%;
+    height: 300px;
+    padding: 10px;
+    margin-left: 55%;
+    margin-top:20px;
+    margin-bottom:20px;
+    overflow: hidden;
+  
+}
+
+.div3 {
+        clear: both;
+        margin: auto;
+        text-align: center;
+        font-size: 2vw;
+        padding-top:5px;
+        word-spacing: 15px;
+        margin-top:80px; }  
+
+
+
+.p3 {margin-top: 100px;
+    font-size: 30px;
+    padding-left: 390px;
+    padding-top: 50px;
+    color: rgb(60, 137, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.fa {
+    
+    text-decoration: none;
+    margin: 5px 2px;}
+
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;}
+
+
+.fa-instagram {
+    background: #f610bc;
+    color: white;}
+
+
+/* .fa-github { */
+    /* background: #f00606; */
+    /* color: white; */
+
+
+
+@media screen and (max-width:600px) {
+    p1 {
+        font-size:2.5vw;
+        padding-left: 10px;
+        margin-bottom: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .p2 {
+        font-size:2.5vw;
+        padding-left: 10px;
+        margin-bottom: 2px;
+        clear: both;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .img1{
+        padding: 3px;
+        height:200px;
+        width: 40%;
+        margin-left: 55%;
+        margin-top:5px;
+        margin-bottom:5px;
+        background:linear-gradient(to bottom, #052565, #67b1dc,#03437b); 
+
+}
+.div1 {
+    float: left;
+    background: linear-gradient(to right, #eff1ed, #c199b7);
+    color: rgb(3, 2, 17);
+    font-family: "Times new roman", Times, serif;   
+    margin-top: 5px;
+    margin-bottom:5px;
+    font-size: 1.4vw;
+    color:black;
+    padding: 3px;
+    height: 200px;
+    width: 40%;
+    clear: both;
+
+}
+.img2 {
+    float: left;
+    border: 5px solid rgb(214, 168, 201);
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 40%;
+    height: 150px;
+    overflow: hidden;
+    clear: both;
+}
+.div2 {
+    font-size: 1.4vw;
+    background: linear-gradient(to left, #ecf1ec, #c292ba);
+    width:40%;
+    height: 150px;
+    padding: 5px;
+    margin-left: 55%;
+    margin-top:5px;
+    margin-bottom:5px;
+    overflow: hidden;
+  
+}
+.div3 {
+    clear: both;
+    margin: auto;
+    text-align: center;
+    font-size: 2vw;
+    padding-top:5px;
+    word-spacing: 15px;
+    margin-top:80px; }
+    
+    
+    
+    
+
+
+
+    
+}    
