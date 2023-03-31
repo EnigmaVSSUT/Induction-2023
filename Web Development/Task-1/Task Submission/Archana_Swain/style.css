@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color:#333;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color:#0077b5;
+  }
+  
+  .social-links .fa {
+    margin-right:5px;
+  }
+  
