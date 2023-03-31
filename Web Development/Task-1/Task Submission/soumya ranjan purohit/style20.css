@@ -1,0 +1,70 @@
+body{
+    border-top :100px solid #123dda;
+    border-right : 100px solid #1446e8;
+    border-left: 100px solid #4319e9;
+    border-bottom: 100px solid #0c10db;
+    text-align: center;
+    padding: 30px;
+    background-color: #7b97d4;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.heading{
+    font-size:50px;
+    font-family:cursive;
+}
+
+.you{
+    font-size: 30px;
+    text-align: left;
+}
+
+.ME{
+    float: right;
+    height:300px;
+    width: 300px;
+}
+.about{
+    font-size: 20px;
+    text-align: left;
+}
+.fine{
+    font-size: 30px;
+    text-align: left;   
+}
+.interest{
+    font-size:20px;
+    width: 100%;
+    text-align: left;
+}
+.me3{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30;
+
+}
+.dance{
+    font-size: 30px;
+    text-align: left;  
+}
+.gallery{
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+}
+a{
+    font-size: 30px;
+    padding: 0px 50px;
+}
+.tag{
+    font-size: 20px;
+    color: black;
+    background-color: #4458c7;
+}
