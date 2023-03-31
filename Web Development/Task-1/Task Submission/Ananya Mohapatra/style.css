@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(230, 230, 230);
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
