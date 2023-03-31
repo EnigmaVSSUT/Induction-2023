@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../../../../JOURNEY/Development/Web/Animatrix"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Devansh Bansal"
+    }
+}
