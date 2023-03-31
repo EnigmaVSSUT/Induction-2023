@@ -1,0 +1,306 @@
+body::after{
+    background-image: linear-gradient(darkblue,black);
+    background-attachment: fixed;
+    content: " ";
+    position: fixed;
+    opacity: 0.95;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+#logo img{
+    height:60px;
+    margin:2px 3px;
+    position: fixed;
+}
+.navbar{
+    display: flex;
+}
+.midbar{
+    display: flex; 
+    margin-left: 50px;  
+}
+.midbar li{
+    list-style: none;
+}
+.midbar li a{
+    padding: 3px 40px;
+    border-radius: 23px;
+    text-decoration: none;
+    color:white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  opacity: 0.7;
+  font-size: 16px;
+  letter-spacing: 0.1cm;
+}
+.midbar li a:hover,.midbar li a.active{
+    color:cyan;
+    opacity: 1.1;
+}
+#search{
+    margin-top: 0.5cm;
+    margin-left: 610px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:black;
+    color:white;
+    border-radius: 20px;
+  
+}
+
+h5{
+    color: ivory;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border: 1px solid white;
+   display: flex;
+    width:377px;
+    font-size: 1.4cm;
+    height: 470px;
+    letter-spacing: 0.3cm;
+    line-height: 2.1cm;
+   background-color:black;
+    padding: 65px 33px;
+    margin-left: 27.5cm;
+    margin-bottom:-50px;
+    margin-top: -407%;
+    
+    
+}
+h5:hover{
+    background-color: rgba(0, 0, 0, 0.178);
+}
+#quote input{
+    display: flex;
+    font-family:  'Josefin Sans', sans-serif;
+    margin-left: 29cm;
+    padding: 9px 21px;
+    background-color: black;
+    color: cyan;
+
+}
+#quote input:hover{
+    color: white;
+}
+#about{
+    display: flex;
+    margin-top: 4cm;
+    width: 70%;
+    background-color: black;
+    opacity: 0.8;
+    
+
+    
+}
+#about img{
+   
+   padding: 5px 5px;
+   margin:39px;
+   height: 50px;
+   width:141px;
+}
+#about p{
+   
+    color: white;
+    font-size: 22px;
+    font-family:  'Josefin Sans', sans-serif;
+    margin-right: 20px;
+    margin-top: 39px;
+    background-color: black;
+    height: 159px;
+
+}
+#interests{
+   
+    display: flex;
+    margin-top: 3cm;
+    margin-left: 29%;
+    width: 71%;
+    background-color: black;
+    opacity: 0.8;
+    flex-direction: row-reverse;
+}
+#interests img{
+   
+    padding: 5px 5px;
+    margin:39px;
+    height: 52px;
+    width:194px;
+   
+ }
+ #interests p{
+    
+    color: white;
+    font-size: 22px;
+    font-family:  'Josefin Sans', sans-serif;
+    margin-right: 20px;
+    margin-top: 39px;
+    background-color: black;
+    height: 159px;
+    padding: 0 0 0 40px;
+
+}
+#skill{
+    
+    display: flex;
+    margin-top: 3cm;
+    width: 71%;
+    background-color: black;
+    opacity: 0.8;
+  
+}
+#skill img{
+    
+    padding: 5px 5px;
+    margin:39px;
+    height: 50px;
+    width:194px;
+   
+ }
+ #skill p{
+   
+    color: white;
+    font-size: 22px;
+    font-family:  'Josefin Sans', sans-serif;
+    margin-right: 20px;
+    margin-top: 39px;
+    background-color: black;
+    height: 159px;
+    padding: 0 0 0 40px;
+ }
+ #hobby{
+   
+    display: flex;
+    margin-top: 3cm;
+    margin-right:47% ;
+    width: 55%;
+    background-color: black;
+    opacity: 0.8;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+#hobby img{
+  
+    height: 16rem;
+    width:9rem;
+    padding: 3rem;
+   
+ }
+ #hobby ul{
+     margin-top:50px;
+     color:white;
+     font-size: 22px;
+
+ }
+ #quote{
+     margin-top:200px;
+     width:6%;
+
+    
+ }
+ 
+ #quote ul li{
+     list-style: none;
+ }
+ #quote ul li a img{
+     width:30px;
+     height: 30px;
+     padding: 14px 6px;
+     }
+         
+     
+#about img:hover{
+    animation-name: siba;
+    animation-iteration-count: 1;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+}
+@keyframes siba {
+    from{
+        height: 50px;
+
+    }
+    to{
+        height:110px;
+    }
+    
+}
+#interests img:hover{
+    animation-name: siba1;
+    animation-iteration-count: 1;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+}
+@keyframes siba1 {
+    from{
+        height: 52px;
+
+    }
+    to{
+        height:125px;
+    }
+}
+#skill img:hover{
+        animation-name: siba2;
+        animation-iteration-count: 1;
+        animation-duration:2s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes siba2 {
+        from{
+            height: 50px;
+    
+        }
+        to{
+            height:110px;
+        }
+    }
+/* FALTU 
+*/
+footer{
+    background-color:transparent;
+}
+
+footer img{
+    width: 98.8%;
+}
+
+footer h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: solid;
+    color: #beb6b6;
+    padding-top: 6rem;
+    
+}
+
+
+.contactus ul {
+    font-size: x-large;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between ;
+    color: #beb6b6;
+   
+   padding: 4rem 12rem;
+}
+
+
+footer h3{
+    color: aquamarine;
+}
+footer .copy{
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 500;
+}
+footer .copy img{
+    height: 4.6rem;
+    width: 7rem;
+}
