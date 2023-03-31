@@ -1,0 +1,88 @@
+body {
+    background-color: #181536;
+  }
+  h1{
+    color: darkturquoise;
+    text-align: center;
+    font-size: 3em;
+  }
+  h2 {
+    color: darkturquoise;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: xx-large;
+  }
+  h2:nth-of-type(4){
+    position: absolute;
+    top: 2200px;
+  }
+  em {
+    color: blue;
+    font-style: normal;
+  }
+  #new {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    width: 580px;
+    border-radius: 25px;
+  }
+  #scifi1{
+    position: absolute;
+    top: 870px;
+    left: 410px;
+    width: 350px;
+  }
+  #scifi2{
+    position: absolute;
+    top: 870px;
+    left: 790px;
+    width: 390px;
+
+  }
+  #football{
+    position: absolute;
+    width: 970px;
+    top: 1300px;
+    left: 70px;
+  }
+  #mma1{
+    position: absolute;
+    width: 450px;
+    top: 1900px;
+    left: 70px;
+  }
+  #mma2{
+    position: absolute;
+    width: 450px;
+    top: 1900px;
+    left: 580px;
+  }
+  .h4 , .h1 {
+    width: 400px;
+    word-wrap: break-word;
+    font-weight: normal;
+    font-size: large;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(68, 224, 92);
+  }
+  .h3{
+    font-size: large;
+    color: rgb(68, 224, 92);
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+  }
+  .h2 {
+    width: 300px;
+    word-wrap: break-word;
+    font-weight: normal;
+    font-size: large;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(68, 224, 92);
+  }
+  .h5 {
+    font-size: large;
+    position: absolute;
+    top: 2250px;
+    color: rgb(68, 224, 92);
+  }
