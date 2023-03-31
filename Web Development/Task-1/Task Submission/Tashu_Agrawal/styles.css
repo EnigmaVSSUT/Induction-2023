@@ -1,0 +1,61 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background: 'poppins',sans-serif;
+    margin: 10px;
+    border : 20px solid rgb(135, 161, 137);
+    padding:10px;
+    background-color: burlywood;
+}
+h2{
+    color:rgb(77, 36, 7);
+    font-size:40px ;
+    align-items: center;
+}
+h1{
+    color: darkolivegreen;
+    font-size: 50px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.container img{
+  
+    width:200px;
+    height:200px;
+    direction:row;
+}
+a{
+    margin-right: 60px;
+}
+.box{
+    display: flex;
+    flex-direction:row;
+}
+.text{
+    padding: 20px;
+    font-size:20px;
+    color: crimson;
+}
+.centerbox{
+padding:5px 5px ;
+}
+.link{
+    display: flex;
+    margin-top: 10px;
+    font-size: 10px;
+}
+#contact{
+    margin:5px 15px ;
+    text-align: center;
+    padding:15px;
+}
+.box1{
+    display: flex;
+    flex-direction:row;
+}
+
