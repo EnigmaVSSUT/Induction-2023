@@ -1,0 +1,136 @@
+style {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+body{
+        font-family: Times, serif;
+        color: white;
+        background-color: rgb(28, 38, 46);
+        border-right: 150px solid #fd8c80;
+        border-bottom: 0px solid #fd8c80;
+
+
+}
+
+hr{
+background-color: none;
+border-style:dotted;
+border-color:#f15d07;
+border-width:7px;
+height: 0;
+width: 6%;
+margin: 60px auto;
+}
+
+.header{
+display: grid;
+grid-template-columns: 2fr;
+max-width: 48rem;
+margin-bottom: 1rem 0px;
+margin-left: 300px;
+background: rgb(60, 74, 80);
+color: rgb(255, 255, 255);
+align-items: center;
+padding: 0px 0px 0px 1rem;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: double;
+    font-size: 40px;
+    padding-bottom:0px;
+    color:rgb(240, 10, 10);
+    }
+    
+    h1:hover{
+    color:#645749;
+    }
+
+.ashish-img{
+
+float: right;
+margin-left: 40px;
+width: 300px;
+border-radius: 300px;
+padding-top:30px;
+transition: transform .5s ease;
+}
+
+img:hover{
+transform:scale(1.1);
+}
+
+
+.about{
+text-align:left;
+}
+
+
+.body{
+width:90%;
+margin:100px auto 100px auto;
+}
+
+p{
+    padding-top:2px;
+    line-height:2;
+    font-size: 20px;
+    text-align:left;
+    font-family:monospace;
+    
+    }
+    
+
+.coding-img{
+float:left;
+margin-right: 40px;
+width:35%;
+height:250px;
+width:370px;
+transition: transform .5s ease;
+}
+
+.photography-img {
+    float:left;
+    margin-right: 40px;
+    width:35%;
+    height:250px;
+    width:370px;
+    transition: transform .5s ease;
+}
+
+.gallery-img{
+height:270px;
+width:270px;
+margin:20px;
+transition: transform .5s ease;
+}
+
+a{
+color:#f5f5f9f0;
+text-align: center;
+font-weight: bolder;
+font-size: medium;
+font-family: serif;
+margin:10px 50px;
+text-decoration: underline;
+padding-top: 20px;
+
+}
+a:hover{
+color:#100def;
+}
+
+.copyright{
+    
+text-align:center;
+font-size: 2rem;
+padding-top:80px;
+color:rgb(68, 65, 65);
+
+height:200px;
+width:100%;
+background-color: #fd8c80 ;
+}
