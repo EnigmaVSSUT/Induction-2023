@@ -1,0 +1,60 @@
+style {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body{
+    border-top:100px solid #ca315d;
+    border-right:100px solid #ca315d;
+    border-left:100px solid #ca315d;
+    border-bottom:0px solid #ca315d;
+    text-align: center;
+     background: rgb(289, 211, 295);
+}
+
+h1{
+    font-family: Arial, sans-serif;
+    font-size:40px;
+    text-align:center;
+}
+
+
+
+
+
+.about{
+    padding:30px 10px;
+    font-size: 30px;
+    text-align:left;
+}
+
+.interests{
+    padding:30px 10px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.Baking{
+    float:left;
+    padding-left:30px;
+    padding-right: 30px;;
+}
+
+.a{
+    font-size: 30px;
+    padding: 0px 50px;
+}
+.third para{
+    padding-top: 50px;
+    text-align: center;
+}
+.tag{
+    text-align: center; 
+    font-size: 20px;
+    color: rgb(230, 131, 185);
+    background-color: #d81660;
+    height:100px;
+    width:100%
+
+}
