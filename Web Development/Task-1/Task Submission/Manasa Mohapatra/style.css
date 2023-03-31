@@ -1,0 +1,214 @@
+
+body {
+  background:linear-gradient(to bottom, #e1e7ee,rgb(8, 96, 125)); 
+  border: 10px ridge rgb(16, 40, 70);
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  /* height:1200px; */
+  
+  
+  
+}
+
+h1 {
+  border: 5px inset #021d31;
+  color: rgb(0, 8, 10);
+  text-align: center;
+  font-size: 3.8vw;
+  font-family: "Poppins";
+}
+
+.p1{font-size:3vw;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    /* float: left; */
+   }
+.p2{font-size:3vw;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    clear: both;
+     }
+
+p {
+  padding:10px;
+  text-align:justify;
+  color:black;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.image1{
+  padding: 10px;
+  height:300px;
+  width: 40%;
+  margin-left: 55%;
+  margin-top:20px;
+  margin-bottom:20px;
+  background:linear-gradient(to bottom, #052565, #67b1dc,#03437b); ;
+  
+}
+.image2{
+  width:40%;
+  height: 180px;
+  padding: 10px;
+  /* margin:auto; */
+  margin-left: 55%;
+  margin-top:20px;
+  margin-bottom:20px;
+  overflow: hidden;
+  background-color: #6dadde;
+  background:linear-gradient(to bottom, #052565, #67b1dc,#03437b); ;
+}
+
+
+.div1{
+  float: left;
+  margin-top: 20px;
+  margin-bottom:20px;
+  background:linear-gradient(to right,rgb(182, 221, 237),#ed9cde) ;
+  font-size: 1.1vw;
+  color:black;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  /* padding-right: 30px; */
+  /* padding-bottom: 10px; */
+  /* padding-left: 20px; */
+  /* width: 300px; */
+  height: 300px;
+  width: 40%;
+  clear: both;
+  background:linear-gradient(to right,#bbd8e7,#74a3ea) ;
+}
+
+.div2{
+  
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin-right: auto; */
+  /* margin-left: auto; */
+  background:linear-gradient(to right,#cae6f4,#6fa0e9) ;
+  font-size: 1.1vw;
+  color:black;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  /* padding-right: 10px; */
+  /* padding-bottom: 10px; */
+  /* padding-left: 20px; */
+  width: 40%;
+  height: 180px;
+  overflow: hidden;
+  clear: both;
+}
+.fa-brands{
+  color: #f3f5f9;
+  bottom:0px;
+} 
+
+.icon{
+    clear: both;
+    margin: auto;
+    text-align: center;
+    font-size: 2vw;
+    padding-top:10px;
+    word-spacing: 30px;
+    margin-top:80px; 
+      /* margin-left: 400px; */
+  
+      
+}
+@media screen and (max-width: 600px) {
+  .p1{font-size:2.5vw;
+    padding-left: 10px;
+    margin-bottom: 2px;}
+    .p2{font-size:2.5vw;
+      padding-left: 10px;
+      margin-bottom: 2px;
+      clear: both;
+       }
+       p {
+        padding:5px;
+        text-align:justify;
+        color:black;
+        font-family: 'Poppins', sans-serif;
+      
+      }
+  h1 {
+    border: 5px inset #021d31;
+    color: rgb(0, 8, 10);
+    text-align: center;
+    text-shadow :#6dadde;
+    font-size: 3vw;
+    font-family: "Poppins";
+  }
+  .div1{
+    float: left;
+    margin-top: 5px;
+    margin-bottom:5px;
+    font-size: 1.2vw;
+    color:black;
+    background:linear-gradient(to right,#cadbe3,#5795f2) ;
+    font-family: 'Poppins', sans-serif;
+    padding: 3px;
+    /* padding-right: 30px; */
+    /* padding-bottom: 10px; */
+    /* padding-left: 20px; */
+    /* width: 300px; */
+    height: 120px;
+    width: 40%;
+    clear: both;}
+
+    .image1{
+      padding: 3px;
+      height:120px;
+      width: 40%;
+      margin-left: 55%;
+      margin-top:5px;
+      margin-bottom:5px;
+      background:linear-gradient(to right,#e1e7ea,#5291f0) ; } 
+
+      .div2{
+  
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        /* margin-right: auto; */
+        /* margin-left: auto; */
+        background:linear-gradient(to right,#e8edee,#6ba0e0) ;
+        font-size: 1.2vw;
+        color:black;
+        font-family: 'Poppins', sans-serif;
+        padding: 9px;
+        /* padding-right: 10px; */
+        /* padding-bottom: 10px; */
+        /* padding-left: 20px; */
+        width: 40%;
+        height: 80px;
+        overflow: hidden;
+        clear: both;
+        background:linear-gradient(to right,#c1d7e2,#76a7ef) ;
+      }
+      .image2{
+        width:40%;
+        height: 80px;
+        padding: 9px;
+        /* margin:auto; */
+        margin-left: 55%;
+        margin-top:5px;
+        margin-bottom:5px;
+        overflow: hidden;
+        border:linear-gradient(to right,#e1e7ea,#86a8dd) ;
+      }
+      .icon{
+        clear: both;
+        margin: auto;
+        text-align: center;
+        font-size: 2vw;
+        padding-top:5px;
+        word-spacing: 15px;
+        margin-top:80px; }
+      
+      
+}
