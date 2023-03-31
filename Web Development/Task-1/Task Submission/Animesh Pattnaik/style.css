@@ -19,64 +19,26 @@ h1{
     border-radius: 2%;
 }
 
-.gallery{
+.Hobbies{
+    width: 1130px;
+    max-width: 95%;
+    margin: 16px;
     display: flex;
-    width: 80%;
-    padding: 78px 0px;
-    margin-left: 2.5%;
-    background-image: linear-gradient(19deg, #05103af8 55%, #fd0707ec 170%);
-    margin: auto;
-    margin-top: 5%;
     align-items: center;
-    justify-content: center;
-    height: 20vh;
-    filter: opacity(90%);
-    border-radius: 2%;
-
-}
-
-.photos{
-    margin-top: -1%;
-
-   
-}
-
-.photos h1{
-    color: rgba(250, 246, 250, 0.8);
-    letter-spacing: 1px;
-    line-height: 28px;
-    
-}
-
-.photos img{
-    width: 290px;
-    display: flexbox;
-    align-items: center;
-    justify-content: space-between;
-    display: inline-block;
-    margin: 10px 20px;
-    border-radius: 3%;
-    max-inline-size: 100%;
-    block-size: auto;
-    
-    object-fit: cover;
-    
+    justify-content: space-around;
 }
 
 .about img{
     margin-top: 1px;
     height: auto;
-    width: 340px;
+    width: 30%;
     fill-opacity: 50%;
     border-radius: 2%;
-    max-inline-size: 100%;
     block-size: auto;
-    
-    object-fit: cover;
 }
 
 .about-text{
-    width: 600px;
+    width: 80%;
 
 }
 
@@ -87,6 +49,41 @@ h1{
 
 }
 
+.about-text p{
+    color: rgb(240, 245, 245);
+    letter-spacing: 1px;
+    line-height: 20px;
+
+}
+
+.gallery{
+    display: flex;
+    width: 85%;
+    padding: 78px 0px;
+    margin-left: 2.5%;
+    background-image: linear-gradient(19deg, #05103af8 55%, #fd0707ec 170%);
+    margin: auto;
+    margin-top: 5%;
+    align-items: center;
+    height: 20vh;
+    filter: opacity(90%);
+    border-radius: 2%;
+
+}
+
+.photos{
+    margin-top: -1%;
+ 
+}
+
+.photos img{
+    width: 25%;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 8%;
+
+}
+
 .gallery h1{
     color: rgb(8, 244, 252);
     letter-spacing: 1px;
@@ -94,11 +91,6 @@ h1{
     margin-top: 5%;
 }
 
-.about-text p{
-    color: rgb(240, 245, 245);
-    letter-spacing: 1px;
-    line-height: 28px;
-}
 .main{
     width: 1130px;
     max-width: 95%;
@@ -108,14 +100,6 @@ h1{
     justify-content: space-around;
 }
 
-.Hobbies{
-    width: 1130px;
-    max-width: 95%;
-    margin: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
 
 .Fire{
     margin-top: 25px;
@@ -163,3 +147,40 @@ h1{
     line-height: 28px;
     margin-top: 3%;
 }
+
+@media only screen and (max-width:800px) {
+    body{
+        background-image: url(Pictures/BIMG4.jpg);
+    }
+    h1{
+        font-size: 100%;
+    }
+
+    .about-text{
+        width: 50%;
+        display:block;
+    }
+    .main img{
+        display:block;
+        
+    }
+    .about-text h1{
+        line-height: 20px;
+    
+    }
+    .about-text p{
+        line-height: 20px;
+        align-content: space-evenly;
+        display:block;
+    }
+
+        .links a{
+        margin: 30px 0;
+        font-size: 80%;
+        padding: 8px 10px;
+        display: unset;
+    }
+
+    
+}
+    
