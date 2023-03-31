@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    align-items:  center;
+}
+body{
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border-bottom: 0px;
+    max-width: 1000px;
+    width: 90%;
+}
+footer{
+    background-color: green;
+    color: white;
+    overflow: hidden;
+    padding: 10px;
+    border: 2px;
+    text-align: center;
+    font-size: large;
+}
+#myimg{
+    border-radius: 10%;
+    padding: 0.02em;
+    float: right;
+    margin: 15px;
+    height: 280px;
+    width: 250px;
+    align-self: center;
+    border-right: 50px;
+}
+.AM{
+    padding: auto;
+    font-size: 25px;
+    margin: 15px;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5%;
+    align-items: center;
+}
+.AOI{
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    background-color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: auto;
+}
+.gallery{
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;  
+}
+.connect{
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 15px;   
+}
+.links a{
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: auto;
+    text-decoration: none;
+    font-size: larger;
+    text-decoration-style: solid;
+}
+.links a:hover{
+    background-color: rgb(177, 177, 185);
+}
+.links a i{
+    margin: 5px;
+    padding: auto;
+}
+.fb{
+    color: #3313d5;
+}
+.linkdn{
+    color: #0e76a8;
+}
+.insta{
+    color: #dd2a7b;
+}
+.copyright{
+    text-decoration: none;
+    color: black;
+}
+h3{
+    font-family: cursive;
+}
+
