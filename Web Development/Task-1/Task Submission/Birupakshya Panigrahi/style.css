@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: black;
+    padding: 13px;
+    height:52rem;
+    clip-path: polygon(0 0,100% 0, 100% 100%, 85% 90%,0 100%);
+}
+.dp{
+    
+    border-radius: 100%;
+    height: 75px;
+    width: 75px;
+    margin-right: 3rem;
+}
+
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    
+}
+nav a:hover{
+    color: #f18676;
+}
+
+
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+} 
+.flex{
+    display: flex;
+}
+.centre{
+    align-items: center;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header nav{
+    padding: 2rem 0;
+}
+.photo1{
+    width: 57rem;
+    margin-left: -7rem;
+}
+h1{
+    color: white;
+}
+span{
+    color: #f18676;
+}
+p{
+    color: white;
+}
+.text{
+    margin-right: -6rem;
+    padding: 15rem 1rem;
+    position: relative;
+}
+section{
+    padding: 3rem 0;
+}
+
+section h1{
+    color: black;
+}
+section p{
+    color: black;
+    
+}
+
+.photo2{
+    width: 20rem;
+}
+
+.text2{
+    width: 40rem;
+    
+}
+
+.flex1{
+    flex:1;
+}
+
+section .text2 h1{
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+
+}
+
+.gallary{
+    clip-path: (0 100%,85% 90%,100% 100%,100% 200%,110% 215%,0 200%);
+    background-color: black;
+    height: 36rem;
+}
+.gallarypic{
+    width: 20rem;
+    margin: 1rem 1rem;
+    border: 3px solid#f18676;
+    border-radius: 5px;
+}
+.gl{
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.contact h1{
+    color: black;
+    text-align: center;
+}
+
+.contactimg{
+    margin: 2rem;
+    padding: 0rem 5rem;
+}
+
+.copyr{
+    background-color: black;
+
+}
+.copyr h1{
+    text-align: center;
+    font-weight: 10;
+}
