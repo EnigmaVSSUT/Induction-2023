@@ -1,4 +1,4 @@
-style {
+style{
     margin:0px;
     padding:0px;
     box-sizing:border-box;
@@ -10,8 +10,8 @@ body{
     border-left:100px solid #0a090a;
     border-bottom:0px solid #0a090a;
     text-align: center;
-    font family : Times, serif;
-    background: rgb(189, 111, 195);
+    font-family : Times, serif;
+    background : rgb(189, 111, 195);
 }
 
 h1{
@@ -22,7 +22,7 @@ h1{
 
 .myphoto{
     float: right;
-    border radius : 150px;
+    border-radius : 300px;
     width: 300px;
     padding-right: 30px;
 }
