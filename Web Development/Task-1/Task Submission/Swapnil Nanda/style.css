@@ -18,8 +18,8 @@ body {
 }
 #myimage{
     border-radius: 50%;
-    height: 27rem;
-    width: 40rem;
+    height: 20rem;
+    width:auto;
     
 }
 .mainheading
@@ -50,7 +50,7 @@ body {
 #myinterestpic{
     border-radius: 10%;
     height: 15rem;
-    width: 20rem;
+    width: auto;
 }
 #my_interests_text{
     
@@ -58,9 +58,28 @@ body {
 }
 #div1{
     display: flex;
+    flex-direction: row;
+}
+@media (max-width: 55rem) {
+    #div1{
+        display: flex;
+        flex-direction: column;
+    }
+    #div2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media (max-width:80rem) {
+    #div3{
+        display: flex;
+        flex-direction: column;
+    }
 }
 #div2{
     display: flex;
+    margin-top: 20px;
 }
 #div3{
     display: flex;
@@ -78,16 +97,18 @@ body {
 }
 .gallerypic{
     border-radius: 10%;
-    height: 30rem;
-    width: 30rem;
+    height: 25rem;
+    width: auto;
     border-color:blanchedalmond;
     border-style:groove;
     border-width: 10px;
+    margin-bottom: 30px;
+    align-items: center;
     
     
 }
 .contact_logo{
-    height:80px;
-    width:80px;
+    height:5rem;
+    width:5rem;
     
 }
