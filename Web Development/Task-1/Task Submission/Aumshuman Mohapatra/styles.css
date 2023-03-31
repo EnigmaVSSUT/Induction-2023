@@ -1,0 +1,116 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("WallpaperDog-20546738.png");
+    background-size: cover;
+    backdrop-filter: blur(3px);
+}
+header {
+    background-color: #7359ac9a;
+    color: #1a0032;
+    padding: 10px;
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #876ead8b;
+    padding: 2px;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 20px;
+    border-radius: 140px;
+}
+nav a:hover {
+    background-color: #460a9bb3;
+    color: #fff;
+}
+p {
+    color: #ffffff;
+}
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0px solid #000000;
+    backdrop-filter: blur(3px);
+}
+h2 {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    color: #afafaf;
+}
+h3 {
+    max-width: 100%;
+    height: auto;
+    color: #4c3b91;
+    display: flex;
+    margin-right: 50;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 0px solid #5740796e;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* adjust this to fit your footer content */
+}
+
+.social-icons {
+    display: flex;
+    bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #51181800;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 200px;
+    background-repeat: no-repeat;
+}
+.big-quote {
+    font-size: 2.5em;
+    line-height: 1.5;
+    font-style: italic;
+    color: #cb97ff;
+    text-align: center;
+    margin: 2em 0;
+    padding-bottom: 10px;
+  }
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .gallery-container img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .gallery-container img:hover {
+    opacity: 0.8;
+  }
+
+  
