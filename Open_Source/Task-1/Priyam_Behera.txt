@@ -2,3 +2,4 @@ Name : Priyam Behera
 Regd No : 2202081069
 Branch : Information Technology
 Hobby : playing video games
+Domain : Web development and AI/ML
