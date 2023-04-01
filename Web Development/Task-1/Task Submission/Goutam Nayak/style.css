@@ -116,6 +116,14 @@ p{
     h2{
         border-radius: 0;
     }
+    .imai{
+        flex-direction: column;
+    }
+    .imai img{
+       min-width: 19rem;
+        height: 10rem;
+       
+    }
  }
  @media only screen and (max-width: 600px) {
     h2{
