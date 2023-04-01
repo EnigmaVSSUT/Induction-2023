@@ -1,0 +1,125 @@
+<html>
+  <head>
+    <title>More About me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: rgb(0, 0, 0);
+      }
+      .intrests img {
+        object-fit: cover;
+      }
+      .Gallery img {
+        object-fit: cover;
+      }
+      .Domains img {
+        object-fit: cover;
+      }
+      .Me {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+      }
+      .next {
+        position: absolute;
+        left: 90%;
+        top: 95%;
+      }
+      .back {
+        position: absolute;
+        right: 90%;
+        top: 95%;
+      }
+      .back button {
+        background-color: aqua;
+        border: 0px;
+        border-radius: 10px;
+        padding: 10px 10px 10px 10px;
+      }
+      .next button {
+        background-color: aqua;
+        border: 0px;
+        border-radius: 10px;
+        padding: 10px 10px 10px 10px;
+      }
+      @media screen and (max-width: 800px) {
+        .ME {
+          flex-direction: column;
+        }
+      }
+      @media screen and (max-width: 1020px) {
+        .next {
+          top: 5%;
+        }
+        .back {
+          top: 5%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="Me">
+      <div class="Intrests">
+        <h3 style="font-size: 50px; color: aqua">My Interests</h3>
+        <img
+          src="Images/220716-A-AB787-325.jpeg"
+          alt=""
+          width="250"
+          height="250"
+        />
+        <p style="color: rgb(255, 255, 255)">Gaming</p>
+        <img
+          src="Images/jIIOkJGRBVZa9P1XO-17QXK6KVPRMxj5_vIkbCTTjos.jpg"
+          alt=""
+          width="250"
+          height="250"
+        />
+        <p style="color: rgb(255, 255, 255)">Economics</p>
+      </div>
+      <hr />
+      <div class="Gallery">
+        <h3 style="font-size: 50px; color: aqua">My Gallery</h3>
+        <img
+          src="Images/PXL_20230306_113849347.jpg"
+          alt=""
+          width="250"
+          height="250"
+        />
+        <img src="Images/IMG_8608.jpg" alt="" width="250" height="250" />
+        <img src="Images/IMG_8859 2.jpg" alt="" width="250" height="250" />
+        <img
+          src="Images/IMG-20230322-WA0343.jpg"
+          alt=""
+          width="250"
+          height="250"
+        />
+      </div>
+      <hr />
+      <div class="Domains">
+        <h3 style="font-size: 50px; color: aqua">My Domains</h3>
+        <img src="Images/pngwing.com.png" alt="" width="250" height="250" />
+        <p style="color: rgb(255, 255, 255)">Competitive Programing</p>
+        <img
+          src="Images/png-transparent-video-game-development-computer-icons-video-game-developer-design.png"
+          alt=""
+          width="250"
+          height="250"
+        />
+        <p style="color: rgb(255, 255, 255)">Game Dev</p>
+      </div>
+    </section>
+    <div class="back">
+      <a href="index.html">
+        <button>Return</button>
+      </a>
+    </div>
+    <div class="Next">
+      <a
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+      >
+        <button>Next</button>
+      </a>
+    </div>
+  </body>
+</html>
