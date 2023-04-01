@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+body{
+    background-image: url(bmw.jpg);
+    background-attachment: fixed ;
+     background-size: 100%; 
+    margin: 0px;
+    padding: 0px;
+   
+   
+
+}
+.container{
+    background: rgba(255, 255, 255, 0.01);
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+   margin: 6vw;
+}
+.myself, .hobbies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vw;
+
+}
+
+.myself img , .hobbies img{
+    height: 300px;
+    width: 300px;
+}
+h1{
+    text-align: center;
+    padding: 3px 3px;
+    font-size: 250%;
+    margin-top: 5vh ;
+}
+h2{
+    margin: 15vh;
+    font-size: 2.9rem;
+    
+}
+span{
+    font-size: 1.5rem;
+    margin-left: 20px;
+    color: white;
+    margin-top: -8%;
+    width: 60%;
+}
+
+h4{
+    text-align: center;
+    font-size: 2.6rem;
+    margin: 9vh;
+}
+
+h5{
+    text-align: center;
+    font-size: 2.3rem;
+    margin: 6vh;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.links a {
+    margin: 5vw;
+}
+ a img{
+    height: 100px;
+     width: 100px;
+}
+
+.imgs img{
+    margin: 2vw;
+    height:300px; width:300px;
+    
+    
+}
+@media screen and (max-width:1048px){
+    a img, .myself img,.hobbies img{
+        width:50%;height: 50%;
+    }
+    
+     .images img{
+       
+        padding: 10px;
+        width:50%;height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:500px){
+    a img, .myself img,.hobbies img{
+        width:50%;height: 50%;
+    }
+    
+     .images img{
+        height: 80%;
+        width: 80%;
+       
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    body{
+        margin-left: 10px;
+    }
+}
