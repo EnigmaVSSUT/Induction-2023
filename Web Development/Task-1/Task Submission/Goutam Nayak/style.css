@@ -109,6 +109,9 @@ footer{
     font-style: 'Poppins',sans-serif;
 
 }
+/* .one p{
+    height: 14vh;
+} */
 
 
 
@@ -166,6 +169,11 @@ footer{
 
 
  }
+ /* @media only screen and (max-width: 931.40px){
+    .one p{
+        height: 0vh;
+    }
+ } */
  @media only screen and (min-width: 602.40px){
     p{
         margin: 2rem;
