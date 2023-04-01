@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(14, 34, 54);
+    font-family: sans-serif;
+}
+
+.heading{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heading h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(206, 232, 245);
+    margin-bottom: 10px;
+}
+.heading p{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.content .cover{
+    flex: 0 50%;
+    max-width: 40%;
+    height: auto;
+    border: 4px;
+    border-radius: 20px;
+}
+
+.message{
+    padding: 35px;
+}
+
+.message h2{
+    color: rgb(243, 243, 243);
+    margin: 15px;
+    font-size: 24px;
+}
+
+.message p{
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 15px;
+}
+
+.page{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: rgb(243, 243, 243);
+    margin-bottom: 20px;
+}
+img{
+    max-width: 200px;
+    max-height: 200px;
+    border: 0;
+    border-radius: 20px;
+    margin: 15px;
+}
+p{
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(141, 181, 219);
+    font-family: serif;
+}
+.page img{
+    max-width: 300px;
+}
+
+.interests{
+    width: 50%;
+}
+.domain{
+    width: 50%;
+}
+.bicycle img{
+    margin-bottom: 20px;
+}
+.cp img{
+    margin-bottom: 21px;
+}
+.ai img{
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.bicycle:hover{
+    position: relative;
+    top: -4px;
+}
+.camera:hover{
+    position: relative;
+    top: -4px;
+}
+.cp:hover{
+    position: relative;
+    top: -4px;
+}
+.ai:hover{
+    position: relative;
+    top: -4px;
+}
+
+.gallery{
+    width: 100%;
+    text-align: center;
+}
+.gallery img{
+    max-width: 220px;
+}
+.gallery img:hover{
+    position: relative;
+    top: -4px;
+}
+
+.gallery_images1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+}
+.gallery_images1 img{
+    width: 25%;
+    margin: 10px auto;
+}
+
+.gallery_images2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.gallery_images2 img{
+    width: 25%;
+    margin: 10px auto;
+}
+
+
+.spotify{
+    text-align: center;
+}
+
+.links{
+    margin: 15px 15px 0px 9px;
+    text-align: center;
+}
+.links ul{
+    white-space: nowrap;
+    max-width: 400px;
+}
+.links li{
+    display: inline-block;
+    margin: 8px;
+    width: 10%;
+}
+.links img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 5px;
+    border: 0;
+    border-radius: 20px;
+}
+.links li img:hover{
+    background-color: #ccc;
+}
+
+footer{
+    max-width: 100%;
+    padding: 20px;
+    background-color: rgb(63, 105, 129);
+    text-align: center;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1000px){
+    .page{
+        flex-direction: column;
+    }
+    .gallery_images1{
+        flex-direction: column;
+    }
+    .gallery_images2{
+        flex-direction: column;
+    }
+    .interests{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .domain{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .gallery{
+        width: 100%;
+    }
+    .domain h1{
+        margin-top: 20px;
+    }
+    .gallery h1{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .content{
+        flex-direction: column;
+    }
+    .gallery_images1 img{
+        width: 70%;
+    }
+    .gallery_images2 img{
+        width: 70%;
+    }
+    .home button{
+        border-radius: 5px;
+        padding: 10px 16px;
+        font-size: 16px;
+    }
+    footer{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    footer{
+        padding: 15px;
+        font-size: 14px;
+    }
+}
