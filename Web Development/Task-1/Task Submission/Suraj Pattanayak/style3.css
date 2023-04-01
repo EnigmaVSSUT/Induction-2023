@@ -91,7 +91,6 @@ a[href] {
     background: rgba(255, 255, 255, .2);
     box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
     border-radius: 2%;
-    padding-right: 40px;
     min-width: max-content;
 
 }
@@ -164,13 +163,7 @@ a[href] {
     width: 55px;
 }
 }
-@media screen and (max-width:412px){
-  .bg{
-    height: 1200px;
-    width: 300px;
-  }
-     
-}
+
 .uli
 {
     text-align: left;
