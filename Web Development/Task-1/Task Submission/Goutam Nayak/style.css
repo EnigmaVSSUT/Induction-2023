@@ -13,6 +13,7 @@ body {
     /* padding: 30px; */
     text-align: center;
     margin: 0 auto;
+    width: 99%;
     /* margin-bottom: 20px; */
     margin-right: 5rem;
     background-color: #63d471;
@@ -103,6 +104,19 @@ p{
 
 /* RESPONSIVENESS
  */
+ @media only screen and (max-width: 515px){
+   .header {
+        width: 99%;
+        border-radius: 22px;
+        
+    }
+    P{
+        border-radius: 30px;
+    }
+    h2{
+        border-radius: 0;
+    }
+ }
  @media only screen and (max-width: 600px) {
     h2{
         width: 90%;
