@@ -1,0 +1,356 @@
+*{
+    margin: 0;padding: 0;
+    max-width: 100%;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: inline;
+}
+img.profile{
+    width: 3.5rem;
+    margin: 0vh 1vw 0px 0px;
+    border-radius: 5vh;
+}
+li{
+    display: inline;
+    margin: 0vh 1vw;
+    
+    
+    
+}
+.name{
+    
+    position: static;
+    
+    /* overflow: hidden; */
+    
+    max: width 100vw;
+    letter-spacing: .05em;
+    line-height: 5.5rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    
+}
+header{
+    background-color: black;
+    color: white;
+    background: url("bg1.jpg");
+    background-attachment: scroll;
+    
+    font-style:oblique;
+    
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0vh;
+    border: 1% solid black;
+    border-radius: .5%;
+    
+    
+    
+}
+.a{
+    text-decoration: none;
+    color: blue;
+    
+    
+    
+}
+/* ul li a img:hover{
+    /* background-color:rgba(0, 4, 235, 0.963) ; */
+    /* margin: 0;padding: 0; */
+    /* width: 3vw;
+    margin: 0vh 1vw;} */
+    
+    
+
+
+
+/* .insta:hover{
+    width: 3vw;
+    margin: 0vh .5vw;
+    
+}
+.linkedin:hover{
+    width: 2.2vw;
+    margin: 0vh .5vw;
+}
+.gmail:hover{
+    width: 3vw;
+    margin: 0vh .5vw;
+} */
+.left{
+    display: flex;
+    display: inline-flexbox;
+} 
+
+
+.wrapper .button{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    /* float: left; */
+    margin: 0 5px;
+    background: #fff;
+    border-radius: 60px;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+    margin-top: auto;
+}
+.wrapper .button:hover{
+    width: 170px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button .icon{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 60px;
+    margin-top: auto;
+}
+.wrapper .button .icon img{
+  font-size: 25px;
+  line-height: 50px;
+  margin: auto;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+  margin: auto;
+}
+.wrapper .button span:hover{
+  color: blue;
+  margin: auto;
+}
+.img{
+    display: flex;
+    position: relative;
+    top: 2%;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    
+    padding: 1.5vw 3vh;
+    background-color: rgba(0, 4, 237, 0.427);
+    height: 100%;
+    background: url("bg1.jpg");
+    background-attachment: fixed;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    
+    font-family:'Alkatra', cursive
+    ,'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 1000;
+    letter-spacing: .2rem;
+}
+/* img.about{
+    width: 25vw;
+    
+} */
+.pg{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.me{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2vmax;
+}
+.gallery .pictures img{
+    width: 20vw;
+}
+img.intrest{
+    width: 307px;
+    height: 260px;
+
+}
+img.about{
+    width: 294.68px;
+    height: 217px;
+}
+img.programing{
+    /* width: 307px;
+    height: 240px; */
+    max-width: 100%;
+    width: 30%;
+    height: 30%;
+}
+h1{
+    padding-bottom: 1vmax;
+    padding-top: 2vh;
+}
+img.open,img.web,img.standup{
+    /* width: 555px;
+    height: 341.55px; */
+    max-width: 100%;
+    width: 30%;
+    height: 30%;
+}
+.intrest_me1,.intrest_me2,.intrest_me3,.open,.web{
+    display: flex;
+    justify-content:space-around;
+    padding: 5vh 0vw;
+}
+.photography{
+    padding-left:1vw;
+}
+
+.i{
+    display: inline;
+}
+.gallery{
+    padding-top: 5vh;
+    
+}
+
+.vssut{
+    width: 1000px;
+}
+
+h2{
+    padding:1vh 0vw;
+}
+p{
+    padding: 0vh 1vw;
+}
+img.gmail,img.insta,img.linkedin,img.git,img.twitter{
+    width: 30px;
+}
+/* img.insta,img.linkedin,img.git,img.twitter{
+    width: 52px;
+   
+} */
+.pictures{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.p5{
+    height: 307px;
+    overflow: hidden;
+}
+
+footer{
+    /* background-color:rgba(0, 4, 237, 0.427); */
+    padding: 2vh 0vw;
+    display: flex;
+    justify-content: center;
+    background:url("bg1.jpg");
+    background-attachment: fixed;
+
+    
+    
+    line-height: 1.8rem;
+    font-style:oblique;
+    color: white;
+}
+.all{
+    background-color: blue;
+    height: 10%;
+    width: 10%;
+
+}
+
+@media screen and (max-width:680px) {
+    header{
+        height: 10%;
+    }
+    .intrest_me1{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+    .intrest_me2{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+    .intrest_me3{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+    .web,.open{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+    img.programing,img.standup,img.web,img.open{
+        width: 50%;
+        height: 70%;
+        display:flex;
+        justify-content:center;
+    }
+    .name{
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    .welcome{
+        font-size: 1.5rem;
+    }
+    .pictures{
+        display:grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .p1,.p6,.p5,.p3{
+        width: 73vw;
+        height: 100%;
+        
+    }
+    .wrapper{
+        width: 40%;
+        padding-left: 3%;
+    
+    } 
+    .container,header,footer{
+        background-size: 11.5rem;
+    }
+    
+    .header{
+        position:fixed;
+        height: min-content;
+    }
+    img.profile{
+        width: 3.5rem;
+        height: 3.7rem;
+        padding-top: 1%;
+    }
+    
+        
+   
+    
+}
+@media screen and (max-width:600px){
+    .wrapper{
+        width: 40%;
+        padding-left: 3%;
+        padding-top: 1%;
+    }
+    .wrapper .button:hover{
+        width:50px;
+        transform: none;
+        transition:none;
+    }
+    img.profile{
+        width: 3.5rem;
+        height: 3.7rem;
+    }
+}
