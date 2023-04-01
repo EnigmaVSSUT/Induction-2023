@@ -1,0 +1,82 @@
+*{
+    margin: 50;
+    padding:50;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+
+
+.header{
+    background-image: url(bg20.jpg);
+    height: 100vh;
+    background-size:auto;
+    background-position: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+
+.navbar{
+    width:85%;
+    margin:auto;
+    padding:35px 0;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.navbar ul li{
+    list-style:none;
+    display:inline;
+    margin:0 20px;
+    align-items: right;
+
+}
+.navbar ul li a{
+     text-decoration:solid;
+     color:rgb(5, 5, 100);
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 34px;
+    background-image: url(bg20.jpg);
+    height: 100vh;
+}
+.container{
+    
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+a{
+    height:100px;
+    width:100px;
+    background-color:bisque;
+    border-radius:100px;
+    text-align:center;
+    margin:10px;
+    line-height: 130px;
+    box-shadow:1px 4px 2px 2px peru;
+}
+a i{
+    transition:all 0.3s linear;
+}
+a:hover i{
+    transform: scale(1.4);
+}
+.fa-instagram{
+    color:rgba(167, 6, 121, 0.886);
+}
+.fa-envelope{
+    color:brown ;
+}
+.fa-github{
+    color:black;
+}
+
+
+
