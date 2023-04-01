@@ -1,0 +1,139 @@
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> */
+/* <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet"> */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+
+body {
+    position: relative;
+    z-index: 4;
+    margin: 0;
+    padding: 0;
+    background-image: url(pexels-kevin-ku-577585\ \(1\).jpg);
+}
+
+h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-family: Roboto Slab;
+}
+
+.container {
+    position: relative;
+    background-color: paleturquoise;
+    opacity: 0.7;
+    font-size: 30px;
+    margin: 45px 100px;
+    padding: 20px;
+    z-index: 5;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+h4{
+    font-family: Kanit;
+    margin: 10px 35px;
+    display: block;
+}
+
+div a{
+    text-decoration: none;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+div a:hover{
+    color: rgb(35, 94, 145);
+    background-color: paleturquoise;
+}
+
+.box1 {
+    margin: 20px 0px;
+    padding: 0px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.box2 {
+    margin: 20px 0px;
+    padding: 0px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.box3 {
+    margin: 20px 0px;
+    padding: 0px;
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 350px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.imggallery{
+    display: flex;
+    justify-content: space-evenly;
+    /* position: ; */
+    /* z-index: 6;
+    opacity: 5; */
+    /* width: 30%; */
+}
+
+.imggallery img{
+
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    width: 30%;
+    /* position: fixed; */
+}
+
+.box4 {
+    margin: 20px 0px;
+    padding: 0px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.icons img{
+    height: 62px;
+    width: 151px;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (min-width: 1700px) {
+    img{
+        display: grid;
+        grid-auto-columns: 3 auto;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 1400px){
+    .imggallery{
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* align-content: space-evenly; */
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        position: relative;
+        background-color: paleturquoise;
+        opacity: 0.7;
+        font-size: 30px;
+        margin: 45px 0px;
+        padding: 20px;
+        z-index: 5;
+        border: 1px solid black;
+        border-radius: 15px;
+        width: 80%;
+        box-sizing: content-box;
+    }
+}
