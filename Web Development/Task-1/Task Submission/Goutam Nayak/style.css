@@ -127,6 +127,12 @@ p{
         height: 10rem;
        
     }
+    .tee .imai img:hover{
+        width: 0%;
+     }
+     .icon img:hover{
+        width: 0rem;
+     }
  }
  @media only screen and (max-width: 600px) {
     h2{
