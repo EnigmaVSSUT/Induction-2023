@@ -2,9 +2,4 @@ Name : Dibyajyoti Parida
 Regd No : 2202070078
 Branch : Electronics and Telecommunication Engineerimg
 Hobby : Drawing
-<<<<<<< HEAD
-Domain:- Web development,UI/UX
-
-=======
 Domain:- Web development, UI/UX
->>>>>>> b03f9683be5b1c5ee78459616d7d84429ae41cc3
