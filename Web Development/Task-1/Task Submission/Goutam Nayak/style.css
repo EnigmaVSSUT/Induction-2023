@@ -110,6 +110,9 @@ p{
         border-radius: 22px;
         
     }
+    .one img{
+        margin-right: 1rem;
+    }
     P{
         border-radius: 30px;
     }
