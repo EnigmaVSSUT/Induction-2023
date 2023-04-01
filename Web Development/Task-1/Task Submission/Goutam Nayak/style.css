@@ -154,4 +154,9 @@ p{
         width: 25%;
     }
  }
- 
+ .tee .imai img:hover{
+    width: 26%;
+ }
+ .icon img:hover{
+    width: 3.3rem;
+ }
