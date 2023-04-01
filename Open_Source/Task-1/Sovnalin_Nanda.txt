@@ -1,5 +1,0 @@
-name -: sovnalin nanda
-regd no-: 2202070113
-branch -:ETC
-hobby -: dance
-domain -:Artificial intelligence and competitive programmimg  
