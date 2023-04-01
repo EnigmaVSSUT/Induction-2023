@@ -1,176 +1,191 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(167, 163, 163);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-nav{
- position: sticky;
- top: 0;
- z-index: 10000000000000;
- display: flex;
- justify-content: space-between;
- padding: 20px 70px;
- background-color: grey;
-}
-.items{
-    display: flex;
-    
-}
-.head{
-    display: flex;
-    height: 50px;
-}
-.title{
-    color: white; 
-display: flex;
-align-items: center;
-padding: 0 10px;
-}
-.logo img{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
- 
-}
-.nav-items{
-    padding: 0 20px ;
-    display: flex;
-    align-items: center;
-
-}
-.nav-items a {
-color: white;    
-}
-header {
-    
-    background-color: #dfd5d5;
-    padding: 20px;
+header{
     text-align: center;
+    margin-bottom: 20px;
 }
-h1 {
-
-    font-size: 36px;
-    color: #162d44;
-    
+.heading{
+    display: inline-block;
+    text-align: center;
+    margin-top: 25px;
 }
-.Section {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 25px;
-    justify-content: center;
-    align-items: center;
+.heading h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(6, 73, 112);
+    margin-bottom: 10px;
 }
-.flex_wrap {
-width: 270px;
-margin: 20px; 
-
+.heading p{
+    font-size: 20px;
+    font-weight: 200;
+    color: #2d2d2d;
 }
-.aboutme_body{
-    padding: 50px 0;
-    display: flex;
-
-}
-.flex_wrap_aboutme{
-    height: 80vh;
-    
-    display: flex;
-    flex-direction: column;
-    
-}
-.aboutme_body img{
-    height: 380px;
-    width: 380px;
-   border-radius: 40px;
-    padding: 20px 30px;
-}
-.aboutme_body p{
+.container{
     display: flex;
     align-items: center;
-    font-family: cursive;
+    width: 85%;
+    margin: auto;
 }
-img:hover{
-    transform: scale(1.05);
-    cursor: pointer;
+.container .flex_wrap{
+    flex: 0 50%;
+    max-width: 40%;
+    height: auto;
+    border: 4px;
+    border-radius: 20px;
 }
-.hobbies{
-    display: flex;
-    height: 80vh;
-    padding: 50px 150px;
-    
-    justify-content: space-between;
+
+.about{
+    padding: 35px;
 }
-.hobbies .flex_wrap{
-max-width: 300px;
-min-width: 150px;
+.about h2{
+    margin: 15px;
+    color: #2d2d2d;
+    font-size: 24px;
 }
-.flex_wrap img{
-    height: 200px;
-    width: 100%;
+.about p{
+    color: #2d2d2d;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 15px;
 }
-.flex_wrap p {
-  text-align: center;
-  padding: 10px;
-  font-size: 21px;
+
+.reference{
+    margin: 15px 15px 0px 9px;
+    text-align: left;
 }
-.flex_wrap_follow img{
-  width: 100%;
-  height: 200px;
+.reference ul{
+    white-space: nowrap;
+    max-width: 400px;
 }
-.flex_wrap_follow{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 93vw;
-   
-    margin: 100px 50px;
+.reference li{
+    display: inline-block;
+    margin: 8px;
+    width: 10%;
 }
-img{
-    transition: 0.3s;
+.reference img{
+    max-width: 100%;
 }
-@media  screen and (max-width:800px) and (min-width:200px) {
-    
+
+
+footer{
+    max-width: 100%;
+    margin: 60px 0px 0px 0px;
+    padding: 20px;
+    background-color: rgb(6, 73, 112);
+    text-align: center;
+    color: white;
+}
+
+
+@media screen and (max-width: 1064px){
+    footer{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 800px){
     header{
-        width: 100%;
-
+        margin-bottom: 30px;
     }
-    
-    .aboutme_body{
-      
+    .heading h1{
+        font-size: 50px;
+        margin-bottom: 8px;
+    }
+    .heading p{
+        font-size: 20px;
+    }
+    .container{
         flex-direction: column;
-        width: 650px;
-
-        justify-content: center;
-        align-items: center;
-
+        width: 90%;
+        margin: auto;
     }
-    .aboutme_body p{
-        text-align: center;
-        padding: 20px 0;
-        width: 500px;
+    .container img{
+        flex: 0 100%;
+        max-width: 43%;
     }
-    .aboutme_body img{
-
-        border-radius: 50%;
+    .about{
+        flex: 0 100%;
+        max-width: 100%;
+        padding: 10px;
     }
-    .hobbies{
-        flex-direction: column;
-        height: auto;
-        margin-top: 200px;
-        justify-content: center;
-        align-items: center;
+    .about h2{
+        font-size: 22px;
     }
-    .hobbies .flex_wrap{
-        width: 350px;
-        padding: 40px 0;
+    .about p{
+        font-size: 17px;
+        line-height: 1.2;
     }
-.flex_wrap_follow{
- margin: auto;
- padding: 100px 0;
- display: flex;
- flex-direction: column;
- justify-content: center;
-
+    .reference{
+        margin: 15px 15px 0px 9px;
+    }
+    .reference ul{
+        max-width: 400px;
+    }
+    .reference li{
+        margin: 8px;
+        width: 10%;
+    }
+    .reference img{
+        max-width: 85%;
+    }
 }
+
+@media screen and (max-width: 600px){
+    .heading{
+        text-align: center;
+        width: 90%;
+    }
+    .heading h1{
+        font-size: 40px;
+    }
+    .heading p{
+        font-size: 16px;
+    }
+    .container{
+        width: 90%;
+    }
+    .container img{
+        max-width: 50%;
+    }
+    .read_more{
+        margin: 0px 15px;
+        display: inline-block;
+        border-radius: 5px;
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+    .reference{
+        margin: 15px 15px 0px 9px;
+    }
+    .reference ul{
+        max-width: 400px;
+    }
+    .reference li{
+        margin: 5px;
+        width: 10%;
+    }
+    .reference img{
+        max-width: 80%;
+    }
+    footer{
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .container .flex_wrap{
+        border-radius: 10px;
+    }
+    .reference{
+        margin: 15px 15px 0px 13px;
+    }
+    .reference img{
+        max-width: 100%;
+    }
 }
