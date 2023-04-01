@@ -1,0 +1,82 @@
+/**
+ *Webpage about myself
+ */
+ html{
+	background-color:#102372
+}
+
+body {
+	background-color:yellow
+	}
+
+h1 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: purple;
+}
+h2 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color:purple;
+}
+#name {
+	position: relative;
+	top: -10px;
+	font-color:
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#email{
+	float:right;
+	margin-right:5px;
+	padding-top:5px;
+	font-size:16px;
+	font-family: Verdana, sans-serif;
+	color:purple;
+}
+div{
+	border-radius:5px;
+}
+
+#footer{
+	position:relative;
+	height: 50px;
+	float:right;
+	background-color:#668284
+	clear:both;
+	font-family: Verdana, sans-serif;
+	font-size:14px;
+	text-align:center;
+	color:#ffffff
+}
+#footer p{
+	position:relative;
+	padding-top:15px;
+}
+h1:hover
+{
+	background-color:#102372;
+}
+h2:hover
+{
+	background-color:#102372;
+}
+div{
+	border-radius:3px dotted blue;
+}
+img{
+	border-radius:9px dotted blue;
+}
+li{
+background-color: lightgreen;
+}
+table{
+background-color: lightgreen;
+}
