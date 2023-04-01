@@ -42,9 +42,13 @@ h1 .island {
     background-color: burlywood;
 
 } 
+.prof {
+    margin: auto;
+    width: 100%;
+}
 .topic .profile {
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
     border-radius:  50%; 
     float: left;
     margin-top: 0px;
@@ -59,9 +63,9 @@ h1 .island {
 .about p {
     color: black;
     font-size: 20px;
-    margin-top: 140px;
-    margin-left: 320px;
-    margin-bottom: 75px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
 }
 .interest {
     align-items: start;
@@ -94,8 +98,8 @@ h1 .island {
     height: 260px;
 }
 .gallery .family {
-    width: 500px;
-    height: 320px;
+    width: 300px;
+    height: 290px;
 }
 .links img {
     width: 40px;
@@ -108,4 +112,16 @@ footer {
     text-align: center;
     font-size: 22px;
     background-color: rgb(99, 45, 45);
+}
+@media only screen and(min-width:1000px) {
+    .prof{
+        width: 50%;
+    }
+    .profile{
+        width: 100px;
+        height: 100px;
+    }
+    .about{
+        width: 50%;
+    }
 }
