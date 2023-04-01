@@ -52,3 +52,9 @@ text-align: center;
 
 }
 
+ @keyframes follow{
+   from {background-color: red;}
+    to {background-color: blue;}
+
+}
+
