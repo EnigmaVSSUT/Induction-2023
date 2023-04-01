@@ -1,0 +1,118 @@
+body{
+
+        background-color: #F5E8C7;
+        border-top: 0px solid #003297;
+        border-bottom: 0px solid #003297;
+        border-right: 140px solid #003297;
+        border-left: 140px solid #003297;
+
+        text-align: center;
+        font-family: "Century Gothic",bold, serif;
+        color:#40514E;
+
+
+}
+
+hr{
+    background-color: none;
+    border-style: solid none none;
+    border-color:#FFC3A1;
+    border-width:6px;
+    height: 0;
+    width: 6%;
+    margin: 50px auto;
+  }
+
+h1{
+    font-family: Century Gothic;
+    font-size: 50px;
+    padding-bottom:0px;
+    color:black;
+}
+
+h1:hover{
+    color:#413543;
+}
+
+.header{
+    font-size:40px;
+    position:relative;
+    padding-top:40px  ;
+    line-height: 2;
+    height:140px;
+    width:100%;
+    background-color: #003297 ;
+    font-family: Century Gothic;
+}
+
+.nikita-img{
+
+    float: right;
+    margin-right:15px;
+    width:30%;
+	height:350px;
+    padding-top:55px;
+    transition: transform .5s ease;
+}
+
+img:hover{
+  transform:scale(1.2);
+}
+
+p{
+    padding-top:0px;
+    line-height:2;
+    font-size: 20px;
+    text-align:left;
+    font-family: 'Century Gothic';
+
+  }
+
+.about{
+    text-align:left;
+	
+}
+.body{
+    width:90%;
+    margin:100px auto 100px auto;
+}
+
+.hobby-img{
+    float:left;
+    margin-right: 20px;
+    margin-top: 47px;
+    height:300px;
+    width:370px;
+    transition: transform .5s ease;
+}
+
+.gallery-img{
+    height:270px;
+    width:270px;
+    margin:20px;
+    transition: transform .5s ease;
+}
+
+a{
+  color:#11999E;
+  font-weight: bolder;
+  font-family: 'Century Gothic', sans-serif;
+  margin:10px 50px;
+  text-decoration: underline;
+  padding-top: 20px;
+
+}
+a:hover{
+    color:#B2A4FF;
+  }
+
+.tag{
+  text-align:center;
+  font-size: 1rem;
+  padding-top:80px;
+  color:black;
+
+    height:100px;
+    width:100%;
+    background-color: #003297 ;
+}
