@@ -35,12 +35,14 @@ body {
 } */
 img{
     float: right;
+    float: top;
     width: 12rem;
     margin-left: 3rem;
     margin-bottom: 3rem;
     border-top-left-radius:30%;
     border-bottom-left-radius:30%;
 }
+
 
 .icon{
     display: flex;
