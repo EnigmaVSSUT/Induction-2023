@@ -131,9 +131,9 @@ p{
         font-size: larger;
        
     }
-    .one p{
+    /* .one p{
         height: 14vh;
-    }
+    } */
     .one p img{
         height: 9rem;
         width: 9rem;
