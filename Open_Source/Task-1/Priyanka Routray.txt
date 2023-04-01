@@ -2,4 +2,8 @@ Name:- Priyanka Routray
 Registration Number:-2202070081
 Branch:-Electronics and Telecommunication Engineering
 Hobby:- Dance,Chess
+<<<<<<< HEAD
 Domain:-Game development
+=======
+Domain:- Game development
+>>>>>>> b03f9683be5b1c5ee78459616d7d84429ae41cc3

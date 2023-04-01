@@ -1,4 +1,5 @@
 Name : Animesh Pattnaik
 Regd No : 2202040013
 Branch : Computer Science & Engineering
-hobby : Reading Novels and Watching Anime
+Hobby : Reading Novels and Watching Anime
+Domain : Competitive Programming, AI-ML
