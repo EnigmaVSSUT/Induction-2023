@@ -1,0 +1,235 @@
+.logo{
+  width: 100px;
+  cursor: pointer;
+}
+
+
+.hd{
+  color: aliceblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+}
+#aot{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+
+}
+body {
+     background-color: #63aad4;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: white;
+     font-family:  'Alkatra','Poppins', cursive, sans-serif;
+}
+.header {
+    background-color: rgb(138, 96, 76);
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    /* padding: 30px; */
+    text-align: center;
+    margin: 0 auto;
+    width: 99%;
+    /* margin-bottom: 20px; */
+    margin-right: 5rem;
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329a1 74%);
+    
+    border-top-left-radius: 92px;
+    border-bottom-right-radius: 92px;
+   
+
+}
+
+/* .me{
+    float: right;
+    width: 12rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    border-top-left-radius:30%;
+    border-bottom-left-radius:30%;
+} */
+img{
+    float: right;
+    float: top;
+    width: 12rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    border-top-left-radius:30%;
+    border-bottom-left-radius:30%;
+}
+
+
+.icon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.icon ul li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: rgb(219, 8, 8);
+}
+h2{
+    
+    text-align: center;
+    
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329a1 74%);
+    
+
+    width: 20%;
+    justify-content: center;
+    margin: 0 auto;
+    border-top-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+p{
+    
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329a1 74%);
+    
+
+   margin: 0 auto;
+      font-size: 24px;
+    padding: 70px;
+    border-top-left-radius: 92px;
+    border-bottom-right-radius: 92px;
+
+}
+.tee .imai{
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin: 1.3rem auto;
+   margin-bottom: 0;
+    
+}
+.tee .imai img{
+    width: 20%;
+    border-radius: 16%;
+}
+.icon img{
+    display: flex;
+    align-items: center;
+    width: 3rem;
+    margin-right: 6rem;
+    border-radius: 0;
+}
+footer{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+    font-size: larger;
+    font-weight: 400;
+    font-style: 'Poppins',sans-serif;
+
+}
+/* .one p{
+    height: 14vh;
+} */
+
+
+
+/* RESPONSIVENESS
+ */
+ @media only screen and (max-width: 515px){
+   .header {
+        width: 99%;
+        border-radius: 22px;
+        
+    }
+    .one img{
+        margin-right: 1rem;
+    }
+    P{
+        border-radius: 30px;
+    }
+    h2{
+        border-radius: 0;
+    }
+    .imai{
+        flex-direction: column;
+    }
+    .imai img{
+       min-width: 19rem;
+        height: 10rem;
+       
+    }
+    .tee .imai img:hover{
+        width: 0%;
+     }
+     .icon img:hover{
+        width: 0rem;
+     }
+ }
+ @media only screen and (max-width: 600px) {
+    h2{
+        width: 90%;
+       margin: 1rem;
+       border-radius: 27%;
+    }
+    .icon img{
+        width: 2rem;
+        margin: 1rem auto;
+        margin-right: 4rem;
+        justify-content: space-around;
+    }
+    img{
+        border-radius: 22px;
+        margin-right: 2rem;
+    }
+    p{
+        font-size: large;
+    }
+
+
+ }
+ /* @media only screen and (max-width: 931.40px){
+    .one p{
+        height: 0vh;
+    }
+ } */
+ @media only screen and (min-width: 602.40px){
+    p{
+        margin: 2rem;
+        font-size: larger;
+       
+    }
+    /* .one p{
+        height: 14vh;
+    } */
+    .one p img{
+        height: 9rem;
+        width: 9rem;
+    }
+    h2{
+        width: 50%;
+    }
+    .icon{
+        padding-right: 2rem;
+    }
+    .icon img{
+        margin: 1rem auto;
+        margin-right: 3rem;
+        margin-left: 1rem;
+       
+    }
+    .tee .imai img{
+        width: 25%;
+    }
+ }
+ .tee .imai img:hover{
+    width: 26%;
+ }
+ .icon img:hover{
+    width: 3.3rem;
+ }
