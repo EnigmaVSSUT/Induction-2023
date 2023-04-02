@@ -1,0 +1,89 @@
+
+body{
+    background-color: rgb(96, 191, 215);
+
+}
+*{
+    margin: 20px;
+    padding: 0;
+}
+
+h1{
+   color: rgb(105, 14, 81);
+   font-size: 60px;
+
+}
+.container1{
+    height: 1500px;
+    width: 1400px;
+     background-color: white;
+   box-shadow: 0 5px 15px rgba(0,0,0,.5);
+
+
+
+}
+h2{
+    margin: px;
+    padding: 30px;
+    font-size: 40px;
+    color: #a30525;
+
+
+} .text{
+   text-align: left;
+    font-size: 20px;
+    margin: 1px;
+    padding-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.image{
+   padding-right: 50px;
+    margin-right: 10px;
+    float: left;
+
+}
+
+.container3{
+
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    float: left;
+
+}
+p12.text{
+  text-align: center;
+color: red;
+  
+}
+.image2{
+    float: right;
+  
+}
+.patent{
+    display: flex;
+  
+}
+.p3{
+    color: rgb(25, 26, 25);
+    font-size: 40px;
+    display: flex;
+
+    width: 2 px;
+}
+.cont4{
+  position: left;
+  height:200px;
+  color:green;
+}
+.ppm{
+  color:#a30525;
+  position:left;
+  height:200px;
+  width: 4px;
+}
+.coot{
+  position:center;
+}
