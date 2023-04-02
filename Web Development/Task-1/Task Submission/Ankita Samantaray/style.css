@@ -1,0 +1,54 @@
+
+h1{
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+}
+   h2 {text-align: center ;}
+   html {
+  scroll-behavior: smooth;
+
+}
+
+
+img {
+      
+        float: right;
+        display: inline-block;
+      
+        margin: 25px 10px;
+      }
+body{
+      
+      background-image: url('images/cat.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+
+h2
+{
+  font-family:"Fasthand",cursive ;
+  font-weight: 300;
+  color:white;
+
+}
+h1,h3,h4,h5{
+  font-family: 'Delicious Handrawn', cursive;
+  color:rgb(231, 222, 225)
+}
+ p1,p2{
+  font-family:"Delicious Handrawn",cursive;
+  color:rgb(226, 211, 217);
+  font-weight:lighter;
+  letter-spacing: 1px;
+}
+p8
+{
+  color:azure;
+}
+
+
+
+
