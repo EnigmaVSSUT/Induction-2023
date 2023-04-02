@@ -1,0 +1,5 @@
+name : Abinash Odiya
+reg : 2202070128
+branch : Electronics and telecommunication Engineering
+Hobby : Playing Online Games
+Domain : App Development
