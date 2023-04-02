@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+     <head>
+           <title>Aditya Kunwar </title>
+           <style>
+                body {
+                     background-color:#4261f9;
+           }    
+                body  {
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+           }
+
+                img {
+                    width: 260px;
+                    border-radius: 5px;
+
+           }
+
+           a {
+               colour: black;
+               text-decoration: rgb(211, 31, 31);
+               font-style: normal;
+           }
+
+           p {
+               font-size: large;
+           }
+        </style>
+    </head>  
+    
+    </body>
+
+           <header>
+               <h1>Welcome guys</h1>
+               <nav>
+               <ul>
+                   <li><a href="#about"><b>About me</b></A></li>
+                   <li><a href="#interest"><b>My interest</b></a></li>
+                   <li><a href="#contact"><b>Contact me</b></a></li>
+               </ul>
+          </nav>
+    </header>
+
+    <main>
+        <h1><b>"The first rule of Fight club is: You dont talk about Fight club"</b></h1>
+
+        <section id="about">
+            <h2>about me</h2>
+            <p>
+          Hola , I am <b>Aditya Kunwar.</b> I am from Sambalpur. <b> Currently pursuing bachelor of technology from the department of Mechanical engineering</b> in veer surendra sai university of technology ,burla. </b> I have
+          completed my matriculation and intermediate from Kendriya Vidyalaya ,Sambalpur. 
+
+     </P>
+     <P><b>ENJOY.</b></p> 
+    <h2>Gallery</h2>
+    <div class="images-group">
+        <img src="C:\Users\Kunwa\OneDrive\Pictures\Screenshot_20230401_205204_Gallery.jpg" />
+        <img src="C:\Users\Kunwa\OneDrive\Pictures\2.jpg" />
+        <img src="C:\Users\Kunwa\OneDrive\Pictures\Screenshots\2023-04-02 (2).png">
+        <img src="C:\Users\Kunwa\OneDrive\Pictures\4.jpg"/>
+        <img src="C:\Users\Kunwa\Downloads\dark-batman-4k-31.jpg" />
+
+    </div>
+    <div class="images-group">
+        <img src="" alt="">
+        <img src="" alt="">
+    </div>
+  </section>    
+
+  <section id="interest">
+    <h2> My <b>Interests</b></h2>
+    <ul>
+        <li><b>HOBBIES</b></li>
+        <p> Calistenics , Weightlifting and watching different genres of movies are my hobbies. I love metal musics. History and economics always fascinates me.</p>
+        <p>
+            <b> Calistenics</b>
+        <div> <img src="C:\Users\Kunwa\OneDrive\Pictures\Cali.jpg" />
+        </div>
+        </p>
+        <p>
+            <b> Weightlighting</b>
+        <div><img src="C:\Users\Kunwa\OneDrive\Pictures\Weightlifting.jpg">
+        <div>
+        </div>
+        </p>
+        <p>
+            <b> Watching different genre of movies </b>
+        <div class="">
+            <img src="C:\Users\Kunwa\OneDrive\Pictures\FC.jpg">
+            <img src="C:\Users\Kunwa\OneDrive\Pictures\ZNMD.jpg">
+            <img src="C:\Users\Kunwa\Downloads\GF.jpg">
+        </div>
+        </p>
+        <li><b> MY DOMAIN <b></li>
+         <p>
+            <b> WEB DEVELOPMENT</b>
+            <img src="" alt="">
+        
+        </ul>
+        <p>CONTACT ME
+            <p>Insta = _.aditya_kunwar._</p>
+            </a>
+
+    <p><b> my email</b> KUNWAR.AADITYA.03@GMAIL.COM </p>
+    </p>
+    </section>
+
+   <section>
+      <h2>contact me</h2>
+      <form action="mailto:youremail@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message"></textarea>
+        <input type="submit"value="send">
+    </form>
+    </section>
+
+    </main>
+
+    <footer>
+         <p> & copy; [2023] [Aditya Kunwar] All right reserved. </p>
+    </footer>
+
+    <body>
+        
+    </html>
