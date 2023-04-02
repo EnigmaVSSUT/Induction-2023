@@ -2,3 +2,4 @@ Name : Swapnil Nanda
 Regd No : 2202040021
 Branch : Computer Science and Engineering
 Hobby : Travelling
+Domain : AI/ML
