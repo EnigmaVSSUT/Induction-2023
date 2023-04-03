@@ -1,98 +1,158 @@
-
-         *{
-            margin:0px;
-            padding:0px;
-        }
-h1{
-padding:7px;
-}
-        .a{
-                
-                background-image: url(back-2.avif);
-            text-align: center;
-            height:950px;
-            margin-left:190px;
-            margin-right:190px;
-          
-
-        }
-        .b{
-                background-image: url(back3.jpeg);
-                
-           
-           height:850px;
- margin-left: 85px;
-margin-top:1px;
-            margin-right:85px;
-           
-
-        }
-        .c{
-            height:150px;
-            width:150px;
-margin-left:470px;
-margin-top:-90px;
-        }
-.d{
-margin-right:55px;
-}
-        .e{
-            height:150px;
-            width:150px;
-margin-right:470px;
-margin-top:-90px;
-        }
-li{
-list-style:none;
-text-decoration:underline;
-display:inline-block;
-padding:30px;
-}
-.p1{
-margin-top:30px;
-font-style:  Garamond;
-font-weight: 1000;
-font-size: large;
-color: blueviolet;
-
-
-
-
-}
-.p2{
-margin-top:20px;
-font-style:  Garamond;
-font-weight: 1000;
-font-size: large;
-color: rgb(43, 202, 226);
-}
-.g1,g2,g3{
-display:inline-block;
-}
-
-.hd1{
-margin-left:-500px;
-color: rgb(255, 0, 0);
-font-size: xx-large;
- 
-}
-.hd2{
-margin-left:540px;
-color: rgb(255, 0, 0);
-font-size: xx-large;
-
-}
-
-.g{
-    color: rgb(255, 0, 0);
-    font-size: xx-large;
-
+* {
+        margin: 0px;
+        padding: 0px;
+    }
     
-}
-.g5{
+    h1 {
+        padding: 7px;
+    }
+    
+    .a {
+        background-image: url(back-2.avif);
+        text-align: center;
+        height: 1050px;
+        margin: auto;
+        margin-left: 190px;
+        margin-right: 190px;
+    }
+    
+    .b {
+        background-image: url(back3.jpeg);
+        height: 940px;
+        margin-left: 85px;
+        margin-top: 1px;
+        margin-right: 85px;
+    }
+    
+    .c {
+        height: 150px;
+        width: 150px;
+        margin-left: 470px;
+        margin-top: -90px;
+    }
+    
+    .d {
+        margin-right: 55px;
+    }
+    
+    .e {
+        height: 150px;
+        width: 150px;
+        margin-right: 470px;
+        margin-top: -90px;
+    }
+    
+    li {
+        list-style: none;
+        text-decoration: underline;
+        display: inline-block;
+        padding: 30px;
+    }
+    
+    .p1 {
+        margin-top: 30px;
+        font-style: Garamond;
+        font-weight: 1000;
+        font-size: large;
+        color: blueviolet;
+    }
+    
+    .p2 {
+        margin-top: 20px;
+        font-style: Garamond;
+        font-weight: 1000;
+        font-size: large;
+        color: rgb(43, 202, 226);
+    }
+    
+    .g1, g2, g3 {
+        display: inline-block;
+    }
+    
+    .hd1 {
+        margin-left: -500px;
         color: rgb(255, 0, 0);
         font-size: xx-large;
-}
-.z{
+    }
+    
+    .hd2 {
+        margin-left: 540px;
+        color: rgb(255, 0, 0);
+        font-size: xx-large;
+    }
+    
+    .g {
+        color: rgb(255, 0, 0);
+        font-size: xx-large;
+    }
+    
+    .g5 {
+        color: rgb(255, 0, 0);
+        font-size: xx-large;
+    }
+    
+    .gallery_images1{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        max-width: 90%;
+        margin: auto;
+    }
+    .gallery_images1 img{
+        width: 25%;
+        margin: 10px auto;
+    }
+    
+    img{
+        max-width: 200px;
+        max-height: 200px;
+        border: 0;
+        border-radius: 20px;
+        margin: 15px;
+    }
+    
+    .z {
         color: aliceblue;
-}
+    }
+    
+    /* Media queries for responsive design */
+    @media only screen and (max-width: 1200px) {
+        .a, .b {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .a {
+            height: 600px;
+        }
+        .b {
+            height: 500px;
+        }
+        .c, .d, .e {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .p1, .p2, .hd1, .hd2, .g, .g5, .z {
+            font-size: medium;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .a {
+            height: 400px;
+        }
+        .b {
+            height: 300px;
+        }
+        .gallery_images1 {
+            flex-wrap: wrap;
+        }
+        li {
+            display: block;
+            text-align: center;
+            padding: 10px;
+        }
+    }
+    
