@@ -1,0 +1,56 @@
+.username{
+    color:rgb(8,109,87);
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.myinterest{
+    color:azure(27,3,65);
+}
+
+.aboutme{
+    color:blue(27,3,65);
+    text-align: center;
+   
+}
+
+body{
+    border-top: 100px solid #a67dac;
+    border-right: 100px solid#aa52a6;
+    border-bottom: 100px solid #a67dac;
+    border-left: 100px solid #aa52a6;
+    text-align: center;
+    padding: 30px;
+    background-color: #e1dee6;
+    font-family: Arial,helvetica,sans-serif;
+
+}
+
+.header{
+    font-size: 40px;
+    position: relative;
+    padding-top: 40px;
+    line-height: 2;
+    width: 100%;
+    background-color: #d37568;
+    font-family: cursive;
+}
+
+.column{
+    float: left;
+    width: 27%;
+    padding: 5px;
+}
+
+/*clear floats after image containers */
+.row::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+
+.adyasha {
+    width: 50px;
+}
+
