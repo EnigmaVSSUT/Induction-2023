@@ -1,0 +1,88 @@
+style {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Times, serif;
+    background-image: url("cube.jpg");
+    
+    background-attachment: local ;
+    filter: opacity(90%);
+  }
+
+  .container {
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+  }
+
+  .header {
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+    filter: opacity(90%);
+  }
+
+  header .title {
+    margin-bottom: 1rem;
+    size: 15px;
+  }
+  .sid{
+    font-size: x-large;
+  }
+
+  .sid1{
+    font-size: x-large;
+  }
+  
+  .sid2{
+    font-size: x-large;
+  }
+
+  .sid3{
+    font-size: x-large;
+  }
+  .tribute {
+    display: grid;
+    grid-template-columns: 2fr;
+    max-width: 48rem;
+    margin: 0px auto;
+    background-image:linear-gradient(90deg, rgba(32, 32, 33, 0.963)0%, rgb(33, 32, 35) 100%);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+    border-radius: 9%;
+  }
+
+  .tribute blockquote {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+
+
+  .bio {
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+  }
+  .bio img{
+    max-width: 100%;
+    height: auto;
+  }
+  .bio > h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  .bio > p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  .bio > hr {
+    margin-top: 2rem;
+  }
+  
