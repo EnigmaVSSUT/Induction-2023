@@ -81,7 +81,7 @@ text-align: center;
 }
 
 .gallery{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .body{
@@ -123,3 +123,98 @@ padding: 10px;
 .tags{
     text-align: left;
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    border: none;
+    border-radius: 0;
+    text-align: left;
+  }
+  
+  .header {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header-img {
+    float: right;
+    height: 50px;
+    width: 50px;
+    margin-top: 0px;
+    padding-right: 285px;
+  }
+  
+  .profile {
+    float: center;
+    margin: 20px;
+    margin-top: 5px;
+    width: 200px;
+    height: 200px;
+  }
+  .top{
+    padding-top: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    padding-right: 20px;
+    text-align: justify;
+  }
+  
+  .about {
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+  }
+  
+  .interests {
+    text-align: justify;
+    padding-top: 50px;
+    padding-left: 20px;
+    margin: 20px;
+  }
+  .mid{
+    padding-top: 10px;
+  }
+  
+  .interests-img {
+    float: center;
+    margin: 20px;
+    margin-top: 20px;
+    height: 30%;
+    width: 30%;
+  }
+  
+  .gallery {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .gallery-img {
+    margin-top: 12px;
+    height: 150px;
+    width: 150px;
+    margin-left: 36px;
+  }
+
+  .contact{
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  
+  .contact-link {
+    text-align: center;
+    margin: 10px;
+    padding: 35px;
+    font-size: 16px;
+  }
+  
+  .tags {
+    font-size: 16px;
+    padding-right: 0px;
+    text-align: center;
+  }
+}
+
