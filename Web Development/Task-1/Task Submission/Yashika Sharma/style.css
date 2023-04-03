@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(167, 163, 163);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.heading{
+    display: inline-block;
+    text-align: center;
+    margin-top: 25px;
+}
+.heading h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(6, 73, 112);
+    margin-bottom: 10px;
+}
+.heading p{
+    font-size: 20px;
+    font-weight: 200;
+    color: #2d2d2d;
+}
+.container{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.container .flex_wrap{
+    flex: 0 50%;
+    max-width: 40%;
+    height: auto;
+    border: 4px;
+    border-radius: 20px;
+}
+
+.about{
+    padding: 35px;
+}
+.about h2{
+    margin: 15px;
+    color: #2d2d2d;
+    font-size: 24px;
+}
+.about p{
+    color: #2d2d2d;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 15px;
+}
+
+.reference{
+    margin: 15px 15px 0px 9px;
+    text-align: left;
+}
+.reference ul{
+    white-space: nowrap;
+    max-width: 400px;
+}
+.reference li{
+    display: inline-block;
+    margin: 8px;
+    width: 10%;
+}
+.reference img{
+    max-width: 100%;
+}
+
+
+footer{
+    max-width: 100%;
+    margin: 60px 0px 0px 0px;
+    padding: 20px;
+    background-color: rgb(6, 73, 112);
+    text-align: center;
+    color: white;
+}
+
+
+@media screen and (max-width: 1064px){
+    footer{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    header{
+        margin-bottom: 30px;
+    }
+    .heading h1{
+        font-size: 50px;
+        margin-bottom: 8px;
+    }
+    .heading p{
+        font-size: 20px;
+    }
+    .container{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .container img{
+        flex: 0 100%;
+        max-width: 43%;
+    }
+    .about{
+        flex: 0 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+    .about h2{
+        font-size: 22px;
+    }
+    .about p{
+        font-size: 17px;
+        line-height: 1.2;
+    }
+    .reference{
+        margin: 15px 15px 0px 9px;
+    }
+    .reference ul{
+        max-width: 400px;
+    }
+    .reference li{
+        margin: 8px;
+        width: 10%;
+    }
+    .reference img{
+        max-width: 85%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .heading{
+        text-align: center;
+        width: 90%;
+    }
+    .heading h1{
+        font-size: 40px;
+    }
+    .heading p{
+        font-size: 16px;
+    }
+    .container{
+        width: 90%;
+    }
+    .container img{
+        max-width: 50%;
+    }
+    .read_more{
+        margin: 0px 15px;
+        display: inline-block;
+        border-radius: 5px;
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+    .reference{
+        margin: 15px 15px 0px 9px;
+    }
+    .reference ul{
+        max-width: 400px;
+    }
+    .reference li{
+        margin: 5px;
+        width: 10%;
+    }
+    .reference img{
+        max-width: 80%;
+    }
+    footer{
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .container .flex_wrap{
+        border-radius: 10px;
+    }
+    .reference{
+        margin: 15px 15px 0px 13px;
+    }
+    .reference img{
+        max-width: 100%;
+    }
+}
