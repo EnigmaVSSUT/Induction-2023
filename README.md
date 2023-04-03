@@ -50,7 +50,6 @@ The first part of the induction you have to perform task on **basics of Git & Gi
 Second week will be a walk around on one of the most popular technologies of modern world, Web Development. You will be learning the basics of web development, the languages like HTML, CSS, JavaScript and others to come on the way.<br>
     * [Introduction & Resources](./Web%20Development)<br>
     - [Task-1: HTML CSS](./Web%20Development/Task-1)<br>
-    - [Task-2: Javascript] (coming soon!)
 <br>
 
 ## Week-3 (4 - 8 April) | Competitive Programming <img src="./assets/maze.gif" width="30">
