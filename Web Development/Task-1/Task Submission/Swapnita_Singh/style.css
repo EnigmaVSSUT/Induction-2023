@@ -1,0 +1,74 @@
+body{
+    border-top :100px solid #FFFFFF;
+    border-right : 100px solid #FFFFFF;
+    border-left: 100px solid #FFFFFF;
+    border-bottom: 100px solid #FFFFFF;
+    text-align: center;
+    padding: 30px;
+    background-color: #636b42;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.heading{
+    font-size:50px;
+    font-family:cursive;
+}
+
+.you{
+    font-size: 30px;
+    text-align: left;
+}
+
+.swap{
+    float: right;
+    height:300px;
+    width: 300px;
+}
+.about{
+    font-size: 20px;
+    text-align: left;
+}
+.fine{
+    font-size: 30px;
+    text-align: left;   
+}
+.interest{
+    font-size:20px;
+    width: 100%;
+    text-align: left;
+}
+.poem{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30;
+
+}
+.dance{
+    font-size: 30px;
+    text-align: left;  
+}
+.gallery{
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+}
+a{
+    font-size: 30px;
+    padding: 0px 50px;
+}
+.tag{
+    font-size: 20px;
+    color: black;
+    background-color: #e67597;
+}
+    
+    
+
+    
