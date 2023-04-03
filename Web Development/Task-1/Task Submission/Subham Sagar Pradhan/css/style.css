@@ -1,0 +1,67 @@
+style{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    border-top: 100px solid #0e0423;
+    border-right: 100px solid #0e0423;
+    border-left: 100px solid #0e0423;
+    border-bottom: 0px solid #0e0423;
+    text-align: center;
+    font-family : Times, serif;
+    background : rgb(243, 240, 243);
+}
+
+h1{
+    font-family: georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.myphoto{
+    float: right;
+    height: 169px;
+    width: 300px;
+    padding-right: 30px;
+}
+
+
+
+.about{
+    padding: 30px 10px;
+    font-size: 30px;
+    width: 100%;
+    text-align: left;
+}
+
+.interests{
+    padding:30px 10px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.stockmarket{
+    float:left;
+    padding-left:30px;
+    padding-right: 30px;;
+}
+
+.a{
+    font-size: 30px;
+    padding: 0px 50px;
+}
+.third para{
+    padding-top: 50px;
+    text-align: center;
+}
+.tag{
+    text-align: center; 
+    font-size: 20px;
+    color: rgb(238, 233, 230);
+    background-color: #0e0423;
+    height:100px;
+    width:100%
+
+}
