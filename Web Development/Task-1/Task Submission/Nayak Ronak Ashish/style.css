@@ -1,17 +1,22 @@
 body{
     background-image:url(Port.jpg);
     
-    background:size:cover;
+   
+    
+    background-size:cover;
+    
+  
+    
     background-color:#49c5b6;
    
-   font-family: Monaco;
-   
-    font-size: 16px;
+ 
+   font-family: 'Cookie', cursive;
+    font-size: 30px;
     line-height: 1.6em;
     
   margin: 0;
   
-  
+ 
  
 }
 
@@ -21,8 +26,10 @@ body{
 
 
 
+  @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
 
 
+  @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
 .container {
     
@@ -34,7 +41,7 @@ body{
     
    
    
-    
+    se
     
     
 }
@@ -43,112 +50,40 @@ body{
 #main-header {
     margin-top:auto ;
     
-    padding-top:5px;
+    padding-top:200px;
     
     padding-bottom: 6px;
     background-color:#ffa995 ;
     color:#0018ff;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align:center; 
-    font-size:90%;
+    font-size:20px;
     letter-spacing:.2em;
-    
- font-size:12px;
+   
+ font-weight:bold;
     line-height:2em;
     
     margin-bottom:20px;
     
-    
-    positon: sticky;
-    top:0;
-    left:0;
-    right:0;
-    
-    
-}
-
- #navbar {
-    
-    background-color:#fff4d5;
-   font-color:black;
-    
-    border:1px blue solid;
-    
-    margin-bottom:20px;
-}
-
-
-#navbar ul{
-    
-   padding: 0;
-    list-style:none;
-    
-    
-    
-}
-
-#navbar li {
-
-
-display :inline;
-    
-    font-size:20px;
-    font-weight:bold;
-    font-color:black;
-    border: 1px;
-}
-
-
-#navbar a{
-    
-    
-    color:black;
-    text-decoration:none;
-    padding-right:15px;
-    font-size:99%;
-    font-weight:bold;
-    boder: 1px #ff7300 solid;
-    text-align:center;
-    justify-content:center;
-    border-radius:2px;
-    
-}
-
-#showcase {
-    
+    font-family: 'Tangerine', cursive;
     
     background-image:url(cleanl.jpg);
-    
-    background-position:center right;
-    
-    background-size: cover;
-    margin:10px 10px;
-   
-    min-height:300px;
-    padding-top:50px;
-    padding-bottom:50px ;
-    border:2px #ff5e00 solid;
-    border-radius:3px;
-    
+    background-size:cover;
+    height :400px;
     
 }
 
 
-
-#showcase h2{
-
-color : #ff5e00;
-font-size:30px;
-line-height:1.1em;
-padding-top:0px;
-padding-bottom:30px;
-}
+  
 
 
 #container h2{
     
     
     padding-bottom:50px;
+   font-weight: bold; 
+    
+    
 }
 
 
@@ -157,23 +92,24 @@ padding-bottom:30px;
     
     float:center;
     
-    border-radius:8px;
-    box-shadow:10px;
+    border-radius:12px;
+    box-shadow:10px 10px 10px;
     
-    background-color:#00d5ff5d;
+    background-color:#aafff4;
     margin:20px 20px;
    
+    text-align:center;
     
-    border:2px #ff5e00 solid;
+    border:2px white solid;
     
 }
 
 #main h2{
     
     border-radius:3px;
-    
-    background-color:#00d5ff5d;
-    border:.5px red solid;
+    padding-right:5px;
+    background-color:#fff4d5;
+    border:.5px #1100ff solid;
     
     text-align:center;
     
@@ -285,7 +221,7 @@ font-family: sans-serif;
 font-weight:normal;
 font-size:25px;
 letter-spacing:4px;
-padding:200px 0 100px;
+padding:20px 0 10px;
 color: #555;
 text-align:center;
 
@@ -303,12 +239,12 @@ text-align:center;
   display :  flex;
   justify-content:center;
    
-    padding-bottom:200px;
+    padding-bottom:20px;
     
 }
 
 
- .social a{
+ .social   a{
     
     display:flex;
     background:#e3edf7;
@@ -347,7 +283,7 @@ a:hover{
     inset -4px -4px 6px -1px rgba(255,255,255,0.7),
     -0.5px -0.5px 0px rgba(255,255,255,1),
     0.5px 0.5px 0px rgba(0,0,0,0.15), 
-    0px 12px 10px -10px rgba(0,0,0,0.05) ;
+    0px 12px 10px -10px rgba(0,0,0,0.05);
     border:1px solid rgba(0,0,0,0.01);
     transform: translateY(2px);
     
@@ -387,3 +323,6 @@ a:hover .fa-envelope{
     color:#00d5ff;
     
 }
+
+
+
