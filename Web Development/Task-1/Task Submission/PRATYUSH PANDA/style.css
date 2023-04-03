@@ -1,0 +1,710 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans' , sans-serif;
+    box-sizing: border-box;
+}
+.page{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/backgrund.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.logo{
+    color: aliceblue;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: dodgerblue;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+nav ul li a{
+    display: inline-block;
+    color:aliceblue;
+    padding: 5px 5px;
+    margin-left: 10px;
+    text-decoration:none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: dodgerblue;
+    transition: .4s;
+}
+.btn{
+    background-color: dodgerblue;
+    color:aliceblue;
+    text-decoration:none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 6px 20px;
+    border-radius: 13px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    transform: translateY(-50%);
+}
+h1{
+    color:aliceblue;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h1:hover{
+    color: dodgerblue;
+    transition: .4s;
+}
+h3{
+    color: aliceblue;
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom:30px;
+}
+span{
+    color: dodgerblue;
+}
+h6{
+    color:dodgerblue;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 130px 10px 15px;
+    border: 2px solid dodgerblue;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 14px;
+    margin-left: 5px;
+    background-color:dodgerblue;
+    color:aliceblue;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 5px;
+    right: 6px;
+}
+.newslatter form input:last-child:hover{
+    transform: scale(1.02) ;
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/adelin-preda--tOr_T4qTpQ-unsplash.jpg);
+    background-size:auto;
+    background-position: center;
+}
+.about img{
+    height: auto;
+    width: 500px;
+    margin-bottom: 12%;
+}
+.about-text{
+    width: 550px;
+    margin-bottom: 5%;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.about-text h5{
+    color: white;
+    letter-spacing: 1.8px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: dodgerblue;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+button{
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid dodgerblue;
+    cursor: pointer;
+}
+.interest{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/bk3.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.title h2{
+    color: white;
+    font-size: 50px;
+    width: 800px;
+    margin: 30px auto;
+    text-align: center;
+    
+}
+.box{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 40px;
+}
+.card{
+    height: 200px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+h4{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.pra p{
+    color: dodgerblue;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 18px;
+    margin-bottom: 23px;
+}
+.card .button{
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 20px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid dodgerblue;
+    cursor: pointer;
+}
+.contact-me{
+    width: 100%;
+    height: 250px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-two{
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 20px;
+    transition: .4s;
+}
+.contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid dodgerblue;
+    cursor: pointer;
+}
+@media screen and (max-width: 850px){
+    .content h1{
+    margin: 15px 0px 15px;
+    font-size: 50px;
+    } 
+    nav li {
+        font-size: 13px;
+    }
+    .logo{
+        color: aliceblue;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+    .btn{
+        border: 1px solid transparent;
+        font-weight: bold;
+        font-size: 10px;
+        padding: 2px 10px;
+        border-radius: 7px;
+        transition: transform .4s;
+    }
+    .btn:hover{
+        transform: scale(1.1);
+    }
+    .about img{
+        height: auto;
+        width: 350px;
+        margin-bottom: 12%;
+    }
+    .about-text{
+        width: 300px;
+    }
+    .about-text h2{
+        color: white;
+        font-size: 50px;
+        margin-top: 30px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+    .about-text h5{
+        color: white;
+        letter-spacing: 1.8px;
+        font-size: 20px;
+        margin-bottom: 7px;
+        text-transform: capitalize;
+    }
+    .about-text p{
+        color: dodgerblue;
+        letter-spacing: .5px;
+        line-height: 19px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .title h2{
+        color: white;
+        font-size: 50px;
+        width: 700px;
+        margin: 20px auto;
+        text-align: middle;
+        
+    }
+}
+@media screen and (max-width: 670px){
+    
+    .content h1{
+        margin: 5px 0px 5px;
+        font-size: 25px;
+    }
+    
+    h1:hover{
+        color: dodgerblue;
+        transition: .4s;
+    }
+    h3{
+        color: aliceblue;
+        font-style: italic;
+        font-size: 14px;
+        margin-bottom:30px;
+    }
+    span{
+        color: dodgerblue;
+    }
+    h6{
+        color:dodgerblue;
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
+    .newslatter form{
+        width: 200px;
+        max-width: 100%;
+        position: relative;
+    }
+    .newslatter form input:first-child{
+        display: inline-block;
+        width: 100%;
+        font-size: 10px;
+        padding: 4px 8px 4px 6px;
+        border: 2px solid dodgerblue;
+        outline: none;
+        border-radius: 30px;
+    }
+    .newslatter form input:last-child{
+        position: absolute;
+        display: inline-block;
+        font-weight: bold;
+        font-size: 10px;
+        outline: none;
+        border: none;
+        padding: 2.7px 12px;
+        border-radius: 14px;
+        margin-left: 8px;
+        background-color:dodgerblue;
+        color:aliceblue;
+        box-shadow: 0px 0px 2px #000, 0px 0px 15px #858585;
+        top: 3px;
+        right: 3px;
+    }
+    .newslatter form input:last-child:hover{
+        transform: scale(1.02) ;
+    }
+    nav li {
+        font-size: 8px;
+        
+    }
+    .logo{
+        color: aliceblue;
+        font-size: 10px;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+    .btn{
+        border: 1px solid transparent;
+        font-weight: bold;
+        font-size: 7px;
+        padding: 2px 7px;
+        border-radius: 5px;
+        transition: transform .4s;
+    }
+    .btn:hover{
+        transform: scale(1.1);
+    }
+    .about img{
+        height: auto;
+        width: 250px;
+        margin-bottom: 10%;
+    }
+    .about-text{
+        width: 250px;
+    }
+    .about-text h2{
+        color: white;
+        font-size: 30px;
+        margin-top: 15px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+    .about-text h5{
+        color: white;
+        letter-spacing: 1.8px;
+        font-size: 15px;
+        margin-bottom: 7px;
+        text-transform: capitalize;
+    }
+    .about-text p{
+        color: dodgerblue;
+        letter-spacing: .5px;
+        line-height: 15px;
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+    button{
+        background-color: dodgerblue;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 6px 18px;
+        border-radius: 20px;
+        transition: .4s;
+    }
+    .title h2{
+        color: white;
+        font-size: 30px;
+        width: 500px;
+        
+        margin: 15px auto;
+        text-align: middle;
+        
+    }
+    .contact-me p{
+        color: aliceblue;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+    .card{
+        height: 280px;
+        width: 215px;
+        padding: 20px 35px;
+        background-color: #191919;
+        border-radius: 15px;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+        text-align: left;
+    }
+    h4{
+        color: white;
+        font-size: 15px;
+        margin-bottom: 10px;
+    
+    }
+    .pra p{
+        color: dodgerblue;
+        font-size: 14px;
+        font-style: italic;
+        line-height: 16px;
+        margin-bottom: 20px;
+    }
+    .card .button{
+        background-color: dodgerblue;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 4px 10px;
+        border-radius: 20px;
+        transition: .4s;
+    }
+    .contact-me p{
+        color: aliceblue;
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+    .contact-me .button-two{
+        background-color: dodgerblue;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 5px 25px;
+        border-radius: 20px;
+        transition: .4s;
+    }
+}
+@media screen and (max-width: 520px){
+    .content{
+
+        margin-top: 80px;
+        left:10%;
+    }
+    .content h1{
+        margin: 5px 0px 5px;
+        font-size: 25px;
+    }
+    
+    h1:hover{
+        color: dodgerblue;
+        transition: .4s;
+    }
+    h3{
+        color: aliceblue;
+        font-style: italic;
+        font-size: 15px;
+        margin-bottom:20px;
+    }
+    span{
+        color: dodgerblue;
+    }
+    h6{
+        color:dodgerblue;
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+    .newslatter form{
+        width: 200px;
+        max-width: 100%;
+        position: relative;
+    }
+    .newslatter form input:first-child{
+        display: inline-block;
+        width: 100%;
+        font-size: 10px;
+        padding: 4px 8px 4px 6px;
+        border: 2px solid dodgerblue;
+        outline: none;
+        border-radius: 30px;
+    }
+    .newslatter form input:last-child{
+        position: absolute;
+        display: inline-block;
+        font-weight: bold;
+        font-size: 10px;
+        outline: none;
+        border: none;
+        padding: 2.7px 12px;
+        border-radius: 14px;
+        margin-left: 8px;
+        background-color:dodgerblue;
+        color:aliceblue;
+        box-shadow: 0px 0px 2px #000, 0px 0px 15px #858585;
+        top: 3px;
+        right: 3px;
+    }
+    .newslatter form input:last-child:hover{
+        transform: scale(1.02) ;
+    }
+    nav li {
+        font-size: 13px;
+        display: block;
+        width: 90%;
+        margin: 5px;   
+    }
+    nav{
+        top: 0;
+    }
+    .logo{
+        display:none;
+    }
+    .btn{
+        border: 1px solid transparent;
+        font-size: 15px;
+        font-style: bold;
+        padding: 2px 20px;
+        border-radius: 25px;
+        transition: transform .4s;
+    }
+    .btn:hover{
+        transform: scale(1.1);
+    }
+    .about img{
+        height: auto;
+        width: 100px;
+        margin-bottom: 10%;
+    }
+    .about-text{
+        width: 180px;
+    }
+    .about-text h2{
+        color: white;
+        font-size: 20px;
+        margin-top: 15px;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+    }
+    .about-text h5{
+        color: white;
+        letter-spacing: 1.2px;
+        font-size: 12px;
+        margin-bottom: 7px;
+        text-transform: capitalize;
+    }
+    .about-text p{
+        color: dodgerblue;
+        letter-spacing: .5px;
+        line-height: 12px;
+        font-size: 10px;
+        margin-bottom: 25px;
+    }
+    button{
+        background-color: dodgerblue;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 2px 10px;
+        border-radius: 20px;
+        transition: .4s;
+    }
+    .title h2{
+        color: white;
+        font-size: 20px;
+        width: 200px;
+        margin-top: 10px;
+        text-align: middle;
+        
+    }
+    .contact-me p{
+        color: aliceblue;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+    .card{
+        height: 280px;
+        width: 215px;
+        padding: 20px 35px;
+        background-color: #191919;
+        border-radius: 15px;
+        margin: 10px;
+        position: relative;
+        overflow: hidden;
+        text-align: left;
+    }
+    h4{
+        color: white;
+        font-size: 15px;
+        margin-bottom: 10px;
+    
+    }
+    .pra p{
+        color: dodgerblue;
+        font-size: 14px;
+        font-style: italic;
+        line-height: 16px;
+        margin-bottom: 20px;
+    }
+    .card .button{
+        background-color: dodgerblue;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 4px 10px;
+        border-radius: 20px;
+        transition: .4s;
+    }
+    .contact-me p{
+        color: aliceblue;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 15px;
+        width:114px;
+    }
+    .contact-me .button-two{
+        background-color: dodgerblue;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 5px 25px;
+        border-radius: 20px;
+        transition: .4s;
+    }
+}
