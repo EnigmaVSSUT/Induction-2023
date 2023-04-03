@@ -1,5 +1,0 @@
-Name : Shankar Kumar Nanda
-Regd. No. : 2202041078
-Branch : Computer Science and Engineering
-Hobby : Playing cricket 
-Domain : Web Development

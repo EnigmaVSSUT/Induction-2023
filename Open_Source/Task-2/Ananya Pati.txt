@@ -1,5 +1,0 @@
-Name : Ananya Pati
-Regd No : 2202081058
-Branch : Information Technology
-hobby : Dancing,Swimming
-Domain : Web development,AI/ML
