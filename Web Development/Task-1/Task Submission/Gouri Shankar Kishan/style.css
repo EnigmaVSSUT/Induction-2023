@@ -1,0 +1,71 @@
+body{
+    border-top :100px solid #be5f5f;
+    border-right : 100px solid #be5f5f;
+    border-left: 100px solid #be5f5f;
+    border-bottom: 100px solid #be5f5f;
+    text-align: center;
+    padding: 15px;
+    background-color: #6c93e7;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.heading{
+    font-size:50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.me{
+    font-size: 30px;
+    text-align: center;
+}
+
+.myimg{
+    float: right;
+    height:300px;
+    width: 300px;
+}
+.about{
+    font-size: 20px;
+    text-align: center;
+    color: #df0e0e;
+}
+.fine{
+    font-size: 30px;
+    text-align: center;   
+}
+.myinterest{
+    font-size:20px;
+    text-align: center;
+    color: crimson;
+}
+.me3{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30;
+
+}
+.dance{
+    font-size: 30px;
+    text-align: center;  
+}
+.gallery{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+a{
+    font-size: 30px;
+    padding: 0px 50px;
+}
+.tag{
+    font-size: 20px;
+    color: black;
+    background-color: #4458c7;
+}
