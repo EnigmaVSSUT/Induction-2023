@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+}
+
+
+/* 1st page */
+.container{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,2,25,0.9920343137254902) 37%, rgba(11,12,34,1) 66%, rgba(25,26,47,1) 85%, rgba(46,47,65,1) 100%, rgba(210,210,210,1) 100%);
+}
+.img1-con img{
+    display: flex;
+    height: 100vh;
+    /* width: 40%; */
+    opacity: 0.4;
+    border-top-right-radius: 6%;
+    border-bottom-right-radius: 6%;
+    /* border: 2px solid yellow; */
+}
+.text-con{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 60%;
+    font-family: 'New Rocker','Jim Nightshade','Beau Rivage', cursive;
+    color: rgb(29, 63, 216);
+    font-size: 750%;
+    /* border: 2px solid yellow; */
+}
+/* 1st page end */
+
+/* 2nd page */
+.sec1-container{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../Images/MinervaMcGonagall_PM_B1C7M2_HarryPotterBeingSortedInGreatHall_Moment.jpg);
+    background-size: cover;
+    
+}
+.aboutme{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    display: flex;
+    font-size: 700%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(222, 230, 227);
+}
+.img2-con{
+    margin-bottom: 3%;
+    width: 15%;
+    
+}
+.details{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    color: rgb(230, 222, 222);
+    font-size: 35px;
+}
+/* 2nd page end */
+
+/* 3rd page */
+.sec2-container{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0.95;
+    background-image: url(../Images/cxeimwflyo881.png);
+    background-size: cover;
+}
+.gallery{
+    font-size: 700%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(222, 230, 227);
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+.img-2{
+    margin: 0.5%;
+    border-style: solid;
+    height: 56vh;
+}
+/* 3rd page end */
+
+/* 4th page */
+.sec3-container{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.87;
+    background-image: url(../Images/7af559cb05e3678bbf7ddde3f643df91.jpeg);
+    background-size: cover;
+}
+.contactme{
+    margin-top: 7%;
+    margin-bottom: 10%;
+    font-size: 700%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(222, 230, 227);
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+.link-img{
+    background-color: rgb(255, 255, 255);
+    margin: 3%;
+    height: 10vh;
+}
+.circle{
+    border-radius: 100%;
+}
+.square{
+    border-radius: 25%;
+}
+@media screen and (max-width: 1064px) {
+    .img1-con img{
+        display: flex;
+        height: 100vh;
+        /* width: 40%; */
+        opacity: 0.4;
+        border-top-right-radius: 6%;
+        border-bottom-right-radius: 6%;
+        /* border: 2px solid yellow; */
+    }
+    .text-con{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        font-family: 'New Rocker','Jim Nightshade','Beau Rivage', cursive;
+        color: rgb(29, 63, 216);
+        font-size: 480%;
+        /* border: 2px solid yellow; */
+    }
+    .sec1-container{
+        width: auto;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(../Images/MinervaMcGonagall_PM_B1C7M2_HarryPotterBeingSortedInGreatHall_Moment.jpg);
+        background-size: cover;
+    }
+    .aboutme{
+        margin-top: 5%;
+        margin-bottom: 2%;
+        font-size: 500%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgb(222, 230, 227);
+    }
+    .img2-con{
+        margin-bottom: 3%;
+        width: 15%;
+    }
+    .details{
+        display: flex;
+        justify-content: center;
+        width: 65%;
+        color: rgb(230, 222, 222);
+        font-size: 170%;
+    }
+    
+    
+}
+@media screen and (max-width: 768px) {
+    .img1-con img{
+        display: flex;
+        height: 100vh;
+        /* width: 40%; */
+        opacity: 0.4;
+        border-top-right-radius: 6%;
+        border-bottom-right-radius: 6%;
+        /* border: 2px solid yellow; */
+    }
+    .text-con{
+        display: flex;
+        flex-grow: 1;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-family: 'New Rocker','Jim Nightshade','Beau Rivage', cursive;
+        color: rgb(29, 63, 216);
+        font-size: 350%;
+        /* border: 2px solid yellow; */
+    }
+    .sec1-container{
+        width: auto;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(../Images/MinervaMcGonagall_PM_B1C7M2_HarryPotterBeingSortedInGreatHall_Moment.jpg);
+        background-size: cover;
+    }
+    .aboutme{
+        margin-top: 5%;
+        margin-bottom: 6%;
+        font-size: 350%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgb(222, 230, 227);
+    }
+    .img2-con{
+        margin-bottom: 6%;
+        width: 15%;
+    }
+    .details{
+        display: flex;
+        justify-content: center;
+        width: 65%;
+        color: rgb(230, 222, 222);
+        font-size: 150%;
+    }
+    .sec2-container{
+        width: auto;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        opacity: 0.95;
+        background-image: url(../Images/cxeimwflyo881.png);
+        background-size: cover;
+    }
+    .gallery{
+        font-size: 350%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgb(222, 230, 227);
+    }
+    .items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1vh;
+    }
+    .img-2{
+        margin: 0.5%;
+        border-style: solid;
+        height: 39vh;
+    }
+    .sec3-container{
+        width: auto;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0.87;
+        background-image: url(../Images/7af559cb05e3678bbf7ddde3f643df91.jpeg);
+        background-size: cover;
+    }
+    .contactme{
+        margin-top: 13%;
+        margin-bottom: 18%;
+        font-size: 350%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgb(222, 230, 227);
+    }
+    .links{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10vh;
+    }
+    .link-img{
+        background-color: rgb(255, 255, 255);
+        margin: 3%;
+        height: 10vh;
+    }
+    .circle{
+        border-radius: 100%;
+    }
+    .square{
+        border-radius: 25%;
+    }
+}
+@media screen and (max-width: 426px) {
+    .img1-con img{
+        display: flex;
+        height: 68vh;
+        /* width: 40%; */
+        opacity: 0.4;
+        border-top-right-radius: 6%;
+        border-bottom-right-radius: 6%;
+        /* border: 2px solid yellow; */
+    }
+    .text-con{
+        display: flex;
+        flex-grow: 1;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-family: 'New Rocker','Jim Nightshade','Beau Rivage', cursive;
+        color: rgb(29, 63, 216);
+        font-size: 250%;
+        /* border: 2px solid yellow; */
+    }
+    .sec1-container{
+        width: auto;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(../Images/MinervaMcGonagall_PM_B1C7M2_HarryPotterBeingSortedInGreatHall_Moment.jpg);
+        background-size: cover;
+    }
+    .aboutme{
+        margin-top: 8%;
+        margin-bottom: 8%;
+        font-size: 300%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgb(222, 230, 227);
+    }
+    .img2-con{
+        margin-bottom: 8%;
+        width: 25%;
+    }
+    .details{
+        display: flex;
+        justify-content: center;
+        width: 65%;
+        color: rgb(230, 222, 222);
+        font-size: 135%;
+    }
+    .sec2-container{
+        width: auto;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        opacity: 0.95;
+        background-image: url(../Images/cxeimwflyo881.png);
+        background-size: cover;
+    }
+    .gallery{
+        font-size: 250%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgb(222, 230, 227);
+    }
+    .items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1vh;
+    }
+    .img-2{
+        margin: 0.5%;
+        border-style: solid;
+        height: 33vh;
+    }
+}

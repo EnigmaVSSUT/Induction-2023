@@ -1,0 +1,33 @@
+body{
+    background-image: url("hobbiesblur.jpg");
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.interests1{
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+}
+.interests2{
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 600px) {
+    {width: 80%;
+        display: block;
+        margin: auto;}
+    #container5{
+        padding-top: 50px;
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;}
+    }
+    #container5 img{float: none;
+        width: 100%;
+        display: block;
+        margin: auto;}

@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*for background color*/
+body{
+    background: #080808;
+    color: #fff
+}
+
+
+
+/*for text link allignment*/
+.container{
+    padding: 10px 0% 10px 60%;
+    /* text-align: right; */
+}
+
+/* to get space b/w each text link and */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* for styling the link text */
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+/* to remove the unserline and color when u hover through link text */
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-size:14px;
+    position: relative;
+}
+
+/* for styling the text*/
+p.header-text{
+    text-align: center;
+    font-size: 80px;
+    color:cyan;
+    margin: auto;
+    padding: 17%;
+
+}
+
+/* to add hover effect */
+nav ul li a::after{
+    content:' ';
+    width: 0%;
+    height: 3px;
+    background-color:cyan;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.1%;
+}
+
+/* to get a underline wgen u hover through the link text*/
+nav ul li a:hover::after
+{
+    width: 100%;
+}
+
+/* ------------------------------------------- about section ----------------------------------------------*/
+#about{
+    padding: 60px;
+    text-align: end;
+}
+/* .about-container{
+    padding:
+} */
+.sub-title{
+    color: cyan;
+    font-size: 40px;
+
+}
+.description{
+    /* padding:10px 80% 10px 20%; */
+    font-size: 18px;
+    width: 60%;
+    /* margin: auto; */
+    text-align: left;
+    font-style: italic;
+    font-weight: 50;
+    
+}
+.tab-title{
+    display:block;
+    font-weight: bolder;
+    font-size: x-large;
+    color: darkcyan;
+    margin: 20px 0 20px;
+}
+.tab-links{
+    /* margin-right: /50px; */
+    font-size: 21px;
+    text-align: left;
+    /*font-weight: 500;*/
+    cursor: pointer;
+    /* position: relative; */
+
+}
+
+/* to add underline when we hover */
+.tab-links::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background: cyan;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links:hover::after{
+    width: 100%;
+}
+
+.strength{
+    font-style: italic;
+    margin-top: 5px;
+    font-size: 18px; 
+    font-weight: 50;
+    width: 60%;
+    text-align: left;
+    
+}
+
+
+/*--------------------------------------------My interest ---------------------------------------------- */
+#interest{
+    padding: 60px;
+    text-align: end;
+}
+
+.interest-sub-title{
+    font-size: 40px;
+    color:cyan;
+
+}
+.interest-description{
+    /* padding:10px 80% 10px 20%; */
+    font-size: 18px;
+    width: 60%;
+    /* margin: auto; */
+    text-align: left;
+    font-style: italic;
+    font-weight: 50;
+}
+
+
+/* ------------------------------------------ contact ---------------------------------------------------*/
+#contact{
+    padding: 60px;
+    text-align: end;
+}
+
+.contact-subtitle{
+    font-size: 40px;
+    color:cyan;
+
+}
+.contact-data{
+    /* padding:10px 80% 10px 20%; */
+    font-size: 18px;
+    width: 60%;
+    /* margin: auto; */
+    text-align: left;
+    font-style: italic;
+    font-weight: 50;
+
+}
+
+.links-data{
+    /* padding:10px 80% 10px 20%; */
+    font-size: 18px;
+    width: 60%;
+    /* margin: auto; */
+    text-align: left;
+    font-style: italic;
+    font-weight: 50;
+    padding-left: 40px;
+    justify-content: space-between;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding:20px 0 ;
+    color: cyan;
+    font-weight: 300;
+    margin-top: 60px;
+
+}

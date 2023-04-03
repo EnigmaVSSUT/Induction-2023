@@ -1,0 +1,98 @@
+body {
+    background-color: goldenrod;
+    margin: 15px;
+    padding: 10px;
+}
+.container, .gallery {
+    background-image: url("pexel.jpeg");
+    color: brown;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 300px;
+    /* max-width: 1000px; */
+}
+.contact {
+    background-color: bisque;
+    padding: 2px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+.container1,.container2 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.items {
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: 20px;
+    align-items: center;
+}
+
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    place-content: space-around;
+}
+
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* place-content: space-around; */
+}
+.item {
+    width: 200px;
+    height: 250px;
+    /* border: 5px solid violet; */
+    border-radius: 10px;
+    align-items:space-around;
+    padding: 10px;
+}
+#table1 ,#table4 {
+   flex-basis: 50%;
+   
+   flex-grow: 2;
+} 
+.align {
+    text-align: center;
+    color: rgb(181, 136, 80);
+    /* color: #9f13df; */
+    /* text-decoration: underline; */
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 40px;   
+}
+.header {
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 50px;
+}
+.foot {
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+.link {
+    margin: 5%;
+    font-size: 30px;    
+}
+
+
+
+.image {
+    border: 5px solid rgb(214, 187, 153);
+    border-radius: 5px;
+}
+
+.article {
+    font-size: 20px;
+}

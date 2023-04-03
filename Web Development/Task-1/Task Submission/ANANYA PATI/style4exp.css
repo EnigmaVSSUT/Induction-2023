@@ -1,0 +1,28 @@
+body{
+    background-image: url("gallerybg.jpg");
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery{
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+}
+.gallery2{
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+}
+.gallery3{
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 600px)
+{.gallery{flex-direction: column;}
+
+}

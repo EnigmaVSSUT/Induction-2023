@@ -1,0 +1,115 @@
+body{
+    background-image: url("mbmbg.jpg");
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+    
+    width: 80%;
+    padding: 78px 0px;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+    filter: opacity(100%);
+    border-radius: 2%;
+}
+#container3{display:flex;
+    align-items: center;
+}
+#container3 img{margin-right: 60px;
+}
+.about-text{
+    width: 600px;
+
+}
+
+.about-text h1{
+    color: rgb(255, 0, 0);
+    letter-spacing: 1px;
+    line-height: 28px;
+
+}
+.about-text p{
+    color: rgb(255, 254, 254);
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin-top: -4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.place{
+    width: 80%;
+    padding: 78px 0px;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+    filter: opacity(100%);
+    border-radius: 2%;
+}
+#container4{display:flex;
+    align-items: center;
+}
+#container4 img{margin-right: 60px;
+}
+.place-text{
+    width: 600px;
+
+}
+
+.place-text h1{
+    color: rgb(246, 3, 3);
+    letter-spacing: 1px;
+    line-height: 28px;
+
+}
+.place-text p{
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+.main2{
+    width: 1130px;
+    max-width: 95%;
+    margin-top: -4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+@media screen and (max-width: 1000px) {
+    {width: 80%;
+        display: block;
+        margin: auto;}
+    #container3{
+        padding-top: 50px;
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;}
+    #container3 img{float: none;
+        width: 100%;
+        display: block;
+        margin: auto;}
+
+}
+@media screen and (max-width: 1000px) {
+    {width: 80%;
+        display: block;
+        margin: auto;}
+    #container4{
+        padding-top: 50px;
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;}
+    #container4 img{float: none;
+        width: 100%;
+        display: block;
+        margin: auto;}
+
+}

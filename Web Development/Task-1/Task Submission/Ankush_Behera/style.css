@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(215,231,218);
+    font-family: serif;
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: #080808;
+    text-align: center;
+}
+
+.heading{
+    font: size 30px;
+    color: #080808;
+    font-family:cursive;
+}
+
+
+.ME{
+    float: right;
+}
+.about{
+    font-size: 30px;
+    color:#080808;
+    text-align: left;
+}
+.fine{
+    font-size: 30px;
+    color:#080808;
+    text-align: left;   
+}
+.interest{
+    font-size:30px;
+    color:#080808;
+    width: 100%;
+    text-align: left;
+}
+.me3{
+    float: left;
+    padding-left: 30px;
+    padding-right: 30;
+
+}
+.artworks{
+    font-size: 30px;
+    color: #080808;
+    text-align: left;  
+}
+.renders{
+    font-size: 30px;
+    color: #080808;
+    width: 100%;
+    text-align: left;
+}
+a{
+    font-size: 25px;
+    padding: 0px 50px;
+}

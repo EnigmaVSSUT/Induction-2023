@@ -1,0 +1,63 @@
+style{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body{
+    background-image: url(pawel-czerwinski-Qiy4hr18aGs-unsplash.jpg);
+    background-attachment: scroll;
+    text-align: center;
+    font-family : cursive, serif;
+}
+
+h1{
+    font-family: cursive;
+    font-size:50px;
+    text-align:center;
+}
+
+.IMG_20220122{
+    float: center;
+    border-radius : 300px;
+    width: 300px;
+    padding-right: 20px;
+}
+
+
+
+.about{
+    padding:30px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.interests{
+    padding:20px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.anime{
+    float:center;
+    padding-left:20px;
+    padding-right: 20px;;
+}
+
+.a{
+    font-size: 20px;
+    padding: 0px 50px;
+}
+.third para{
+    padding-top: 30px;
+    text-align: center;
+}
+.tag{
+    text-align: center; 
+    font-size: 10px;
+    color: rgb(232, 227, 179);
+    background-color: #060606;
+    height:100px;
+    width: 100%;
+
+}

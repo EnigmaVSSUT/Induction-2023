@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(67, 84, 145);
+    background: url("images/space.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Papyrus, sans-serif;
+    font-weight: 1000 ;
+    margin: 10;
+    padding: 10;
+}
+nav{
+    background-color: #101729;
+    box-shadow: 0 2px 5px rgb(244, 167, 167); /* Box shadow for header */
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    margin: 10;
+    font-size: 56px;
+    color: #067df5;
+}
+#about{
+    
+    margin-bottom: 30px;
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 40px;
+    align-items: center; 
+    flex-direction: column;
+    
+
+}
+ 
+ 
+.box p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box img {
+    width: 250px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    border-radius: 80px;
+    float: right;
+    background-color: rgb(214, 51, 51);
+}
+.box0 img {
+    border-radius: 100px;
+    padding: -9px;
+    margin-top: 50px;
+}
+.box0 .para1{
+    float:right;
+   
+}
+.para_about p {
+    margin-top: 100px;
+    font-size: 30px;
+    color: #748ca3;
+}
+.para_about1 p{
+    margin-top: -50px;
+    margin-right: 400px;
+    font-size: 25px;
+    color: #0f141b;
+}
+.box0 .para1 h1{
+    margin-top: 50px;
+    font-size: 50px;
+    
+}
+.box1 img{
+    width: 350px;
+    height: 300px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-right: -240px;
+    border-radius: 400px;
+    float: right;
+    background-color: rgb(241, 21, 21);
+    
+}
+.box1 .para2 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    margin-left: -150px;
+}
+.para_about2 p{
+    margin-top: -30px;
+    margin-left: -250px;
+    font-size: 20px;
+    color: #eb0909;
+}
+.para3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #b5c0cf;
+}
+.box2{
+    display: flex;
+justify-content: center;
+
+   
+
+}
+.box2 img{
+    border-radius: 50px;
+    padding: 15px;
+    margin-top: 50px;
+}
+.para3 h1{
+    padding-right: 20px;
+}
+.para_about3 p{
+    float: right;
+    padding: 15px;
+    margin-right: 100px;
+}
+.box2 .box{
+    
+
+align-items: center;
+    border: 2px solid #8e7272;
+    height: 200px;
+    width: 200px;
+}

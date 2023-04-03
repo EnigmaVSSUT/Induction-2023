@@ -1,0 +1,57 @@
+body{
+   text-align: center;
+   font-family: Arial, sans-serif;
+   background-color: oldlace;
+}
+
+.about{
+    width:100%;
+    text-align: center;
+}   
+.about img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img1{
+    width: 300px;
+    margin: 40px;
+}
+.img3{
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+    object-fit: cover;
+}
+.img4{
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+    object-fit: cover;
+}
+.profile{
+   width: 100%;
+}
+.about-text1{
+   width: 100%;
+}
+.about-text1{
+   text-align: center;
+   margin: auto;
+}
+@media only screen and(min-width:720px){
+   .profile{
+      width: 50%;
+      float: left;
+   }
+   .about-text1{
+      width: 50%;
+      float: left;
+   }
+}
+ 
