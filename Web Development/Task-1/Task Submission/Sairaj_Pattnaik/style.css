@@ -13,6 +13,8 @@
             height: 200px;
             object-fit: cover;
             margin-right: 20px;
+            max-width: 100%;
+            height: auto; 
         }
 
         p {
@@ -30,6 +32,16 @@
             width: 100%;
         }
 
+       h2 {
+           margin-top: 20px;
+        }
+
+       ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+        }
+
 
         .gallery {
             display: flex;
@@ -43,6 +55,8 @@
                 height: 150px;
                 margin: 40px;
                 object-fit: cover;
+                max-width: 100%;
+                height: auto;
             }
 
 
