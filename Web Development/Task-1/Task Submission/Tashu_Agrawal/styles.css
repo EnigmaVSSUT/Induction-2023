@@ -72,8 +72,8 @@ padding:5px 5px ;
         border : 15px solid rgb(135, 161, 137);
         }
         #mypic{
-            width: 80px;
-            height: 80px;
+            width: 150px;
+            height: 150px;
             margin: 0px;
         }
         #text1{
@@ -93,17 +93,24 @@ img{
 }
 .container img{
   
-    width:100px;
-    height:100px;
-    direction:row;
+    width:180px;
+    height:180px;
+    direction:column;
+    display:grid;
+    place-items:center;
 }
 a{
     margin-right: 20px;
 }
 .box{
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
 }
+.box1{
+    display: flex;
+    flex-direction:column;
+}
+
 
 .text{
     padding: 10px;
@@ -146,10 +153,10 @@ a{
     }
     .container img{
       
-        width:110px;
+        width:150px;
         height:100px;
-        direction:row;
-        align-items: center;
+        direction:column;
+        
     }
     a{
         margin-right: 5px;
