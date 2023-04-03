@@ -1,0 +1,1525 @@
+body #head {
+    text-align: center;
+    text-shadow: 1.5px 2px green;
+    color: beige;
+    position: relative;
+    bottom: 70px;
+    text-decoration: dotted;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    /* border: 0px; */
+    /* background-color: grey; */
+    /* background: rgb(53, 126, 47);
+        background: linear-gradient(90deg, rgba(53, 126, 47, 1) 0%, rgba(53, 91, 28, 1) 0%, rgba(86, 165, 53, 1) 40%, rgba(67, 111, 0, 1) 100%); */
+    /* background: rgb(131, 58, 180); */
+    min-height: 100vh;
+    background-color: rgb(21, 102, 41);
+    width: 85%;
+    background-image: url(9b116236cb788aaf7f82144b0c6109ff\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body .about {
+    text-decoration: underline;
+    position: relative;
+    display: block;
+    left: 80px;
+    color: beige;
+    top: 30px;
+    text-shadow: 1.5px 2px green;
+    font-size: 40px;
+}
+
+body .abouts {
+    position: relative;
+    left: 30px;
+    top: 30px;
+    color: black;
+    text-shadow: 0.5px 0.5px rgb(90, 90, 240);
+    /* display: block; */
+    text-overflow: clip;
+    width: 50%;
+    font-size: 25px;
+}
+
+body .outer {
+    position: relative;
+    top: 70px;
+    left: 90px;
+    display: block;
+    max-width: 100%;
+    height: 1500px;
+    /* background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(153, 53, 153, 1) 0%, rgba(255, 76, 76, 1) 30%, rgba(252, 176, 69, 1) 100%); */
+}
+
+body .outer {
+    box-shadow: 3px 3px 3px 3px black;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+}
+
+body .outer .me {
+    position: relative;
+    display: block;
+    width: 360px;
+    height: 380px;
+    left: 730px;
+    bottom: 400px;
+    border-radius: 70%;
+    border: 2px solid rgb(113, 113, 197);
+}
+
+body .interest {
+    position: relative;
+    text-decoration: underline;
+    display: block;
+    /* left: 40px; */
+    color: beige;
+    /* top: 8px; */
+    text-shadow: 1.5px 2px green;
+    text-align: center;
+    bottom: 360px;
+    font-size: 40px;
+}
+
+body .outer #lapy {
+    position: relative;
+    bottom: 340px;
+    left: 10px;
+    box-shadow: 1px 5px 10px rgb(21, 102, 41);
+    width: 30%;
+    border: 2px solid rgb(113, 113, 197);
+    height: 300px;
+}
+
+body .interests {
+    position: relative;
+    left: 450px;
+    bottom: 680px;
+    color: black;
+    text-shadow: 0.5px 0.5px rgb(90, 90, 240);
+    display: block;
+    text-overflow: clip;
+    width: 60%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body .gallery {
+    text-align: center;
+    text-shadow: 1.5px 2px green;
+    color: beige;
+    position: relative;
+    bottom: 680px;
+    text-decoration: underline;
+    left: 490px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+body #pops {
+    position: relative;
+    box-shadow: 1px 5px 10px rgb(113, 113, 197);
+    left: 130px;
+    width: 200%;
+    border: 2px solid rgb(113, 113, 197)white;
+}
+
+body #sss {
+    position: relative;
+    left: 670px;
+    border: 2px solid rgb(113, 113, 197);
+    box-shadow: 1px 5px 10px rgb(113, 113, 197);
+    width: 21%;
+}
+
+body #firstlove {
+    width: 220%;
+    position: relative;
+    left: 340px;
+    top: 40px;
+    border: 2px solid rgb(113, 113, 197);
+    box-shadow: 1px 5px 10px rgb(113, 113, 197);
+}
+
+body .flex {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 620px;
+    right: 50px;
+}
+
+body .contact {
+    text-align: center;
+    text-shadow: 1.5px 2px green;
+    color: beige;
+    position: relative;
+    bottom: 250px;
+    left: 340px;
+    text-decoration: underline;
+    font-size: 40px;
+    font-size: 40px;
+}
+
+body .link_flex #insta {
+    width: 100px;
+    position: relative;
+    left: 70px;
+}
+
+body .link_flex #twit {
+    position: relative;
+    width: 170px;
+    left: 190px;
+    bottom: 25px;
+}
+
+body .link_flex #mail {
+    position: relative;
+    left: 270px;
+    top: 10px;
+    width: 170px;
+}
+
+body .link_flex #fb {
+    width: 150px;
+    position: relative;
+    left: 370px;
+    bottom: 20px;
+}
+
+body .link_flex {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 490px;
+    left: 70px;
+}
+
+#insta:hover {
+    transform: scale(1.3);
+}
+
+#fb:hover {
+    transform: scale(1.3);
+}
+
+#mail:hover {
+    transform: scale(1.3);
+}
+
+#twit:hover {
+    transform: scale(1.3);
+}
+
+.flex .img:hover {
+    position: relative;
+    top: -8px;
+}
+
+.copyright {
+    text-align: center;
+    position: absolute;
+    left: 37%;
+    top: 102.5%;
+    /* left: 35%; */
+    font-size: 20px;
+    color: bisque;
+    text-shadow: 2px 2px rgb(1, 95, 1);
+}
+
+@media screen and (max-width: 1370px) and (min-width:1220px) {
+    body .outer .about {
+        font-size: 30px;
+        position: relative;
+        top: -20px;
+    }
+    body .abouts {
+        width: 53%;
+        font-size: 21px;
+        position: relative;
+        top: -26px;
+    }
+    body .outer div img.me {
+        width: auto;
+        height: 320px;
+        position: relative;
+        left: 749px;
+        bottom: 329px;
+    }
+    body .outer #lapy {
+        position: relative;
+        bottom: 273px;
+        width: 250px;
+        height: 300px;
+    }
+    body .interest {
+        position: relative;
+        top: -319px;
+        font-size: 30px;
+    }
+    body .interests {
+        width: 50%;
+        font-size: 20px;
+        position: relative;
+        left: 340px;
+        top: -618px;
+        text-align: right;
+    }
+    body .gallery {
+        font-size: 30px;
+        position: relative;
+        left: 469px;
+        top: -527px;
+    }
+    body .flex {
+        position: relative;
+        top: -483px;
+        left: -25px;
+    }
+    body #pops {
+        position: relative;
+        box-shadow: 1px 5px 10px rgb(113, 113, 197);
+        left: 116px;
+        width: 200%;
+        border: 2px solid rgb(113, 113, 197)white;
+    }
+    body #firstlove {
+        position: relative;
+        left: 274px;
+    }
+    body #sss {
+        position: relative;
+        left: 535px;
+    }
+    body .contact {
+        font-size: 30px;
+        position: relative;
+        left: 357px;
+        top: -176px;
+    }
+    body .link_flex #insta {
+        width: 80px;
+        position: relative;
+    }
+    body .link_flex #twit {
+        width: 110px;
+        position: relative;
+        top: -17px;
+        left: 155px;
+    }
+    body .link_flex #mail {
+        width: 100px;
+        position: relative;
+        left: 245px;
+    }
+    body .link_flex #fb {
+        width: 110px;
+        position: relative;
+        left: 312px;
+    }
+    body .link_flex {
+        position: absolute;
+        left: 84px;
+        top: 1185px;
+    }
+    body .outer {
+        height: 1300px;
+    }
+    body .copyright {
+        position: absolute;
+        left: 281px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width:1170px) {
+    body .outer .about {
+        font-size: 30px;
+        position: relative;
+        top: -20px;
+    }
+    body .abouts {
+        width: 53%;
+        font-size: 21px;
+        position: relative;
+        top: -26px;
+    }
+    body .outer div img.me {
+        width: auto;
+        height: 320px;
+        position: relative;
+        left: 615px;
+        bottom: 358px;
+    }
+    body .outer #lapy {
+        position: relative;
+        bottom: 273px;
+        width: 250px;
+        height: 300px;
+    }
+    body .interest {
+        position: relative;
+        top: -319px;
+        font-size: 30px;
+    }
+    body .interests {
+        width: 50%;
+        font-size: 20px;
+        position: relative;
+        left: 340px;
+        top: -618px;
+        text-align: right;
+    }
+    body .gallery {
+        font-size: 30px;
+        position: relative;
+        left: 420px;
+        top: -565px;
+    }
+    body .flex {
+        position: relative;
+        top: -514px;
+        left: -25px;
+    }
+    body #firstlove {
+        position: relative;
+        left: 274px;
+    }
+    body #sss {
+        position: relative;
+        left: 493px;
+    }
+    body .contact {
+        font-size: 30px;
+        position: relative;
+        left: 296px;
+        top: -237px;
+    }
+    body .link_flex #insta {
+        width: 80px;
+        position: relative;
+    }
+    body .link_flex #twit {
+        width: 110px;
+        position: relative;
+        top: -17px;
+        left: 155px;
+    }
+    body .link_flex #mail {
+        width: 100px;
+        position: relative;
+        left: 245px;
+    }
+    body .link_flex #fb {
+        width: 110px;
+        position: relative;
+        left: 312px;
+    }
+    body .link_flex {
+        position: absolute;
+        left: 84px;
+        top: 1185px;
+    }
+    body .outer {
+        height: 1300px;
+    }
+    body .copyright {
+        position: absolute;
+        left: 281px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    body .outer .about {
+        font-size: 30px;
+        position: relative;
+        top: -20px;
+    }
+    body .abouts {
+        width: 53%;
+        font-size: 21px;
+        position: relative;
+        top: -26px;
+    }
+    body .outer div img.me {
+        width: auto;
+        height: 320px;
+        position: relative;
+        left: 615px;
+        bottom: 358px;
+    }
+    body .outer #lapy {
+        position: relative;
+        bottom: 273px;
+        width: 250px;
+        height: 300px;
+    }
+    body .interest {
+        position: relative;
+        top: -319px;
+        font-size: 30px;
+    }
+    body .interests {
+        width: 50%;
+        font-size: 20px;
+        position: relative;
+        left: 340px;
+        top: -618px;
+        text-align: right;
+    }
+    body .gallery {
+        font-size: 30px;
+        position: relative;
+        left: 420px;
+        top: -565px;
+    }
+    body .flex {
+        position: relative;
+        top: -514px;
+        left: -25px;
+    }
+    body #firstlove {
+        position: relative;
+        left: 274px;
+    }
+    body #sss {
+        position: relative;
+        left: 493px;
+    }
+    body .contact {
+        font-size: 30px;
+        position: relative;
+        left: 296px;
+        top: -237px;
+    }
+    body .link_flex #insta {
+        width: 80px;
+        position: relative;
+    }
+    body .link_flex #twit {
+        width: 110px;
+        position: relative;
+        top: -17px;
+        left: 155px;
+    }
+    body .link_flex #mail {
+        width: 100px;
+        position: relative;
+        left: 245px;
+    }
+    body .link_flex #fb {
+        width: 110px;
+        position: relative;
+        left: 312px;
+    }
+    body .link_flex {
+        position: absolute;
+        left: 84px;
+        top: 1185px;
+    }
+    body .outer {
+        height: 1300px;
+    }
+    body .copyright {
+        position: absolute;
+        left: 281px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    body .outer .about {
+        font-size: 30px;
+        position: relative;
+        top: -20px;
+    }
+    body .abouts {
+        width: 53%;
+        font-size: 21px;
+        position: relative;
+        top: -26px;
+    }
+    body .outer div img.me {
+        width: auto;
+        height: 300px;
+        position: relative;
+        left: 542px;
+        bottom: 358px;
+    }
+    body .outer #lapy {
+        position: relative;
+        bottom: 273px;
+        width: 250px;
+        height: 300px;
+    }
+    body .interest {
+        position: relative;
+        top: -319px;
+        font-size: 30px;
+    }
+    body .interests {
+        width: 50%;
+        font-size: 20px;
+        position: relative;
+        left: 340px;
+        top: -618px;
+        text-align: right;
+    }
+    body .gallery {
+        font-size: 30px;
+        position: relative;
+        left: 377px;
+        top: -615px;
+    }
+    body .flex {
+        position: relative;
+        top: -583px;
+        left: -49px;
+    }
+    body #firstlove {
+        position: relative;
+        left: 274px;
+    }
+    body #sss {
+        position: relative;
+        left: 493px;
+    }
+    body .contact {
+        font-size: 30px;
+        position: relative;
+        left: 257px;
+        top: -330px;
+    }
+    body .link_flex #insta {
+        width: 80px;
+        position: relative;
+    }
+    body .link_flex #twit {
+        width: 110px;
+        position: relative;
+        top: -17px;
+        left: 155px;
+    }
+    body .link_flex #mail {
+        width: 100px;
+        position: relative;
+        left: 245px;
+    }
+    body .link_flex #fb {
+        width: 110px;
+        position: relative;
+        left: 312px;
+    }
+    body .link_flex {
+        position: absolute;
+        left: 62px;
+        top: 1165px;
+    }
+    body .outer {
+        height: 1300px;
+    }
+    body .copyright {
+        position: absolute;
+        left: 281px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    body .outer div img.me {
+        width: auto;
+        height: 300px;
+        position: relative;
+        left: 476px;
+        bottom: 387px;
+    }
+    body .gallery {
+        font-size: 30px;
+        position: relative;
+        left: 346px;
+        top: -615px;
+    }
+    body .flex {
+        position: relative;
+        top: -594px;
+        left: -77px;
+    }
+    body .contact {
+        font-size: 30px;
+        position: relative;
+        left: 237px;
+        top: -366px;
+    }
+    body .link_flex {
+        position: absolute;
+        left: 1px;
+        top: 1195px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    body .outer .about {
+        font-size: 30px;
+        position: relative;
+        top: -20px;
+    }
+    body .abouts {
+        width: 45%;
+        font-size: 18px;
+        position: relative;
+        top: -26px;
+    }
+    body .outer div img.me {
+        width: auto;
+        height: 300px;
+        position: relative;
+        left: 451px;
+        bottom: 355px;
+    }
+    body .outer #lapy {
+        position: relative;
+        bottom: 273px;
+    }
+    body .interest {
+        position: relative;
+        top: -319px;
+        font-size: 30px;
+    }
+    body .interests {
+        width: 50%;
+        font-size: 20px;
+        position: relative;
+        left: 340px;
+        top: -618px;
+        text-align: right;
+    }
+    body .gallery {
+        font-size: 30px;
+        position: relative;
+        left: 344px;
+        top: -615px;
+    }
+    body .flex {
+        position: relative;
+        top: -583px;
+        left: -85px;
+    }
+    body #firstlove {
+        position: relative;
+        left: 274px;
+    }
+    body #sss {
+        position: relative;
+        left: 493px;
+    }
+    body .contact {
+        font-size: 30px;
+        position: relative;
+        left: 216px;
+        top: -345px;
+    }
+    body .link_flex #insta {
+        width: 80px;
+        position: relative;
+    }
+    body .link_flex #twit {
+        width: 110px;
+        position: relative;
+        top: -17px;
+        left: 155px;
+    }
+    body .link_flex #mail {
+        width: 100px;
+        position: relative;
+        left: 245px;
+    }
+    body .link_flex #fb {
+        width: 110px;
+        position: relative;
+        left: 312px;
+    }
+    body .link_flex {
+        position: relative;
+        left: -12px;
+        top: -482px;
+    }
+    body .outer {
+        height: 1300px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    body .outer .about {
+        font-size: 24px;
+        position: relative;
+        top: -20px;
+    }
+    body .abouts {
+        width: 40%;
+        font-size: 15px;
+        position: relative;
+        top: -26px;
+    }
+    body .outer div img.me {
+        width: 170px;
+        height: 200px;
+        position: relative;
+        left: 387px;
+        bottom: 313px;
+    }
+    body .interest {
+        position: relative;
+        top: -222px;
+        font-size: 24px;
+    }
+    body .outer #lapy {
+        position: relative;
+        bottom: 191px;
+        height: 250px;
+    }
+    body .interests {
+        width: 50%;
+        font-size: 15px;
+        position: relative;
+        left: 273px;
+        top: -467px;
+        text-align: center;
+    }
+    body .gallery {
+        font-size: 24px;
+        position: relative;
+        left: 305px;
+        top: -416px;
+    }
+    body .flex {
+        position: relative;
+        top: -397px;
+        left: -116px;
+    }
+    body .contact {
+        font-size: 24px;
+        position: relative;
+        left: 210px;
+        top: -169px;
+    }
+    body .link_flex {
+        position: relative;
+        left: -61px;
+        top: -289px;
+    }
+    body #sss {
+        position: relative;
+        left: 464px;
+    }
+    body #pops {
+        position: relative;
+        left: 153px;
+    }
+    body .link_flex #insta {
+        width: 70px;
+        position: relative;
+        left: 135px
+    }
+    body .link_flex #twit {
+        width: 90px;
+        position: relative;
+        top: -11px;
+        left: 192px;
+    }
+    body .link_flex #mail {
+        width: 80px;
+        position: relative;
+        left: 257px;
+    }
+    body .link_flex #fb {
+        width: 90px;
+        position: relative;
+        left: 317px;
+    }
+    body .outer {
+        height: 1100px;
+    }
+    body .copyright {
+        position: relative;
+        /* top: 3px; */
+        top: -254px;
+        left: 192px;
+    }
+    html {
+        height: 80%;
+    }
+    body {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width:740) {
+    body .gallery {
+        font-size: 24px;
+        position: relative;
+        left: 270px;
+        top: -416px;
+    }
+    body .flex {
+        position: relative;
+        top: -397px;
+        left: -123px;
+    }
+    body #firstlove {
+        position: relative;
+        left: 229px;
+        width: 200px;
+    }
+    body #pops {
+        position: relative;
+        position: relative;
+        left: 183px;
+        width: 100px;
+    }
+    body #sss {
+        position: relative;
+        left: 271px;
+        width: 100px;
+    }
+    body .contact {
+        left: 173px;
+        top: -179px;
+    }
+    body .link_flex {
+        position: relative;
+        left: -77px;
+        top: -304px;
+    }
+    body .link_flex #insta {
+        width: 50px;
+        position: relative;
+        left: 157px;
+    }
+    body .link_flex #twit {
+        width: 70px;
+        position: relative;
+        top: -10px;
+        left: 213px;
+    }
+    body .link_flex #mail {
+        width: 66px;
+        position: relative;
+        left: 280px;
+        top: 5px;
+    }
+    body .link_flex #fb {
+        width: 65px;
+        position: relative;
+        left: 342px;
+        top: -10px;
+    }
+}
+
+@media screen and (max-width: 715px) and (min-width: 680px) {
+    body .outer .about {
+        font-size: 20px;
+        position: relative;
+        top: -20px;
+    }
+    body .abouts {
+        width: 43%;
+        font-size: 15px;
+        position: relative;
+        top: -26px;
+    }
+    body .outer div img.me {
+        width: 170px;
+        height: 200px;
+        position: relative;
+        left: 345px;
+        bottom: 285px;
+    }
+    body .interest {
+        position: relative;
+        top: -222px;
+        font-size: 20px;
+    }
+    body .outer #lapy {
+        position: relative;
+        bottom: 191px;
+        height: 200px;
+        left: 23px;
+        width: 160px;
+    }
+    body .interests {
+        width: 50%;
+        font-size: 15px;
+        position: relative;
+        left: 219px;
+        top: -430px;
+        text-align: center;
+    }
+    body .gallery {
+        font-size: 20px;
+        position: relative;
+        left: 261px;
+        top: -419px;
+    }
+    body .flex {
+        position: relative;
+        top: -402px;
+        left: -124px;
+    }
+    body .contact {
+        font-size: 20px;
+        position: relative;
+        left: 175px;
+        top: -206px;
+    }
+    body .link_flex {
+        position: relative;
+        left: -92px;
+        top: -314px;
+    }
+    body #sss {
+        position: relative;
+        left: 408px;
+    }
+    body #pops {
+        position: relative;
+        left: 176px;
+    }
+    body .link_flex #insta {
+        width: 60px;
+        position: relative;
+        left: 166px;
+    }
+    body .link_flex #twit {
+        width: 80px;
+        position: relative;
+        top: -11px;
+        left: 217px;
+    }
+    body .link_flex #mail {
+        width: 70px;
+        position: relative;
+        left: 266px;
+    }
+    body .link_flex #fb {
+        width: 80px;
+        position: relative;
+        left: 320px;
+        top: -10px;
+    }
+    body .outer {
+        height: 1000px;
+    }
+    body .copyright {
+        position: relative;
+        top: -294px;
+        left: 125px;
+    }
+    body {
+        height: 85%;
+    }
+}
+
+@media screen and (max-width:680px) and (min-width: 600px) {
+    body .outer div img.me {
+        width: 170px;
+        height: 200px;
+        position: relative;
+        left: 297px;
+        bottom: 313px;
+    }
+    body .outer #lapy {
+        position: relative;
+        bottom: 191px;
+        height: 230px;
+        width: 170px;
+    }
+    body .interests {
+        width: 50%;
+        font-size: 15px;
+        position: relative;
+        left: 228px;
+        top: -458px;
+        text-align: center;
+    }
+    body .gallery {
+        font-size: 24px;
+        position: relative;
+        left: 238px;
+        top: -447px;
+    }
+    body .flex {
+        position: relative;
+        top: -411px;
+        left: -151px;
+    }
+    body #pops {
+        position: relative;
+        left: 188px;
+    }
+    body #sss {
+        position: relative;
+        left: 426px;
+    }
+    body .contact {
+        font-size: 24px;
+        position: relative;
+        left: 148px;
+        top: -247px;
+    }
+    body .link_flex {
+        position: relative;
+        left: -126px;
+        top: -359px;
+    }
+    body .copyright {
+        position: relative;
+        /* top: 3px; */
+        top: -315px;
+        left: 139px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 550px) {
+    body .abouts {
+        width: 50%;
+        font-size: 14px;
+        position: relative;
+        top: -26px;
+    }
+    body .outer div img.me {
+        width: 150px;
+        height: 170px;
+        position: relative;
+        left: 286px;
+        bottom: 264px;
+    }
+    body .outer #lapy {
+        position: relative;
+        bottom: 162px;
+        height: 220px;
+        width: 150px;
+    }
+    body .interests {
+        width: 50%;
+        font-size: 14px;
+        position: relative;
+        left: 204px;
+        top: -421px;
+        text-align: center;
+    }
+    body .interest {
+        position: relative;
+        top: -198px;
+        font-size: 24px;
+    }
+    body .gallery {
+        font-size: 24px;
+        position: relative;
+        left: 208px;
+        top: -405px;
+    }
+    body .flex {
+        position: relative;
+        top: -385px;
+        left: -148px;
+    }
+    body #pops {
+        position: relative;
+        left: 198px;
+        top: 13px;
+    }
+    body #sss {
+        position: relative;
+        left: 402px;
+        top: 6px;
+    }
+    body .contact {
+        font-size: 24px;
+        position: relative;
+        left: 113px;
+        top: -199px;
+    }
+    body .link_flex #insta {
+        width: 50px;
+        position: relative;
+        left: 135px;
+    }
+    body .link_flex {
+        position: relative;
+        left: -131px;
+        top: -283px;
+    }
+    body .link_flex #mail {
+        width: 80px;
+        position: relative;
+        left: 239px;
+    }
+    body .link_flex #fb {
+        width: 90px;
+        position: relative;
+        left: 266px;
+    }
+    body .link_flex #insta {
+        width: 50px;
+        position: relative;
+        left: 165px;
+        top: 8px;
+    }
+    body .link_flex #twit {
+        width: 90px;
+        position: relative;
+        top: -11px;
+        left: 206px;
+    }
+    body .outer {
+        height: 1030px;
+    }
+    body .copyright {
+        position: relative;
+        /* top: 3px; */
+        top: -254px;
+        left: 120px;
+    }
+}
+
+@media screen and (max-width: 550px) and (min-width: 480px) {
+    body .abouts {
+        width: 47%;
+        font-size: 12px;
+        position: relative;
+        top: -26px;
+    }
+    body .outer div img.me {
+        width: 130px;
+        height: 150px;
+        position: relative;
+        left: 246px;
+        bottom: 261px;
+    }
+    body .outer #lapy {
+        position: relative;
+        bottom: 162px;
+        height: 190px;
+        width: 140px;
+    }
+    body .interests {
+        width: 46%;
+        font-size: 13px;
+        position: relative;
+        left: 197px;
+        top: -384px;
+        text-align: center;
+    }
+    body .interest {
+        position: relative;
+        top: -182px;
+        font-size: 24px;
+    }
+    body .gallery {
+        font-size: 24px;
+        position: relative;
+        left: 170px;
+        top: -385px;
+    }
+    body .flex {
+        position: relative;
+        top: -385px;
+        left: -174px;
+    }
+    body #pops {
+        position: relative;
+        left: 209px;
+        top: 17px;
+    }
+    body #sss {
+        position: relative;
+        left: 385px;
+        top: 7px;
+    }
+    body .contact {
+        font-size: 24px;
+        position: relative;
+        left: 75px;
+        top: -217px;
+    }
+    body .link_flex #insta {
+        width: 50px;
+        position: relative;
+        left: 135px;
+    }
+    body .link_flex {
+        position: relative;
+        left: -160px;
+        top: -287px;
+    }
+    body .link_flex #mail {
+        width: 80px;
+        position: relative;
+        left: 239px;
+    }
+    body .link_flex #fb {
+        width: 80px;
+        position: relative;
+        left: 255px;
+        top: -9px;
+    }
+    body .link_flex #insta {
+        width: 50px;
+        position: relative;
+        left: 192px;
+        top: 8px;
+    }
+    body .link_flex #twit {
+        width: 90px;
+        position: relative;
+        top: -11px;
+        left: 221px;
+    }
+    body .outer {
+        height: 1030px;
+    }
+    body .copyright {
+        position: relative;
+        /* top: 3px; */
+        top: -227px;
+        left: 71px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body .outer .about {
+        font-size: 20px;
+        position: relative;
+        top: -28px;
+        left: 33px;
+    }
+    body .abouts {
+        width: 46%;
+        font-size: 12px;
+        position: relative;
+        top: -27px;
+    }
+    body .outer div img.me {
+        width: 115px;
+        height: 135px;
+        position: relative;
+        left: 211px;
+        bottom: 297px;
+    }
+    body .outer #lapy {
+        position: relative;
+        bottom: 162px;
+        height: 174px;
+        width: 129px;
+    }
+    body .interests {
+        width: 47%;
+        font-size: 12px;
+        position: relative;
+        left: 170px;
+        top: -364px;
+        text-align: center;
+    }
+    body .interest {
+        position: relative;
+        top: -182px;
+        font-size: 24px;
+    }
+    body .gallery {
+        font-size: 20px;
+        position: relative;
+        left: 147px;
+        top: -363px;
+    }
+    body .flex {
+        position: relative;
+        top: -365px;
+        left: -194px;
+    }
+    body #firstlove {
+        position: relative;
+        left: 280px;
+    }
+    body #pops {
+        position: relative;
+        left: 209px;
+        top: 17px;
+    }
+    body #sss {
+        position: relative;
+        left: 385px;
+        top: 7px;
+    }
+    body .contact {
+        font-size: 20px;
+        position: relative;
+        left: 59px;
+        top: -217px;
+    }
+    body .link_flex #insta {
+        width: 50px;
+        position: relative;
+        left: 135px;
+    }
+    body .link_flex {
+        position: relative;
+        left: -183px;
+        top: -280px;
+    }
+    body .link_flex #mail {
+        width: 70px;
+        position: relative;
+        left: 240px;
+        top: 4px;
+    }
+    body .link_flex #fb {
+        width: 75px;
+        position: relative;
+        left: 245px;
+        top: -11px;
+    }
+    body .link_flex #insta {
+        width: 50px;
+        position: relative;
+        left: 217px;
+        top: -1px;
+    }
+    body .link_flex #twit {
+        width: 70px;
+        position: relative;
+        top: -10px;
+        left: 233px;
+    }
+    body .outer {
+        height: 1030px;
+    }
+    body .copyright {
+        position: relative;
+        /* top: 3px; */
+        top: -220px;
+        left: 40px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    body .outer .about {
+        font-size: 18px;
+        position: relative;
+        top: -39px;
+        left: 40px;
+    }
+    body .abouts {
+        width: 44%;
+        font-size: 11px;
+        position: relative;
+        top: -42px;
+    }
+    body .outer div img.me {
+        width: 100px;
+        height: 115px;
+        position: relative;
+        left: 160px;
+        bottom: 303px;
+    }
+    body .outer #lapy {
+        position: relative;
+        bottom: 152px;
+        height: 152px;
+        width: 114px;
+    }
+    body .interests {
+        width: 45%;
+        font-size: 11px;
+        position: relative;
+        left: 138px;
+        top: -324px;
+        text-align: center;
+    }
+    body .interest {
+        position: relative;
+        top: -165px;
+        font-size: 18px;
+    }
+    body .gallery {
+        font-size: 18px;
+        position: relative;
+        left: 114px;
+        top: -328px;
+    }
+    body .flex {
+        position: relative;
+        top: -338px;
+        left: -214px;
+    }
+    body #firstlove {
+        position: relative;
+        left: 280px;
+        width: 81px;
+    }
+    /*327 k flex se continue karna h*/
+    body #pops {
+        position: relative;
+        left: 209px;
+        top: 17px;
+    }
+    body #sss {
+        position: relative;
+        left: 385px;
+        top: 7px;
+    }
+    body .contact {
+        font-size: 20px;
+        position: relative;
+        left: 59px;
+        top: -217px;
+    }
+    body .link_flex #insta {
+        width: 50px;
+        position: relative;
+        left: 135px;
+    }
+    body .link_flex {
+        position: relative;
+        left: -183px;
+        top: -280px;
+    }
+    body .link_flex #mail {
+        width: 70px;
+        position: relative;
+        left: 240px;
+        top: 4px;
+    }
+    body .link_flex #fb {
+        width: 75px;
+        position: relative;
+        left: 245px;
+        top: -11px;
+    }
+    body .link_flex #insta {
+        width: 50px;
+        position: relative;
+        left: 217px;
+        top: -1px;
+    }
+    body .link_flex #twit {
+        width: 70px;
+        position: relative;
+        top: -10px;
+        left: 233px;
+    }
+    body .outer {
+        height: 1030px;
+    }
+    body .copyright {
+        position: relative;
+        /* top: 3px; */
+        top: -220px;
+        left: 40px;
+    }
+}
