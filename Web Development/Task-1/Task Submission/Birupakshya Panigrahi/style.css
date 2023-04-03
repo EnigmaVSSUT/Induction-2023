@@ -7,9 +7,10 @@
 
 header{
     background-color: black;
-    padding: 13px;
+    padding: 13px 0px;
     height:52rem;
     clip-path: polygon(0 0,100% 0, 100% 100%, 85% 90%,0 100%);
+    width:auto;
 }
 .dp{
     
@@ -17,6 +18,7 @@ header{
     height: 75px;
     width: 75px;
     margin-right: 3rem;
+    display: flex;
 }
 
 
@@ -26,6 +28,7 @@ nav a{
     text-decoration: none;
     margin-right: 2rem;
     text-transform: uppercase;
+  
     
 }
 nav a:hover{
@@ -34,10 +37,12 @@ nav a:hover{
 
 
 .container{
+    width: auto;
     max-width: 1152px;
     padding: 0 15px;
     margin: 0 auto;
-
+    display: flex;
+    
 } 
 .flex{
     display: flex;
@@ -47,6 +52,7 @@ nav a:hover{
 }
 body{
     font-family: 'Poppins', sans-serif;
+    
 }
 header nav{
     padding: 2rem 0;
@@ -101,9 +107,10 @@ section .text2 h1{
 }
 
 .gallary{
-    clip-path: (0 100%,85% 90%,100% 100%,100% 200%,110% 215%,0 200%);
+    
     background-color: black;
     height: 36rem;
+    width:auto;
 }
 .gallarypic{
     width: 20rem;
@@ -123,8 +130,7 @@ section .text2 h1{
 }
 
 .contactimg{
-    margin: 2rem;
-    padding: 0rem 5rem;
+    text-align: center;
 }
 
 .copyr{
@@ -134,4 +140,56 @@ section .text2 h1{
 .copyr h1{
     text-align: center;
     font-weight: 10;
+}
+
+.gallarypiczzz{
+    display: flex;
+}
+
+/* media queries for less than 1024px */
+@media (max-width :1024px){
+    .photo1 {
+        width: 260px;
+        margin-left: 2rem;
+        
+        
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .gallarypiczzz{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 1rem;
+        
+
+    }
+    .gallary{
+    
+        background-color: black;
+        height: 91rem;
+    }
+    #mainnav{
+        display: grid;
+    }
+    .text{
+        
+        flex-wrap: wrap;
+        margin-left: 9rem;
+        margin-top: -14rem;
+        position: relative;
+        width:500px;
+    }
+    .photo1{
+       margin-top: 9rem;
+       margin-right: 1rem;
+       width: 39rem;
+    }
+
+}
+
+@media(width<=24rem){
+    .gallary{
+        width: max-content;
+    }
 }
