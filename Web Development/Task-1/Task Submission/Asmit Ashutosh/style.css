@@ -2,51 +2,21 @@ body{
     margin: 0px;
     border: 0px;
     box-sizing: border-box;
-}
-.container h1{
     text-align: center;
-    position: absolute;
-    top: -59px;
-    right: 420px;
+}
+.heading{
+    text-align: center;
+    margin: auto;
     font-family: 'Ubuntu', sans-serif;
 }
-.cl1 p{
-    width: 344px;
+.profile {
+  margin: auto;
+  width: 100%;
 }
-.cl1 img{
-    position: absolute;
-    right: -1030px;
-    width: 190px;
-    top: 59px;
-    border-radius: 98px;
-}
-.cl2 p{
-    width: 344px;
-}
-.img1{
-    position: absolute;
-    left: 730px; 
-    width: 402px;
-}
-.img2{
-    position: absolute;
-    width: 140px;
-    right: -1310px;
-}
-.img3{
-    position: absolute;
-    width: 247px;
-    right: -510px;
-}
-.img4{
-    position: absolute;
-    width: 176px;
-    left: 36px;
+.list{
+  text-align: center;
 }
 .container{
-        position: fixed;
-        top: 0;
-        left: 0;
         border: 40px solid #0290f6;
         width: 100%;
         height: 100%;
@@ -54,54 +24,95 @@ body{
         padding: 0;
         box-sizing: border-box;
 }
-.mid{
-    position: absolute;
-    left: 45px;
-    top: 20px;
-}
-.contact{
-    position: absolute;
-    bottom: -405px;
-}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333333;
-  }
+}
   
-  li {
+li {
     float: left;
-  }
+}
   
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
-  }
+}
   
-  li a:hover {
+li a:hover {
     background-color: #111111;
-  }
-  .copy h5{
-    position: absolute;
-    bottom: 96px;
-    right: 100px;
-    width: 176px;
-  }
-  .cl3{
-    position: absolute;
-    bottom: -55px;
-  }
-  .cl3 img{
-    border-radius: 10px;
-  }
-  h2{
+}
+
+h2{
     font-family: 'Ubuntu', sans-serif;
+}
+body{
+  background: #343cd9;
+  background-image: linear-gradient(to bottom, #343cd9, #747edb);  
+}
+.cl1{
+  width: 100%;
+}
+.cl2{
+  width: 100%;
+}
+.cl3{
+  width: 100%;
+}
+.profile{
+  width: 100%;
+}
+.img1{
+  height: 300px;
+  width: 300px;
+  margin: 50px;
+  border-radius: 13px;
+}
+.img2{
+  height: 300px;
+  width: 300px;
+  margin: 50px;
+  border-radius: 13px;
+}
+
+.img3{
+  height: 300px;
+  width: 300px;
+  margin: 50px;
+  border-radius: 13px;
+}
+.img4{
+  height: 300px;
+  width: 300px;
+  margin: 50px;
+  border-radius: 13px;
+}
+.img5{
+  height: 300px;
+  width: 300px;
+  border-radius: 156px;
+}
+@media only screen and(min-width:1080px){
+  .cl1{
+    width: 50%;
+    float: left;
   }
-  body{
-    background-color: rgb(161, 236, 236);
+  .profile{
+    width: 50%;
+    float: left;
   }
+}
+.mid{
+  margin: auto;
+}
+li{
+  text-align:center ;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
