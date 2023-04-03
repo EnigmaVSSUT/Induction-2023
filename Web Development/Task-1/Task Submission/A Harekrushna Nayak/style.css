@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: alkatra;
+    background-image: url(bimg1.jpg);
+   
+
+}
+
+.about{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 40px;
+   border-bottom: 1px solid rgba(244, 234, 234, 0.916);
+}
+.about-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}.about-heading h3{
+    font-size: 2.4rem;
+    color: #17f2a9;
+    font-weight: 600;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.box{
+    width: 350px;
+    background-image:linear-gradient(19deg,rgba(249, 4, 4, 0.816) -70%,rgba(54, 19, 250, 0.433) 90%);
+    border: 1px solid #b306f766;
+    margin: 20px;
+    
+}
+.main{
+    width: 100%;
+    height: auto;
+}
+.main img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+} 
+.text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.text span{
+    color: #e3dae3ea;
+   font-size: 1.1rem;
+
+}
+.text .under{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fbebeb;
+
+}
+.text .under:hover{
+    color: #06f93f;
+    transition: all ease 0.3s;
+}
+.text  p{
+    color: #f4dada;
+    font-size: 1.2rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: auto;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.links a{
+    
+    text-decoration: none;
+    font-size: medium;
+    color: rgb(231, 247, 110);
+    background: #08000ada;
+    margin: 30px;
+    font-size: 18px;
+    padding: 8px 25px;
+    border-radius: 10px;
+
+
+}
+@media(max-width:1250px){
+    .box{
+        width: 300px;
+    }
+    .links{
+        width:300px;
+    }
+}
+@media(max-width:1100px){
+    .box{
+        width: 70%;
+
+    }
+    .links{
+        width: 110%;
+    }
+}
+@media(max-width:550px){
+    .box{
+        margin: 20px 10px;
+        width: 100%;
+    }
+    .links{
+        width:150%;
+        
+    }
+    #para{
+        padding: 20px;
+    }
+}
