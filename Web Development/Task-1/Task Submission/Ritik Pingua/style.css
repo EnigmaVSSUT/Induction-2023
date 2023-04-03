@@ -1,0 +1,76 @@
+* {
+    background-color: orange;
+    border: 2px;
+}
+header {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+.topic {
+    align-items: center;
+    width: 85%;
+    
+}
+.topic .profile {
+        flex: 0 50%;
+        max-width: 30%;
+        height: auto;
+        border: 4px;
+        border-radius: 20px;
+
+}
+.about h2 {
+       font-size: 30px;
+       color: black;
+       font-family: sans-serif;
+}
+.de {
+    color: rgb(229, 234, 234);
+}
+.de p {
+    color: black;
+    font-size: 20px;
+
+}
+.interest {
+    font-size: 20px;
+}
+.interest h2 {
+    font-size: 30px;
+    color: black;
+    font-family: sans-serif;
+
+}
+.interest .art {
+    max-width: 180px;
+    height: auto;
+    border-radius: 0%;
+}
+.gallery h2 {
+    font-size: 30px;
+    color: black;
+    font-family: sans-serif;
+
+}
+.gallery .me {
+    width: 350px;
+    height: auto;
+
+}
+.contact h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+}
+.contact img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+footer p {
+    font-size: 27px;
+    background-color: burlywood;
+    text-align: center;
+}
