@@ -236,7 +236,7 @@ body .link_flex {
     text-shadow: 2px 2px rgb(1, 95, 1);
 }
 
-@media screen and (max-width:1150px) {
+@media screen and (max-width: 1370px) and (min-width:1220px) {
     body .outer .about {
         font-size: 30px;
         position: relative;
@@ -248,13 +248,13 @@ body .link_flex {
         position: relative;
         top: -26px;
     }
-  body .outer div img.me {
-    width: auto;
-    height: 320px;
-    position: relative;
-    left: 615px;
-    bottom: 358px;
-}
+    body .outer div img.me {
+        width: auto;
+        height: 320px;
+        position: relative;
+        left: 749px;
+        bottom: 329px;
+    }
     body .outer #lapy {
         position: relative;
         bottom: 273px;
@@ -274,31 +274,38 @@ body .link_flex {
         top: -618px;
         text-align: right;
     }
- body .gallery {
-    font-size: 30px;
-    position: relative;
-    left: 420px;
-    top: -565px;
-}
-  body .flex {
-    position: relative;
-    top: -514px;
-    left: -25px;
-}
+    body .gallery {
+        font-size: 30px;
+        position: relative;
+        left: 469px;
+        top: -527px;
+    }
+    body .flex {
+        position: relative;
+        top: -483px;
+        left: -25px;
+    }
+    body #pops {
+        position: relative;
+        box-shadow: 1px 5px 10px rgb(113, 113, 197);
+        left: 116px;
+        width: 200%;
+        border: 2px solid rgb(113, 113, 197)white;
+    }
     body #firstlove {
         position: relative;
         left: 274px;
     }
     body #sss {
         position: relative;
-        left: 493px;
+        left: 535px;
     }
     body .contact {
-    font-size: 30px;
-    position: relative;
-    left: 296px;
-    top: -237px;
-}
+        font-size: 30px;
+        position: relative;
+        left: 357px;
+        top: -176px;
+    }
     body .link_flex #insta {
         width: 80px;
         position: relative;
@@ -319,11 +326,205 @@ body .link_flex {
         position: relative;
         left: 312px;
     }
-  body .link_flex {
-    position: absolute;
-    left: 84px;
-    top: 1185px;
+    body .link_flex {
+        position: absolute;
+        left: 84px;
+        top: 1185px;
+    }
+    body .outer {
+        height: 1300px;
+    }
+    body .copyright {
+        position: absolute;
+        left: 281px;
+    }
 }
+
+@media screen and (max-width: 1200px) and (min-width:1170px) {
+    body .outer .about {
+        font-size: 30px;
+        position: relative;
+        top: -20px;
+    }
+    body .abouts {
+        width: 53%;
+        font-size: 21px;
+        position: relative;
+        top: -26px;
+    }
+    body .outer div img.me {
+        width: auto;
+        height: 320px;
+        position: relative;
+        left: 615px;
+        bottom: 358px;
+    }
+    body .outer #lapy {
+        position: relative;
+        bottom: 273px;
+        width: 250px;
+        height: 300px;
+    }
+    body .interest {
+        position: relative;
+        top: -319px;
+        font-size: 30px;
+    }
+    body .interests {
+        width: 50%;
+        font-size: 20px;
+        position: relative;
+        left: 340px;
+        top: -618px;
+        text-align: right;
+    }
+    body .gallery {
+        font-size: 30px;
+        position: relative;
+        left: 420px;
+        top: -565px;
+    }
+    body .flex {
+        position: relative;
+        top: -514px;
+        left: -25px;
+    }
+    body #firstlove {
+        position: relative;
+        left: 274px;
+    }
+    body #sss {
+        position: relative;
+        left: 493px;
+    }
+    body .contact {
+        font-size: 30px;
+        position: relative;
+        left: 296px;
+        top: -237px;
+    }
+    body .link_flex #insta {
+        width: 80px;
+        position: relative;
+    }
+    body .link_flex #twit {
+        width: 110px;
+        position: relative;
+        top: -17px;
+        left: 155px;
+    }
+    body .link_flex #mail {
+        width: 100px;
+        position: relative;
+        left: 245px;
+    }
+    body .link_flex #fb {
+        width: 110px;
+        position: relative;
+        left: 312px;
+    }
+    body .link_flex {
+        position: absolute;
+        left: 84px;
+        top: 1185px;
+    }
+    body .outer {
+        height: 1300px;
+    }
+    body .copyright {
+        position: absolute;
+        left: 281px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    body .outer .about {
+        font-size: 30px;
+        position: relative;
+        top: -20px;
+    }
+    body .abouts {
+        width: 53%;
+        font-size: 21px;
+        position: relative;
+        top: -26px;
+    }
+    body .outer div img.me {
+        width: auto;
+        height: 320px;
+        position: relative;
+        left: 615px;
+        bottom: 358px;
+    }
+    body .outer #lapy {
+        position: relative;
+        bottom: 273px;
+        width: 250px;
+        height: 300px;
+    }
+    body .interest {
+        position: relative;
+        top: -319px;
+        font-size: 30px;
+    }
+    body .interests {
+        width: 50%;
+        font-size: 20px;
+        position: relative;
+        left: 340px;
+        top: -618px;
+        text-align: right;
+    }
+    body .gallery {
+        font-size: 30px;
+        position: relative;
+        left: 420px;
+        top: -565px;
+    }
+    body .flex {
+        position: relative;
+        top: -514px;
+        left: -25px;
+    }
+    body #firstlove {
+        position: relative;
+        left: 274px;
+    }
+    body #sss {
+        position: relative;
+        left: 493px;
+    }
+    body .contact {
+        font-size: 30px;
+        position: relative;
+        left: 296px;
+        top: -237px;
+    }
+    body .link_flex #insta {
+        width: 80px;
+        position: relative;
+    }
+    body .link_flex #twit {
+        width: 110px;
+        position: relative;
+        top: -17px;
+        left: 155px;
+    }
+    body .link_flex #mail {
+        width: 100px;
+        position: relative;
+        left: 245px;
+    }
+    body .link_flex #fb {
+        width: 110px;
+        position: relative;
+        left: 312px;
+    }
+    body .link_flex {
+        position: absolute;
+        left: 84px;
+        top: 1185px;
+    }
     body .outer {
         height: 1300px;
     }
