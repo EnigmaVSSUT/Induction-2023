@@ -51,8 +51,8 @@ body{
     float:center;
 }
 .gallery{
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:100px;
+    padding-right:100px;
 }
 a{
     font-size: 20px;
