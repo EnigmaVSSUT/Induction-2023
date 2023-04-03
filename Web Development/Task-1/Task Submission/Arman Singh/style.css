@@ -1,0 +1,97 @@
+body {
+  border-top: 100px solid #c3dfe4;
+  border-right: 100px solid #c3dfe4;
+  border-left: 100px solid #c3dfe4;
+  border-bottom: 100px solid #c3dfe4;
+  text-align: center;
+  padding: 30px;
+  background-color: #ca6ac0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+*{
+  
+  margin: 0px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 50px;
+  font-family: cursive;
+}
+
+.you {
+  font-size: 30px;
+  text-align: center;
+  padding: 50px;
+
+}
+
+.photo {
+  float: right;
+  height: 200px;
+  width: 200px;
+}
+
+
+
+
+.about {
+  font-size: 20px;
+  padding-bottom: 50px;
+
+
+  text-align: center;
+}
+
+.in {
+  font-size: 30px;
+  text-align: center;
+  
+
+}
+
+.interest {
+  font-size: 20px;
+  width: 100%;
+  text-align:center;
+  padding-bottom:50px;
+}
+
+
+
+.gal {
+  font-size: 30px;
+  text-align: center;
+  height: 70px;
+  padding-bottom: 50px;
+}
+
+.gallery {
+  font-size: 20px;
+  width: 100%;
+  padding-bottom: 50px;
+
+}
+
+a {
+  font-size: 30px;
+  padding: 0px 5px;
+}
+
+.tag {
+  font-size: 20px;
+  color: black;
+  background-color: #e67597;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
