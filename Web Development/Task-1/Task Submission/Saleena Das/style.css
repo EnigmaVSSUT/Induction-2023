@@ -1,0 +1,256 @@
+body{
+    font-family:"Times New Roman", Times, serif; ;
+    background-image: url(Pictures/bgim1.jpg);
+    background-attachment:scroll;
+}
+h1{
+    color: #66578e;
+    text-align: center;
+}
+.about{
+    width: 80%;
+    padding: 78px 0px;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(19deg, #05103af8 55%, #32ceccec 180%);
+    filter: opacity(90%);
+    border-radius: 2%;
+}
+
+.gallery{
+    display: flex;
+    width: 80%;
+    padding: 78px 0px;
+    margin-left: 2.5%;
+    background-image: linear-gradient(19deg, #32ceccec 75%, #4a247bec 170%);
+    margin: auto;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    filter: opacity(90%);
+    border-radius: 2%;
+
+}
+.Hobbies{
+    width: 1130px;
+    max-width: 95%;
+    margin: 16px;
+    display: flex;
+    width: 80%;
+    padding: 78px 0px;
+    margin-left: 2.5%;
+    background-image: linear-gradient(19deg, #05103af8 55%, #2c185eec 170%);
+    margin: auto;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    filter: opacity(90%);
+    border-radius: 2%;
+
+}
+
+
+.photos{
+    margin-top: -1%;
+
+
+}
+
+.photos h1{
+    color: rgba(250, 246, 250, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+
+}
+
+.photos img{
+    width: 290px;
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+    display: inline-block;
+    margin: 10px 20px;
+    border-radius: 3%;
+    max-inline-size: 100%;
+    block-size: auto;
+
+    object-fit: cover;
+
+    justify-content: space-around;
+}
+
+.about img{
+    margin-top: 1px;
+    height: auto;
+    width: 340px;
+    width: 30%;
+    fill-opacity: 50%;
+    border-radius: 2%;
+    max-inline-size: 100%;
+    block-size: auto;
+
+    object-fit: cover;
+}
+
+.about-text{
+    width: 600px;
+    width: 80%;
+
+}
+
+.about-text h1{
+    color: rgb(8, 244, 252);
+    letter-spacing: 1px;
+    line-height: 28px;
+
+}
+
+.gallery h1{
+    color: rgb(8, 244, 252);
+    color: rgb(240, 245, 245);
+    letter-spacing: 1px;
+    line-height: 28px;
+    line-height: 20px;
+
+}
+
+.gallery{
+    display: flex;
+    width: 85%;
+    padding: 78px 0px;
+    margin-left: 2.5%;
+    background-image: linear-gradient(19deg, #05103af8 55%, #32ceccec 180%);
+    margin: auto;
+    margin-top: 5%;
+    align-items: center;
+    height: 20vh;
+    filter: opacity(90%);
+    border-radius: 2%;
+
+}
+
+.about-text p{
+    color: rgb(35, 195, 139);
+    margin-top: -1%;
+}
+
+.photos img{
+    width: 20%;
+    align-items: center;
+    margin-top: 0%;
+    margin-bottom: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.gallery h1{
+    color: rgb(92, 204, 210);
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-top: 20%;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin-top: -4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.Hobbies{
+    width: 1130px;
+    max-width: 95%;
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Lord Ganesha{
+    margin-top: -25%;
+    padding-top: 100px;
+    line-height: 28px;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url(Pictures/bgim1.jpg);
+    }
+    .h1{
+      font-size: 14px;
+    }
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    body{
+        background-image: url(Pictures/bgim1.jpg);
+    }
+    h1{
+        font-size: 16px;
+    }
+}    
+
+
+@media only screen and (min-width: 1024px) {
+    body{
+        background-image: url(Pictures/bgim1.jpg);
+    }
+    .h1{
+          font-size: 18px;
+        }
+    }   
+
+    .about-text{
+        width: 50%;
+        display:block;
+    }
+    .main img{
+        display:block;
+
+    }
+    .about-text h1{
+        line-height: 20px;
+
+    }
+    .about-text p{
+        line-height: 20px;
+        align-content: space-evenly;
+        display:block;
+    }
+
+        .links a{
+            margin: 1000px 50;
+            font-size: 80%;
+            padding: 8px;
+            display: unset;
+        }
+        .links img{
+            height: 5%;
+            width: 5%;
+            border-radius: 10px;
+            border: 0;
+            padding: 5px;
+            margin-left: 18%;
+        }
+    
+        .tag{
+            text-align:center;
+            font-size: 100;
+            padding-top: 5px;
+            color:rgb(68, 65, 65);
+            
+            height:20px;
+            width:25%;
+            margin-left: 35%;
+            background-color: #07030f ;   
+        } 
+
+
+
