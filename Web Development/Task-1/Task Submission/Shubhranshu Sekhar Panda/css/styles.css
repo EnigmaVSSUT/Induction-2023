@@ -60,6 +60,16 @@ h2,h3{
     width: 400px;
     border-color: #203365;
 }
+@media only screen and (max-width: 600px) {
+    .profile-pic{
+        border-radius:250px;
+        padding: 10px;
+        border: 20px solid;
+        height: 250px;
+        width: 250px;
+        border-color: #203365;
+    }            
+}
 .btn {
     background: #37306B;
     background-image: linear-gradient(to bottom, #37306B, #66347F);
