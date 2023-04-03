@@ -248,13 +248,13 @@ body .link_flex {
         position: relative;
         top: -26px;
     }
-    body .outer div img.me {
-        width: auto;
-        height: 300px;
-        position: relative;
-        left: 542px;
-        bottom: 358px;
-    }
+  body .outer div img.me {
+    width: auto;
+    height: 320px;
+    position: relative;
+    left: 615px;
+    bottom: 358px;
+}
     body .outer #lapy {
         position: relative;
         bottom: 273px;
@@ -274,17 +274,17 @@ body .link_flex {
         top: -618px;
         text-align: right;
     }
-    body .gallery {
-        font-size: 30px;
-        position: relative;
-        left: 377px;
-        top: -615px;
-    }
-    body .flex {
-        position: relative;
-        top: -583px;
-        left: -49px;
-    }
+ body .gallery {
+    font-size: 30px;
+    position: relative;
+    left: 420px;
+    top: -565px;
+}
+  body .flex {
+    position: relative;
+    top: -514px;
+    left: -25px;
+}
     body #firstlove {
         position: relative;
         left: 274px;
@@ -294,11 +294,11 @@ body .link_flex {
         left: 493px;
     }
     body .contact {
-        font-size: 30px;
-        position: relative;
-        left: 257px;
-        top: -330px;
-    }
+    font-size: 30px;
+    position: relative;
+    left: 296px;
+    top: -237px;
+}
     body .link_flex #insta {
         width: 80px;
         position: relative;
@@ -319,11 +319,11 @@ body .link_flex {
         position: relative;
         left: 312px;
     }
-    body .link_flex {
-        position: absolute;
-        left: 62px;
-        top: 1165px;
-    }
+  body .link_flex {
+    position: absolute;
+    left: 84px;
+    top: 1185px;
+}
     body .outer {
         height: 1300px;
     }
