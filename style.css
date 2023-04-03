@@ -1,0 +1,79 @@
+html{
+	background-color:black
+}
+
+body {
+	background-color:lightblue
+	}
+
+h1 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: red;
+}
+h2 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color:red;
+}
+#name {
+	position: relative;
+	top: -10px;
+	font-color:red;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#email{
+	float:right;
+	margin-right:5px;
+	padding-top:5px;
+	font-size:16px;
+	font-family: Verdana, sans-serif;
+	color:purple;
+}
+div{
+	border-radius:5px;
+}
+
+#footer{
+	position:relative;
+	height: 50px;
+	float:right;
+	background-color:#668284
+	clear:both;
+	font-family: Verdana, sans-serif;
+	font-size:14px;
+	text-align:center;
+	color:purple;
+}
+#footer p{
+	position:relative;
+	padding-top:15px;
+}
+h1:hover
+{
+	background-color:#102372;
+}
+h2:hover
+{
+	background-color:#102372;
+}
+div{
+	border-radius:3px dotted blue;
+}
+img{
+	border-radius:9px dotted blue;
+}
+li{
+background-color: orange;
+}
+table{
+background-color: orange;
+}
