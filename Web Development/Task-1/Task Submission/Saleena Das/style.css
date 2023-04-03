@@ -52,6 +52,7 @@ h1{
 
 }
 
+
 .photos{
     margin-top: -1%;
 
@@ -97,6 +98,7 @@ h1{
 .about-text{
     width: 600px;
     width: 80%;
+
 }
 
 .about-text h1{
@@ -106,14 +108,14 @@ h1{
 
 }
 
-
-/*.gallery h1{
-    color: rgb(52, 200, 138);
+.gallery h1{
+    color: rgb(8, 244, 252);
+    color: rgb(240, 245, 245);
     letter-spacing: 1px;
     line-height: 28px;
     line-height: 20px;
 
-}*/
+}
 
 .gallery{
     display: flex;
@@ -133,7 +135,6 @@ h1{
 .about-text p{
     color: rgb(35, 195, 139);
     margin-top: -1%;
-
 }
 
 .photos img{
@@ -153,7 +154,6 @@ h1{
     margin-top: 20%;
 }
 
-
 .main{
     width: 1130px;
     max-width: 95%;
@@ -162,6 +162,7 @@ h1{
     align-items: center;
     justify-content: space-around;
 }
+
 
 .Hobbies{
     width: 1130px;
@@ -178,13 +179,33 @@ h1{
     line-height: 28px;
 }
 
-/*@media only screen and (max-width:800px) {*/
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url(Pictures/bgim1.jpg);
+    }
+    .h1{
+      font-size: 14px;
+    }
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
     body{
         background-image: url(Pictures/bgim1.jpg);
     }
     h1{
-        font-size: 200%;
+        font-size: 16px;
     }
+}    
+
+
+@media only screen and (min-width: 1024px) {
+    body{
+        background-image: url(Pictures/bgim1.jpg);
+    }
+    .h1{
+          font-size: 18px;
+        }
+    }   
 
     .about-text{
         width: 50%;
@@ -205,32 +226,31 @@ h1{
     }
 
         .links a{
-        margin: 1000px 50;
-        font-size: 80%;
-        padding: 8px;
-        display: unset;
-        
-    }
-    .links img{
-        height: 5%;
-        width: 5%;
-        border-radius: 10px;
-        border: 0;
-        padding: 5px;
-        margin-left: 18%;
-    }
-
-    .tag{
-        text-align:center;
-        font-size: 100;
-        padding-top: 5px;
-        color:rgb(68, 65, 65);
-        
-        height:20px;
-        width:25%;
-        margin-left: 35%;
-        background-color: #07030f ;   
-    }
+            margin: 1000px 50;
+            font-size: 80%;
+            padding: 8px;
+            display: unset;
+        }
+        .links img{
+            height: 5%;
+            width: 5%;
+            border-radius: 10px;
+            border: 0;
+            padding: 5px;
+            margin-left: 18%;
+        }
+    
+        .tag{
+            text-align:center;
+            font-size: 100;
+            padding-top: 5px;
+            color:rgb(68, 65, 65);
+            
+            height:20px;
+            width:25%;
+            margin-left: 35%;
+            background-color: #07030f ;   
+        } 
 
 
 
