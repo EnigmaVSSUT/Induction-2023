@@ -93,3 +93,32 @@ img{
     margin-right: 20px; /*creates space after the image */
 
 }
+@media  (orientation:portrait ){
+    section  {
+        height: 300px;
+        
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        background-image: url( './images/milky-way-2695569__480.jpg');
+        border-bottom: 0px;
+        color: aqua;
+    }
+}
+a{
+    color: blue;
+}
+@media  (orientation:portrait ){
+    img{
+        width: 500px;
+        height: 250px;
+        object-fit: cover;  /*makes the image quality better*/
+        border-radius: 10px;   /*makes the edges round*/
+      margin-top: 20px;
+        margin-right: 20px; /*creates space after the image */ 
+
+    }
+    a{
+        color: aqua;
+    }
+}
