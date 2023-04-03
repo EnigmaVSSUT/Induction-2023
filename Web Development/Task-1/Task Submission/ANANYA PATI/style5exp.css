@@ -1,0 +1,12 @@
+body{
+    background-image: url("bg.jpg");
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.AIMS{
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+}
