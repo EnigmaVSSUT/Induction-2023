@@ -1,0 +1,116 @@
+body{
+    
+        background-color: #F5E8C7;
+        border-top: 0px solid #D3756B;
+        border-bottom: 0px solid #D3756B;
+        border-right: 140px solid #D3756B;
+        border-left: 140px solid #D3756B;
+        
+        text-align: center;
+        font-family: "Merriweather", bold, serif;
+        color:#40514E;
+        
+    
+}
+
+hr{
+    background-color: none;
+    border-style: dotted none none;
+    border-color:#FFC3A1;
+    border-width:6px;
+    height: 0;
+    width: 6%;
+    margin: 50px auto;
+  }
+
+h1{
+    font-family: cursive;
+    font-size: 50px;
+    padding-bottom:0px;
+    color:black;
+}
+
+h1:hover{
+    color:#413543;
+}
+
+.header{
+    font-size:40px;
+    position:relative;
+    padding-top:40px  ;
+    line-height: 2;
+    height:140px;
+    width:100%;
+    background-color: #D3756B ;
+    font-family: cursive;
+}
+
+.pratyasha-img{
+    
+    float: right;
+    margin-left: 30px;
+    width:25%;
+    padding-top:20px;
+    transition: transform .5s ease;
+}
+
+img:hover{
+  transform:scale(1.2);
+}
+
+p{
+    padding-top:0px;
+    line-height:2;
+    font-size: 20px;
+    text-align:left;
+    font-family: 'Comfortaa', cursive;
+    
+  }
+
+.about{
+    text-align:left;
+}
+.body{
+    width:90%;
+    margin:100px auto 100px auto;
+}
+
+.computer-img{
+    float:left;
+    margin-right: 30px;
+    width:35%;
+    height:250px;
+    width:370px;
+    transition: transform .5s ease;
+}
+
+.gallery-img{
+    height:270px;
+    width:270px;
+    margin:20px;
+    transition: transform .5s ease;
+}
+
+a{
+  color:#11999E;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+  margin:10px 50px;
+  text-decoration: underline;
+  padding-top: 20px;
+
+}
+a:hover{
+    color:#B2A4FF;
+  }
+
+.tag{
+  text-align:center;
+  font-size: 1rem;
+  padding-top:80px;
+  color:black;
+  
+    height:100px;
+    width:100%;
+    background-color: #D3756B ;
+}
