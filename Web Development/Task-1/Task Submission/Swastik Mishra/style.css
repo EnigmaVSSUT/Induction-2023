@@ -1,0 +1,69 @@
+p{background-color: aqua;
+ width: 80%;
+    text-align:left;
+    font-family: cursive;font-size: 30px;color:black;
+    
+}
+h1{
+   text-align: center;
+   color: white;font-size: 50px;
+
+}
+h2{
+    text-align: left;
+    color: whitesmoke;font-size: 40px;
+}
+.p2{
+    text-align: right;
+}
+.btn {
+    background: #0096fa;
+    background-image: -webkit-linear-gradient(top, #0096fa, #00f2ff);
+    background-image: -moz-linear-gradient(top, #0096fa, #00f2ff);
+    background-image: -ms-linear-gradient(top, #0096fa, #00f2ff);
+    background-image: -o-linear-gradient(top, #0096fa, #00f2ff);
+    background-image: linear-gradient(to bottom, #0096fa, #00f2ff);
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #cfa8cf;
+    background-image: -webkit-linear-gradient(top, #cfa8cf, #3A1078);
+    background-image: -moz-linear-gradient(top, #cfa8cf, #3A1078);
+    background-image: -ms-linear-gradient(top, #cfa8cf, #3A1078);
+    background-image: -o-linear-gradient(top, #cfa8cf, #3A1078);
+    background-image: linear-gradient(to bottom, #cfa8cf, #3A1078);
+    text-decoration: none;
+}
+
+body{
+    background-image: url('BGP.jpg');
+    text-align: center;
+}
+.Myself{
+    width: 250px;
+    height: 450px;
+
+}
+
+@media only screen and (min-width: 1080px) {
+    .Myself{
+        width: 400px;
+        height: 700px;
+    }    
+}
+.Contact{
+    color: white;
+    font-size: 2rem;
+}
+.Interest{
+    color: white;
+    font-size: 3rem;
+}

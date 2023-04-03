@@ -1,0 +1,176 @@
+Website of the Task:
+https://swastik-mishra25.github.io/Swastikweb5.github.io/
+
+Code Of the index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello Everyone! Welcome To My Page</h1>
+    <div class="profile-pic"><img class="Myself" src="farewell.jpg"  border: solid white 1px; padding: 2px;></div>
+    <div class="intro">
+        
+        <h2>About Me!</h2>
+        <p>My name is<strong> Swastik Mishra.</strong>  I am From Rourkela I had completed my matriculation and intermediate from Delhi Public School . Currently I am pursuring my B. Degree of technology from <strong>Veer Surendra Sai University of Technology</strong>  in the department of Production Engineering...</p>
+    </div>
+    <a class="btn" href="index2.html">Read More</a>
+   
+
+</body>
+</html>
+
+
+Code of the index2.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read More</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="Interest">
+    <h1>My Interest</h1>
+    <p><ul>
+        <li>Web Development</li>
+        <li>Video Editing</li>
+        <li>Watching and Analysing Cricket</li>
+    </ul></p>
+</div>
+<div class="images">
+    <h1>My Image Gallery</h1>
+    <img src="WhatsApp Image 2023-03-31 at 18.19.38.jpeg" class="Myself" alt="">
+    <img src="WhatsApp Image 2023-03-31 at 18.19.42.jpeg" class="Myself" alt="">
+    <img src="WhatsApp Image 2023-03-31 at 18.19.44 (1).jpeg" class="Myself" alt="">
+    <img src="WhatsApp Image 2023-03-31 at 18.19.44 (2).jpeg" class="Myself" alt="">
+    <img src="WhatsApp Image 2023-03-31 at 18.19.44.jpeg" class="Myself" alt="">
+    <img src="WhatsApp Image 2023-03-31 at 18.19.58.jpeg" class="Myself" alt=""> 
+</div>
+<div class="Contact">
+    <div class="bottom-block">
+        <div class="contact-me1">
+            <h2>Get In Touch</h2>
+            <p class="contactpara">Contact me through the below given mail id for any proffesional or buisness related queries.</p>
+            <a class="btn" href="mishraswastik6@gmail.com">CONTACT ME</a>
+            <div class="form">
+                <p>Please give your feedback on this website using the form below. Each and every opinion is equally important and valuable.</p>
+                <form action="mailto:mishraswastik6@gmail.com" method="post" enctype="text/plain">
+                    <label for="your name">Your Name:</label>
+                    <input type="text" name="your name" id=""><br>
+                    <label for="DOB">Your DOB</label>
+                    <input type="date" name="DOB" id=""><br>
+                    <label for="gender">your gender:</label><br>
+                    <label for="gender">Male</label>
+                    <input type="button" value=""><br>
+                    <label for="gender">Female</label>
+                    <input type="button" value=""><br>
+                    <label for="email">Your email</label>
+                    <input type="email" name="email" id=""><br>
+                    <label for="message">Your Message</label><br>
+                    <textarea name="message" id="" cols="40" rows="20"></textarea><br>        
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+        <div class="contact-me2">
+            <h3 class="contactdetails">Contact Details</h3>
+            <ul>
+                <li>Address- Room No- 208,<a href="https://www.google.com/maps/dir/21.6669285,84.0484592/agastya+hor+burla/@21.558853,83.9206405,11.37z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3a213d6b06745767:0xb0172068909b51c5!2m2!1d83.899114!2d21.5001103">Agastya HOR,VSSUT,Burla, Odisha- 768018</a></li> 
+                <li>Permanent Address- Qrs No-C/190, Sector-06, Rourkela=769002,Odisha</a></li>
+                <li>Phone Number- 7846915100</li>  
+                <li><a class="footer-link" href="mailto:mishraswastik6@gmail.com">Gmail</a></li> 
+                
+                <li><a class="footer-link" href="https://www.instagram.com/swastik_mishra25/">Instagram</a></li> 
+                
+                <li><a class="footer-link" href="https://github.com/swastik-mishra25">GitHub</a></li>
+            </ul>
+        </div>
+    </div>  
+</div>
+</body>
+</html>
+
+
+
+Stylesheet
+
+p{background-color: aqua;
+ width: 80%;
+    text-align:left;
+    font-family: cursive;font-size: 30px;color:black;
+    
+}
+h1{
+   text-align: center;
+   color: white;font-size: 50px;
+
+}
+h2{
+    text-align: left;
+    color: whitesmoke;font-size: 40px;
+}
+.p2{
+    text-align: right;
+}
+.btn {
+    background: #0096fa;
+    background-image: -webkit-linear-gradient(top, #0096fa, #00f2ff);
+    background-image: -moz-linear-gradient(top, #0096fa, #00f2ff);
+    background-image: -ms-linear-gradient(top, #0096fa, #00f2ff);
+    background-image: -o-linear-gradient(top, #0096fa, #00f2ff);
+    background-image: linear-gradient(to bottom, #0096fa, #00f2ff);
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #cfa8cf;
+    background-image: -webkit-linear-gradient(top, #cfa8cf, #3A1078);
+    background-image: -moz-linear-gradient(top, #cfa8cf, #3A1078);
+    background-image: -ms-linear-gradient(top, #cfa8cf, #3A1078);
+    background-image: -o-linear-gradient(top, #cfa8cf, #3A1078);
+    background-image: linear-gradient(to bottom, #cfa8cf, #3A1078);
+    text-decoration: none;
+}
+
+body{
+    background-image: url('BGP.jpg');
+    text-align: center;
+}
+.Myself{
+    width: 250px;
+    height: 450px;
+
+}
+
+@media only screen and (min-width: 1080px) {
+    .Myself{
+        width: 400px;
+        height: 700px;
+    }    
+}
+.Contact{
+    color: white;
+    font-size: 2rem;
+}
+.Interest{
+    color: white;
+    font-size: 3rem;
+}
+
+
