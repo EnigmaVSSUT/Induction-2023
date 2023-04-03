@@ -1,0 +1,5 @@
+Name=Nihar Ranjan Behera
+Roll no=2202080028
+Branch=Information Technology
+Hobby=playing cricket
+Domain=AI/ML
