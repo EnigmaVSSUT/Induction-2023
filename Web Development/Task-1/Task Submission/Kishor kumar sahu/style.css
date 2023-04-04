@@ -1,0 +1,43 @@
+<style>
+body{
+background-image:url('3.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100% 100%;
+}
+#div1
+{ 
+background-colour:blue;
+width:45%;
+float:left;
+}
+#div2
+{ 
+background-colour:red;
+width:45%;
+float:right;
+}
+#div3
+{ 
+background-colour:red;
+width:45%;
+bottom:0;
+}
+#div4
+{ 
+background-colour:blue;
+width :45%;
+bottom:0;
+}
+.social{
+text-decoration: none;
+margin: 0 10px;
+}
+footer
+{
+text-align:center;
+bottom:0;
+width :100%;
+position:fixed;
+}
+</style>
