@@ -57,7 +57,7 @@ Second week will be a walk around on one of the most popular technologies of mod
 Third week starts with a rigorous learning of competitive coding with some interesting modules. After that, their will be a series of tasks to test your understanding.
 
 Competitive Programming<br>
-    - Task: **Coming Soon!**
+    - [Task: Question Practice](./competitive%20programming)
 <br>
 ## Week-4 (9 - 14 April) | Artificial Intelligence and Machine Learning <img src="./assets/Ai.gif" width="60">
 <br>
