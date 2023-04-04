@@ -1,0 +1,82 @@
+ body{
+    border-top:100px solid rgb(3, 3, 2);
+    border-right:100px solid rgb(3, 3, 2);
+    border-left:100px solid rgb(3, 3, 2);
+    border-bottom:100px solid rgb(3,3,2);
+    text-align:center;
+
+    background-color:rgb(215, 170, 205);
+}
+ h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,Verdana, Geneva, Tahoma, sans-serif;
+    font-size:17px;
+    text-align:left;
+
+ }
+ h1:link{
+    color:black;
+ }
+
+ h1:visited {
+    color:blueviolet; 
+ }
+
+ h1:hover {
+    color:rgb(6, 57, 57);
+
+
+ }
+ h1:active {
+    color:blanchedalmond;
+ }
+ .me2{
+    float:center;
+    height:200px;
+    width: 300px;
+ }
+
+ .p1{
+    padding:30px 10px;
+    font-size:12px;
+    text-align:center;
+ }
+ .p2{
+    padding :30px 10px;
+    font-size: 12px;
+    text-align:center;
+
+ }
+ .interest{
+    float:center;
+    font-size: 70px;
+ }
+ .galaxy{
+    padding-left:20px;
+    padding-right:20px;
+ }
+ a{
+    font-size:12px;padding:0px 30px;
+
+ }
+ .tag{
+    font-size:12px;
+    color:darkred(60,45,10);
+    background-color:blueviolet;
+    height:100px;
+    width:100px;
+ }
+ a{
+    color: black;
+    background:white;
+
+ }
+ a:visited{
+    color:blueviolet;
+ }
+ a:hover{
+    backround:aqua;
+
+ }
+ a:visited:hover{
+    color:rgb(107, 75, 138);
+ }
