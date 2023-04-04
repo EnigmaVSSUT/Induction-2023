@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url('./bk6.webp');
+    background-position: 0 1000px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 4rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+h1{
+    color: #f40430;
+    font-size: 5rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    colour: #beb3b3
+    font-size:4rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+h3 {
+    color: #f50505;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+    text-align: center;
+    background-position: 0 1000px;
+   
+}
+
+h4 {
+    color: #f30b26;
+    font-size: xx-large;
+    font-weight: 400;
+    text-align: center;
+}
+
+h5 {
+    color: #f50505;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+    text-align: center;
+    background-position: 0 1000px;
+
+}
+h6 {
+    color: #f50505;
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+    text-align: center;
+    background-position: 0 200px
+
+}
+
+.image {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+p{
+    font-size: 2rem;
+    colour:  #fff;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 2.7rem 7.5rem;
+    background: #f6f6f6;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #398f51;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #dadada;
+}
