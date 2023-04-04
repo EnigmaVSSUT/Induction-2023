@@ -1,176 +1,141 @@
-body {
-    margin-top: 70px;
-    margin-bottom: 70px;
-    margin-left: 40px;
-    margin-right: 40px;
-    /* background-color: rgb(209, 154, 154); */
-    /* background-image: url("anime_image.jpg"); */
-    background-color: yellowgreen;
-    background-attachment:fixed;
-    /* background-repeat: no-repeat; */
-    background-size:cover;
+@import url('http://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-h1 {
-    color: black;
-
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-div {
-    /* background-color: bisque; */
-    padding: 30px;
-    /* border-style: solid; */
-    /* border-color: orange; */
-
-    color: black;
-
-}
-
-span {
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(54, 52, 52, 0.50),rgba(41, 38, 38, 0.50)),url('vssut.jpeg');
+    background-position: bottom;
+    background-size: cover;
     display: flex;
-    flex-wrap: nowrap;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 25px;
-
+    align-items: center;
+    justify-content: center;
 }
-
-.frst {
-    text-align: left;
-}
-
-p {
-    width: 1000px;
-    padding-right: 100px;
-}
-
-.my {
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
     text-align: center;
 }
-
-.w {
-    width: 1000px;
-    padding-left: 20px;
-
+.header-content h2{
+    font-size: 4vmin;
+}
+.header-content h2:hover{
+    font-size: 4vmin;
+    color: yellow;
+    transition: 1s;
+}
+a{
+    text-decoration: none;
 }
 
-a {
-    text-align: center;
+.events h1:hover{
+color: blueviolet;
+transition: 1s;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: rgb(170, 1, 1);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.header-content h1:hover{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: yellow;
+    transition: 1s;
 
 }
+.ctn{
+    padding: 8px 15px;
+    background: transparent;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    color: whitesmoke;
+}
+.ctn:hover{
+    border: 1px solid whitesmoke;
+    background: yellowgreen;
+    transition: 0.65s;
 
+}
+.about h1:hover{
+    color: blueviolet;
+transition: 1s;
+}
 .div4 a {
     padding: 100px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.im img {
-    padding: 60px 60px;
+/*
+About Me
+*/
 
-
-}
-
-.lst {
+section{
+    width: 80%;
+    margin: 80px auto;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-left: 200px;
-    color: aliceblue;
-
+    font-size: 4vmin;
+    color: tomato;
 }
 
-a[href] {
-    color: black;
+.profile{
+    height: 400px;
 }
-
-.abut {
-    padding-left: 10px;
+.row
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
 }
-
-.bg {
-    background: rgba(75, 23, 120, 0.2);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-    border-radius: 2%;
-    min-width: max-content;
-    
-
-
+.row .col img{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-.rund {
-    border-radius: 5%;
-}
-
-.p1:hover {
+.row .col img:hover{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     transform: scale(1.3);
     z-index: 2;
 }
-
-.p1{
-    border-radius: 5%;
-
+.events .row{
+    margin-top: 50px;
 }
 
-.p2{
-    border-radius: 5%;
-
+h4{
+    font-size: 3vmin;
+    color: blueviolet;
+    margin: 20px auto;
 }
-
-.p3{
-    border-radius: 5%;
-
+p{
+    color: rgb(65, 20, 123);
+    padding: 0px 40px;
 }
-
-.p2:hover {
-    transform: scale(1.3);
-    z-index: 2;
-
-
+body, html{
+    overflow-x: hidden;
+    background-color: wheat;
 }
-
-.p3:hover {
-    transform: scale(1.3);
-    z-index: 2;
-
-
+div.div4{
+    background-color: wheat;
+    padding-top: 2px;
 }
-@media screen and (max-width:1280px){
-.p1{
-    height: 230px;
-    width: 230px;
-    padding-left: 100px;
+.lst{
+    text-align: center;
 }
-.p2{
-    height: 230px;
-    width: 200px;  
-}
-.p3{
-    height: 230px;
-    width: 230px;
-}
-.inst{
-    height: 55px;
-    width: 55px;
-}
-.twet{
-    height: 55px;
-    width: 55px; 
-}
-.ml{
-    height: 55px;
-    width: 55px;
-}
-.fb{
-    height: 55px;
-    width: 55px;
-}
-}
-@media screen and (max-width:412px){
-  .bg{
-    height: 1200px;
-    width: 300px;
-  }
-     
-}
-    
