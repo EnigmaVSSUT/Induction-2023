@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(108, 161, 241);
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 250px;
+    height:250px;
+
+
+}
+.Aboutme{
+    text-align: center;
+}
+p{
+   font-size:large;
+} 
+.myinterest{
+    text-align: center;
+}
+#wd{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 250px;
+    height:250px;
+
+}
+#ds{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 250px;
+    height:250px;
+
+
+}
+.cat{
+   width: 250px;
+   height:250px;
+}
+.notcat{
+    width: 250px;
+    height:250px;
+    visibility: hidden;
+
+}
+.MyGallery{
+    text-align: center;
+}
+.contactme{
+    text-align: center;
+}
+a{
+    color:rgb(16, 3, 83);
+}

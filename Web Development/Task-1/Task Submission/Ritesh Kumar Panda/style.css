@@ -1,0 +1,465 @@
+html{
+  width:100%;
+}
+ *{
+    padding:0px;
+   border:0px;
+   margin:0px;
+  }
+  .div2 :hover{
+    transform: scale(1.02);
+  }
+  .div1 .d:hover{
+    transform: scale(1.02);
+  }
+  .div1 .s1 :hover{
+    transform:scale(1.02);
+  }
+  .div1{
+    background:linear-gradient(180deg,rgb(204, 5, 239),blue);
+    padding-left:80px;
+    padding-right: 80px;
+    padding-top:50px;
+    padding-bottom:60px;
+    max-width:2367px;
+    width:97%;
+    height:100%;
+    margin:0px;
+  }
+  .div1 .d{
+    font-family:'Bookman Old Style';
+    text-align:center;
+    font-size:500%;
+  }
+  .about{
+    display:inline;
+  }
+  .div2{
+    background:linear-gradient(180deg,blue,rgb(204, 5, 239));
+    border: solid 3px cyan;
+    border-radius:12px;
+    height:80%;
+    width:85%;
+    margin: 0px 5%;
+  }
+  .div2 h1{
+    font-family:'Algerian';
+    text-align:center;
+    color:aliceblue;
+    font-size:500%;
+  }
+  .c1h{
+    font-family:'Arial';
+    margin-left:10px;
+    color:aqua;
+    padding-left:30px;
+    font-size: 250%;
+    text-align: justify;
+  }
+  .c1h :hover{
+    transform:scale(1.02);
+  }
+  .c1{
+    display:flex;
+    font-size: 250%;
+    font-family:'Arial';
+    flex-wrap: nowrap;
+    color:aqua;
+    padding:40px;
+    margin-left:10px;
+    text-align: justify;
+  }
+  .c2{
+    display:none;
+    font-size: 250%;
+    font-family:'Arial';
+    color:aqua;
+    padding:40px;
+    margin-left:10px;
+    text-align: justify;
+  }
+  img{
+    margin:30px;
+    width:30%;
+    height:15%;
+    border: solid 3px black;
+  }
+  .dp{
+    border: solid white 8px;
+    object-fit:cover;
+    width:20%;
+    height:20%;
+    padding:0PX;
+    margin:0px 20px 20px 40px;
+  }
+  .interestscopy{
+    display:flex;
+    flex-wrap:nowrap;
+    font-family: 'Arial';
+    text-align:justify;
+  }
+  .interests{
+    display:none;
+    font-family: 'Arial';
+    text-align:justify;
+  }
+  .ul1{
+    padding:40px;
+    font-size: 220%;
+    color:aqua;
+  }
+  a{
+    color:rgba(174, 20, 235, 0.998);
+    background-color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-size:240%;
+    margin-left:60px;
+    margin-right: 60px;
+    padding:0px 10px 0px 10px;
+    text-decoration: none;
+  }
+  .contact a:hover{
+    transform: scale(1.02);
+    color: black;
+    background-color: white;
+  }
+  .s1{
+    text-align:center;
+    font-size:280%;
+  }
+  .gallery{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .gallery .gal1{
+    display:flex;
+    flex-wrap:wrap;
+    height:30%;
+    width:100%;
+    padding: 0px 15px 0px 15px;
+  }
+  .gallery .gal1 .img1{
+    aspect-ratio: 1.33;
+  }
+  .div1 .s1{
+    font-size:50px;
+  }
+  @media screen and (max-width :2500px){
+    .gallery .gal1 .img1{
+      width:40%;
+      margin-left:4%;
+      margin-right:4%;
+    }
+  } 
+  @media screen and (max-width:1960px){
+    .interests .ul1{
+      display:block;
+      margin-left:60px;
+      width:90%;
+      transform: translateX(-30px);
+    }
+    .interestscopy{
+      display:none;
+    }
+    .interests{
+      display:block;
+      font-family: 'Arial';
+      text-align:justify;
+    }
+    .interests img{
+      display:inline;
+      margin:0% 8%;
+    }
+    a{
+      margin: 0px 30px 0px 30px;
+    }
+  }
+  @media screen and (max-width:1500px){
+    body{
+      zoom:0.8;
+      zoom:80%;
+      width:93%;
+    }
+    .div2{width:90%;}
+    .ul1{
+      font-size:2.4em;
+      margin-left:10px;
+    }
+    .c2{
+      font-size:2.4em;
+      display:block;
+      margin: 0px 15px 0px 15px;
+    }
+    .c1{
+      display:none;
+    }
+    .c1h{
+      font-size:3em;
+      display:none;
+    }
+    .c1h2{
+      font-size:1em;
+    }
+    .dp{
+      display:block;
+      text-align: center;
+      margin: 0% 20% 0% 20%;
+    }
+    .about{
+      display:block;
+    }
+    .gallery .gal1 .img1{
+        width:40%;
+        text-align:center;
+        margin: 0% 25% 10% 30%;
+    }
+    a{
+      display:block;
+      text-align:center;
+      margin:20px;
+      padding:0px;
+      width:30%;
+    }
+    .div1 .s1{
+      text-align:center;
+      width:80%;
+      margin:0% 15% 0% 8%;
+    }
+  }
+  @media screen and (max-width:1150px){
+    body{
+      width:90.7%;
+    }
+    .dp{
+      margin-left:25%;
+    }
+    .c2{
+      font-size:1.9em;
+    }
+    .interests .ul1{
+      font-size:1.9em;
+    }
+    a{
+      font-size:2em;
+    }
+    .div1 .d{
+      font-size:2.7em;
+      text-align:center;
+      width:80%;
+      margin:0% 8% 0% 10%;
+    }
+    .interests .ul1{
+      margin:5px 15px 5px 60px;
+      width:85%;
+    }
+    .div2 h1{
+      font-size:4.6em;
+    }
+    .div1 .s1{
+      font-size:2.3em;
+      text-align:center;
+      width:80%;
+      margin:0% 15% 0% 10%;
+    }
+  }
+  @media screen and (max-width:1000px){
+    .div2 h1{
+      font-size:4em;
+    }  
+    .div1 .s1{
+      font-size:2em;
+    }  
+    .dp{
+      min-width:150px;
+      min-height:150px;
+    }
+    .interests img{
+      margin: 5% 0 5% 0;
+      display:block;
+      width:40%;
+    }
+  }
+  @media screen and (max-width:900px){
+    .div2 h1{
+      font-size:3.5em;
+    }
+    .c2,.interests .ul1,a{
+      font-size:1.6em;
+    }
+    .interests .ul1{padding:15px 40px;}
+    .dp{border: 6px solid white}
+  }
+  @media screen and (max-width:550px){
+    html{
+      width:100%;
+    }
+    body{
+      width:100%;
+    }
+    .div1{width:100%;
+    padding:30px 50px;}
+    .div2{margin:2%;}
+    .c2,.interests .ul1,a{
+      font-size: 1.2em;
+    }
+    .c2{padding:10px;}
+    .div1 .d{
+      font-size:2em;
+      margin-left:5%;
+      margin-right: 0px;
+      width:90%;
+    }
+    .div2 h1{
+      padding:10px;
+      margin-top:10px;
+      font-size:3em;
+    }
+    br{
+      display: none;
+      height:0.05em;}
+    .interests .ul1{
+      margin-left:40px;
+      padding: 10px 40px 10px 40px;
+    }
+    .dp{
+      min-width:100px;
+      min-height:100px;
+      margin-bottom:10px;
+      border: 5px solid white;
+    }
+    .gallery .gal1 .img1{
+      margin-bottom:30px;
+    }
+    .div1 .d{     
+      margin-right: 0px;
+    }
+  }
+@media screen and (max-width:300px){
+  .c2,.interests .ul1,a{
+    font-size: 1em;
+  }
+  .div2 h1{
+    font-size:2em;
+  }
+  .div1 .d{
+    font-size:1.4em;
+  }
+  .div1 .s1{
+    font-size:1.4em;
+    margin-left:8%;
+  } 
+  .interests .ul1{
+    margin-left:20px;
+  }
+  .gallery .gal1 .img1{
+    margin-bottom:20px;
+  }
+  a{margin:10px;}
+  .dp{border:4px solid white}
+} 
+@media screen and (max-width:240px){
+  .div1 .d{
+    font-size:1em;
+  }
+  .c2,.interests .ul1,a{
+    font-size: 0.8em;
+  }
+  .div2 h1{
+    font-size:1.5em;
+  }
+  .div1 .s1{
+    font-size:1em;
+  }
+  .interests .ul1{
+    padding: 10px 30px;
+  }
+  .gallery .gal1 .img1{
+    margin-bottom:10px;
+  }
+  .div2 .rkp{
+    margin:0px;
+    padding:5px;
+  }
+  .c2{
+    padding: 10px;
+    margin:0px;
+  }
+  .div2{
+    border:1.5px solid cyan;
+  }
+}
+@media screen and (max-width:180px){
+  .c2,.interests .ul1,a{
+    font-size: 0.6em;
+  }
+  .div2 h1{
+    font-size:1.3em;
+  }
+  .dp{border:3px solid white}
+}
+@media screen and (max-width:172px){
+  a{margin:5px;}
+  .div2 h1{
+    padding:2px;
+  }
+  .div1 .d{
+    font-size:0.8em;
+  }
+  .div1 .s1{
+    font-size:0.8em;
+  }
+}
+@media screen and (max-width:140px){
+  .div1{
+    padding:15px 30px;
+  }
+  .div1 .d{
+    font-size:0.7em;
+  }
+  .div1 .s1{
+    font-size:0.7em;
+  }
+  .div2 h1{
+    font-size:1em;
+  }
+  .gallery .gal1 .img1{
+    margin-bottom:0px;
+    margin-top: 10px;
+    border: 2px solid black;
+  }
+  .div2 .rkp{
+    margin-top:10px;
+    padding:2px;
+  }
+  .c2,.interests .ul1,a{
+    font-size: 0.5em;
+  }
+  .interests .ul1{
+    padding: 5px 10px 5px 27px;
+  }
+  .int2,.int1 {border:2px solid black}
+  .dp{border: 2px solid white;
+    margin:2px;}
+}
+@media screen and (max-width:120px){
+  .div1{
+    padding:10px 20px;
+  }
+  .div1 .d{
+    font-size:0.6em;
+  }
+  .div1 .s1{
+    font-size:0.5em;
+  }
+  .div2 h1{
+    font-size: 0.8em;
+  }
+  .c2,.interests .ul1,a{
+    font-size: 0.4em;
+  }
+  .interests .ul1{
+    padding: 2px 5px 2px 22px;
+    margin:2px 20px;
+  }
+  .dp{border:1px solid white;}
+}

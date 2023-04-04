@@ -1,0 +1,133 @@
+body{
+    background-image: url(star.jpg);
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+    border: 8px double greenyellow;
+    border-radius: 40px;
+}
+h2{
+    color: white;
+    font-size: 2vw;
+    margin-top: 8vw;
+    text-decoration: underline white;
+    
+}
+p{
+    color: white;
+    font-size: 1.8vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hleft{
+    margin-left: 1.6vw;
+    border-left: 8px solid rgb(69, 238, 77);
+}
+.hright{
+    margin-left: 85vw;
+    margin-right: 1.6vw;
+    border-right: 8px solid rgb(69, 238, 77);
+}
+
+.left{
+    margin-left: 1.6vw;
+    margin-right: 28vw;
+    border: 2px solid rgb(69, 238, 77);
+    border-radius: 10px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.imgright{
+    float: right;
+    width: 22%;
+    height: 22%;
+    margin-right: 2.6vw;
+    margin-top: 1vw;
+    
+}
+.imgright:hover{
+    width: 24%;height:24%;
+    transition-duration: 1s;
+ 
+}
+.right{
+    margin-right: 1.5vw;
+    margin-left: 26vw;
+    border: 2px solid rgb(69, 238, 77);
+    border-radius: 10px;
+    background-color: black;
+    padding: 30px;
+}
+.imgleft{
+    float: left;
+    width: 22%;
+    height: 22%;
+    margin-left: 2.6vw;
+    margin-top: 7.8vw;
+}
+.imgleft:hover{
+    width:23% ;height: 24%;
+    transition-duration: 1s ;
+}
+div.contact {
+    padding-top: 10px;
+    padding-left: 80px;
+    float: left;
+    background-color: black;
+}
+div.contact img {
+    width: 60px; height: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 2px;
+}
+div.contact img:hover {
+    width: 70px;height: 70px;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+div.lebel {
+    margin: 20px;
+    text-align: center;
+}
+a:link,a:visited{
+    text-decoration: none;
+    color: white;
+}
+.sl{
+    margin-left: 40vw;
+    font-family: cursive;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+footer{
+    color: rgb(69, 238, 77);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+@media screen and (max-width:500px){
+    .imgright,.imgleft,.contact img{
+        width:90%;height: 90%;
+    }
+    .imgright:hover,.imgleft:hover{
+        width: 95%;height: 95%;
+    }
+     .hleft,.hright,.left,.right,.imgright,.imgleft,.sl,footer{
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 10px;
+    }
+    h2{
+        font-size: 6vw;
+    }
+    p{
+        font-size: 5.4vw;
+    }
+} 

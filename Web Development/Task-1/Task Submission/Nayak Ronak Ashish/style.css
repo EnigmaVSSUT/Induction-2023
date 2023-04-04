@@ -1,0 +1,328 @@
+body{
+    background-image:url(Port.jpg);
+    
+   
+    
+    background-size:cover;
+    
+  
+    
+    background-color:#49c5b6;
+   
+ 
+   font-family: 'Cookie', cursive;
+    font-size: 30px;
+    line-height: 1.6em;
+    
+  margin: 0;
+  
+ 
+ 
+}
+
+
+
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+.container {
+    
+    width: 80%;
+    
+    margin:auto;
+    
+    overflown: hidden;
+    
+   
+   
+    se
+    
+    
+}
+
+
+#main-header {
+    margin-top:auto ;
+    
+    padding-top:200px;
+    
+    padding-bottom: 6px;
+    background-color:#ffa995 ;
+    color:#0018ff;
+    border-radius: 5px;
+    text-align:center; 
+    font-size:20px;
+    letter-spacing:.2em;
+   
+ font-weight:bold;
+    line-height:2em;
+    
+    margin-bottom:20px;
+    
+    font-family: 'Tangerine', cursive;
+    
+    background-image:url(cleanl.jpg);
+    background-size:cover;
+    height :400px;
+    
+}
+
+
+  
+
+
+#container h2{
+    
+    
+    padding-bottom:50px;
+   font-weight: bold; 
+    
+    
+}
+
+
+
+#main{
+    
+    float:center;
+    
+    border-radius:12px;
+    box-shadow:10px 10px 10px;
+    
+    background-color:#aafff4;
+    margin:20px 20px;
+   
+    text-align:center;
+    
+    border:2px white solid;
+    
+}
+
+#main h2{
+    
+    border-radius:3px;
+    padding-right:5px;
+    background-color:#fff4d5;
+    border:.5px #1100ff solid;
+    
+    text-align:center;
+    
+}
+
+
+#main-footer{
+    
+    background:black;
+    color:white;
+    text-align:center;
+    margin-top:40px;
+    
+    margin-bottom:10px;
+    
+    padding: 20px;
+    
+    
+    
+}
+
+
+
+
+.gallery{
+    
+    
+    display:flex;
+    
+    flex-wrap:wrap;
+    
+    gap:5px;
+    
+    object-fit: cover;
+    
+    justify-content:center;
+    
+    align-items:center;
+    overflow:hidden;
+    
+    
+    
+    
+}
+
+
+.gallery img {
+    width: 300px;
+    height: 400px;
+ margin :10px;
+    border:1px white solid;
+    border-radius:13px;
+    box-shadow:4px 7px 7px 0px;
+    
+    
+    
+}
+
+.container2{
+    
+    
+    width: 80%;
+    
+    margin:auto;
+    
+    overflown: hidden;
+    
+    background-color:;
+    
+    margin-top:50px;
+    
+    
+    
+    
+    
+    
+}
+
+
+.container2 h2{
+    
+   border-bottom:3px black solid;
+    
+    text-align:center;
+    
+    
+}
+
+
+
+
+
+
+.contact{
+    
+    
+    background-color:#e3edf7;
+    
+    
+    
+}
+
+
+.contact h2{
+
+
+
+font-family: sans-serif;
+font-weight:normal;
+font-size:25px;
+letter-spacing:4px;
+padding:20px 0 10px;
+color: #555;
+text-align:center;
+
+  
+    
+    
+    
+    
+    
+}
+
+
+.social{
+    
+  display :  flex;
+  justify-content:center;
+   
+    padding-bottom:20px;
+    
+}
+
+
+ .social   a{
+    
+    display:flex;
+    background:#e3edf7;
+    height: 75px;
+    width: 75px;
+    margin: 0px 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content:center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255,255,255,0.7);
+    
+    border:1px solid rgba(0,0,0,0.01);
+   
+   transition:transform 0.5s;
+   
+   
+   
+}
+
+
+
+a i{
+    
+    font-size: 35px;
+    color: #777;
+    
+    
+   transition:transform 0.5s;
+}
+
+
+a:hover{
+    
+    box-shadow: inset 4px 6px 10px -1px rgba(0,0,0,2), 
+    inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+    -0.5px -0.5px 0px rgba(255,255,255,1),
+    0.5px 0.5px 0px rgba(0,0,0,0.15), 
+    0px 12px 10px -10px rgba(0,0,0,0.05);
+    border:1px solid rgba(0,0,0,0.01);
+    transform: translateY(2px);
+    
+    
+    
+}
+
+
+a:hover i{
+    
+    transform: scale(0.9s);
+}
+
+
+a:hover .fa-instagram{
+    
+    color: #f14843;
+    
+}
+
+
+a:hover .fa-whatsapp{
+    
+    color: #4fce5d;
+    
+}
+
+a:hover .fa-linkedin{
+    
+    color: #3b5998;
+    
+}
+
+
+a:hover .fa-envelope{
+    
+    color:#00d5ff;
+    
+}
+
+
+

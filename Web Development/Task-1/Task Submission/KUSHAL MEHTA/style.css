@@ -1,0 +1,68 @@
+style {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Times, serif;
+    color: white;
+    background-color: rgba(46, 24, 43, 0.925);
+  }
+
+  .container {
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+  }
+
+  .header {
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+  }
+
+  header > .title {
+    margin-bottom: 1rem;
+  }
+
+  .tribute {
+    display: grid;
+    grid-template-columns: 2fr;
+    max-width: 48rem;
+    margin: 0px auto;
+    background: rgba(110, 160, 156, 0.699);
+    color: rgb(240, 238, 245);
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+  }
+
+  .tribute blockquote {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+
+
+  .bio {
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+  }
+  .bio img{
+    max-width: 100%;
+    height: auto;
+  }
+  .bio > h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  .bio > p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  .bio > hr {
+    margin-top: 2rem;
+  }

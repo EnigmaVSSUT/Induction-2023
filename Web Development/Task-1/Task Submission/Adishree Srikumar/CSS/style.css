@@ -1,0 +1,67 @@
+style{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body{
+    border-top:100px solid #0a090a;
+    border-right:100px solid #0a090a;
+    border-left:100px solid #0a090a;
+    border-bottom:0px solid #0a090a;
+    text-align: center;
+    font-family : Times, serif;
+    background : rgb(189, 111, 195);
+}
+
+h1{
+    font-family: georgia, 'Times New Roman', Times, serif;
+    font-size:60px;
+    text-align:center;
+}
+
+.myphoto{
+    float: right;
+    border-radius : 300px;
+    width: 300px;
+    padding-right: 30px;
+}
+
+
+
+.about{
+    padding:30px 10px;
+    font-size: 30px;
+    width:65%;
+    text-align:left;
+}
+
+.interests{
+    padding:30px 10px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.odissi{
+    float:left;
+    padding-left:30px;
+    padding-right: 30px;;
+}
+
+.a{
+    font-size: 30px;
+    padding: 0px 50px;
+}
+.third para{
+    padding-top: 50px;
+    text-align: center;
+}
+.tag{
+    text-align: center; 
+    font-size: 20px;
+    color: rgb(189, 111, 195);
+    background-color: #0a090a;
+    height:100px;
+    width:100%
+
+}

@@ -1,0 +1,84 @@
+body{
+    border-top:100px solid plum;
+    border-right:100px solid plum;
+    border-left:100px solid plum;
+    border-bottom:0px solid plum;
+    text-align:center;
+
+    background-color:blanchedalmond;
+}
+ h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:40px;
+    text-align:center;
+ }
+ h1:link {
+    color: black;
+  }
+  
+  
+  h1:visited {
+    color: pink;
+  }
+  
+  
+  h1:hover {
+    color: plum;
+  }
+  
+  
+  h1:active {
+    color: palevioletred;
+  }
+  
+.me2{
+    float:center;
+    height: 280px;
+    width: 300px;
+}
+
+.p1{
+    padding: 30px 10px;
+    font-size: 20px;
+    text-align:center;
+}
+.p2{
+    padding:30px 10px;
+    font-size:20px;
+    text-align:center;
+}
+.interest{
+    float:center;
+}
+.gallery{
+    padding-left:100px;
+    padding-right:100px;
+}
+a{
+    font-size: 20px;
+    padding:0px 50px;
+}
+.tag{
+    font-size: 20px;
+    color: rgb(60, 45, 103);
+    background-color:plum;
+    height:100px;
+    width:100%;
+}
+a
+{
+    color: black;
+    background: white;
+} 
+a:visited 
+{
+    color: plum;
+} 
+a:hover 
+{
+    background: rgb(246, 216, 221);
+} 
+a:visited:hover 
+{
+    color: rgb(220, 193, 197);
+}

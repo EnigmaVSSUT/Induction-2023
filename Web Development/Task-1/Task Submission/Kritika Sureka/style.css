@@ -1,0 +1,74 @@
+
+        body {
+          background-color: #576b33;
+        } 
+        @font-face {
+            font-family: "The-Meshroom";
+            src: url(/The-Meshroom.ttf);
+        }
+        .h1{
+            
+            font-size:x-large;
+            color: #FEFBEA;  
+            text-align: center;
+            font-family: 'The-Meshroom';
+        } 
+        .item1 {
+            background-color: #FEFBEA;
+            margin: auto;
+            border-radius: 20px;
+            height: 500px;
+            width: 500px;     
+        }
+        .h{
+            
+            font-size: larger;
+            text-align: center;
+            font-family: 'The-Meshroom';
+        }
+        .c{
+            font-size:larger;
+            color: #49592a;
+            text-align: center;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+        .item2 {
+            background-color: #FEFBEA;
+            border-radius: 20px;
+            height: 450px;
+            width: 500px;
+            margin: auto;
+        }
+        .container{
+            background-color: #576b33;
+            justify-items: center;
+            height: 250;
+            width: auto;
+            display: flex; 
+            margin-top: 20px;  
+            
+        }
+        .item{
+            background-color: #cdd0c0;
+            margin: auto;
+            align-self: center;
+            height: 250px;
+            width: 250px;
+            border-radius:10px ;  
+              
+        }
+        img{
+            width: 250px;
+            height: 250px;
+            border-radius: 10px;
+        }
+        .item3 {
+            background-color: #FEFBEA;
+            border-radius: 20px;
+            height: 100px;
+            width: 500px;
+            margin: auto;    
+        }
+        
+    

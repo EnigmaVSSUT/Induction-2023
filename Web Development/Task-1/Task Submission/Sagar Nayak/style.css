@@ -1,0 +1,56 @@
+body{
+    border-top:100px solid #C92C6D;
+    border-right:100px solid #C92C6D;
+    border-left:100px solid    #C92C6D;
+    border-bottom:0px solid #C92C6D;
+    text-align: center;
+
+    background-color: #42ed24b6;
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:60px;
+    text-align: center;
+}
+
+.myphoto{
+    float: right;
+    height: 400px;
+    width: 300px;
+}
+
+
+
+.about{
+    padding:30px 10px;
+    font-size: 30px;
+    width:65%;
+    text-align: left;
+}
+
+.interest{
+    padding:30px 10px;
+    font-size: 30px;
+   /* width:65%;*/
+    text-align:rleft;
+}
+
+.Travelling{
+    float:left;
+    padding-left:30px;
+    padding-right: 30px;;
+}
+
+a{
+    font-size: 30px;
+    padding: 0px 50px;
+}
+.tag{
+    font-size: 20px;
+    color: rgb(2, 2, 10);
+    background-color: #C92C6D;
+    height:100px;
+    width:100%
+
+}

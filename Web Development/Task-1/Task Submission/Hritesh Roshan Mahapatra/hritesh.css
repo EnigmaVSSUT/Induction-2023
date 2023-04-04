@@ -1,0 +1,127 @@
+body {
+    background-color: bisque;
+    font-family: sans-serif;
+
+}
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.heading {
+    text-align: center;
+    margin-top: 20px;
+}
+.heading h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: rgba(119, 139, 139, 0.929);
+    margin-bottom: 10px;
+}
+
+h1 .island {
+    width: 60px;
+    height: 60px;
+    border-radius: 0px;
+}
+.heading h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #444;
+}
+.topic {
+    align-items: start;
+    width: 85%;
+    margin: 10px;
+
+}
+.topic h2 {
+    font-size: 45px;
+    color: #444;
+    align-items: start;
+    text-align: right;
+    background-color: burlywood;
+
+} 
+.prof {
+    margin: auto;
+    width: 100%;
+}
+.topic .profile {
+    width: 100px;
+    height: 100px;
+    border-radius:  50%; 
+    float: left;
+    margin-top: 0px;
+}
+
+.about {
+    font-size: 25px;
+    color: #444;
+}
+
+
+.about p {
+    color: black;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+}
+.interest {
+    align-items: start;
+    margin-top: 40px;
+}
+.interest h3 {
+    font-size: 20px;
+
+}
+.interest .rest {
+    width: 130px;
+    height: 140px;
+    border-radius: 30px;
+}
+.interest .art {
+    width: 210px;
+    height: 230px;
+    border-radius: 15px;
+}
+.gallery h2 {
+   margin-top: 40px;
+   align-items: start;
+}
+.gallery .vault {
+    width: 240px;
+    height: 260px;
+}
+.gallery .light {
+    width: 230px;
+    height: 260px;
+}
+.gallery .family {
+    width: 300px;
+    height: 290px;
+}
+.links img {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    align-items: center;
+    
+}
+footer {
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(99, 45, 45);
+}
+@media only screen and(min-width:1000px) {
+    .prof{
+        width: 50%;
+    }
+    .profile{
+        width: 100px;
+        height: 100px;
+    }
+    .about{
+        width: 50%;
+    }
+}

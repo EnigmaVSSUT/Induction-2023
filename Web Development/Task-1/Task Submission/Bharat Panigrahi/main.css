@@ -1,0 +1,123 @@
+style {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  body {
+    font-family: Times, serif;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    background-attachment: local(255, 255) ;
+  }
+
+  .container {
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+  }
+
+  .header {
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+  }
+
+  header .title {
+    margin-bottom: 1rem;
+    size: 15px;
+  }
+  .img1{
+    float: right;
+  }
+  .tribute {
+    display: grid;
+    grid-template-columns: 2fr;
+    max-width: 48rem;
+    margin: 0px auto;
+    background-image:linear-gradient(90deg, rgb(85, 95, 209) 0%, rgb(4, 230, 166) 90%);
+    color: rgb(0, 0, 0);
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+  }
+
+  .tribute blockquote {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+
+
+  .bio {
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+  }
+  .bio img{
+    max-width: 100%;
+    height: auto;
+  }
+  .bio > h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  .bio > p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  .bio > hr {
+    margin-top: 2rem;
+  }
+.wrapper .button{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    /* float: left; */
+    margin: 0 5px;
+    background: #fff;
+    border-radius: 60px;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+    margin-top: auto;
+}
+.wrapper .button:hover{
+    width: 170px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button .icon{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 60px;
+    margin-top: auto;
+}
+.wrapper .button .icon img{
+  font-size: 25px;
+  line-height: 50px;
+  margin: auto;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+  margin: auto;
+}
+.wrapper .button span:hover{
+  color: blue;
+  margin: auto;
+}

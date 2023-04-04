@@ -1,0 +1,124 @@
+#body1 {
+    /*background-color: #cfaf92;*/
+    background-color: rgb(148, 173, 109);
+}
+
+/*#div1 {
+    background: rgb(213, 166, 129);
+    width: 811px;
+    border: 2px;
+    margin: auto;
+    margin-top: 19px;
+}*/
+
+#first {
+    border: 2px;
+    margin: auto;
+    width: 531px;
+}
+
+#div2 {
+    background: rgb(57, 121, 63);
+    border: 2px;
+    margin: auto;
+    width: 753px;
+}
+
+#h2 {
+    margin-inline-start: 6px;
+}
+
+#div4 {
+    margin-top: 54px;
+}
+
+#h31 {
+    margin-inline-start: 264px;
+
+}
+
+#p1 {
+    margin-inline-start: 71px;
+    margin-inline-end: 279px;
+}
+
+#p2 {
+    display: block;
+    margin-block-start: -7em;
+    margin-block-end: 7em;
+    margin-inline-start: 203px;
+    margin-inline-end: 37px;
+    width: -1px;
+}
+
+#img1 {
+    float: right;
+    width: 207px;
+    margin-top: -49px;
+    margin-right: 15px;
+}
+
+#img2 {
+    width: 180px;
+    margin-left: 18px;
+    margin-bottom: -50px;
+}
+
+#h21 {
+    font-size: 2em;
+    margin-inline-start: 70px;
+
+}
+
+#h41 {
+    margin-inline-start: 305px;
+
+}
+
+#h51 {
+    margin-inline-start: 269px;
+
+}
+
+#a1 {
+    margin-inline-start: 100px;
+}
+
+#a2 {
+    margin-inline-start: 117px;
+}
+
+#a3 {
+    margin-inline-start: 100px;
+}
+
+#a4 {
+    margin-inline-start: 93px;
+}
+
+#div6 {
+    display: flex;
+    justify-content: space-around;
+    margin: -10px;
+    /*margin-inline-start: 69px;*/
+}
+#div8 {
+    display: flex;
+    justify-content: space-around;
+    margin: -10px;
+}
+#img3 {
+    width: 190px;
+    margin-inline-start: 17px;
+}
+
+#img4 {
+    width: 194px;
+    margin-inline-start: 24px; 
+}
+
+#img5 {
+    margin-inline-start: 32px;
+    width: 193px;
+    margin-inline-end: -6px;
+}

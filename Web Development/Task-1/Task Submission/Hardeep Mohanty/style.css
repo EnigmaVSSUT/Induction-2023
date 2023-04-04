@@ -1,0 +1,56 @@
+body{
+    background-image: url(wpmain.jpg);
+    
+}
+#content{
+    background-color: burlywood;
+    display: flex;
+    flex-wrap: nowrap;
+    width:800px;
+     
+}
+
+
+#content p{
+    padding:10px;
+}
+#content img{
+    padding: 10px;
+}
+#links{
+    background-color: burlywood;
+    width: 800px;
+}
+#links a{
+    padding: 5px;
+}
+#div1{
+    align-content: center;
+}
+#Gallery{
+    background-color: burlywood;
+    width: 800px;
+    
+}
+#Gallery img{
+    padding: 10px;
+}
+#hobbies{
+    background-color: burlywood;
+    width: 800px;
+}
+#hobbies p{
+    padding: 10px;
+}
+#hobbies img{
+    padding: 10px;
+}
+#h1{
+    background-color: crimson;
+    width: 800px;
+}
+#about1{
+    background-color: burlywood;
+    width: 800px;
+    margin-bottom: 0px;
+}

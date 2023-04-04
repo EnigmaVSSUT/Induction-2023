@@ -1,0 +1,81 @@
+body{ 
+    background-image:url("background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(53, 54, 87) ; 
+    font-family: Rockwell, sans-serif;
+    font: size 100px;
+    margin: 0;
+    padding: 0; 
+    color: white;
+    
+}
+nav{
+    background-color: hsl(266, 71%, 67%);
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #c8d2dc;
+}
+#about{
+    
+    margin-bottom: 30px;
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 40px;
+    flex-direction: column;
+    
+
+}
+
+.box p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box img {
+    width: 250px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    float: right;
+    background-color: rgb(121, 124, 204);
+}
+.box0 img {
+    width: 350px;
+    height: 300px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    float: left;
+    background-color: rgb(152, 142, 204);
+}
+.box0 .para1{
+    float: right;
+}
+.para_about p {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #2c3e50;
+}
+.para_about1 p{
+    margin-left: -150px;
+}
+.box0 .para1 h1{
+    margin-top: 45px;
+}
+.box1 img{
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin-top: 45px;
+}
+.box1 .para2 h1{
+    margin-top: 40px;
+}

@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(250, 173, 149);
+   
+}
+*{
+    margin: 5px;
+    padding: 0;
+}
+
+h1{
+   color: rgb(247, 21, 21);
+   font-size: 60px;
+   
+}
+.container1{
+    height: 1800px;
+    width: 1400px;
+     background-color: aliceblue;
+    
+     
+}
+h2{
+    margin: px;
+    padding: 30px;
+    font-size: 40px;
+    color: crimson;
+
+   
+} .text{
+    font-size: 20px;
+    margin: 1px;
+    padding-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.image{
+
+   padding-right: 50px;
+    margin-right: 10px;
+    float: left;
+  
+}
+
+.container3{
+   
+   
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    float: left;
+
+}
+.image2{
+    float: left;
+}
+.patent{
+    display: flex;
+    padding: 50px;
+    width: 30%;
+}
+.p3{
+    color: rgb(25, 26, 25);
+    font-size: 40px;
+    display: flex;
+   
+    width: 2 px;
+}
+@media only screen and (min-width:300px) and (max-width:1400px){
+    .container1{width: 100%;
+        height: 100%;
+    flex-direction: column;}
+    .image{
+        width: 100%;
+        flex-direction: column;
+        max-width: 65px;
+        min-width: 2px;
+    }
+    .image2{
+        width: 100%;
+        flex-direction: column;
+    }
+    .patent{ width: 100%;
+        flex-direction: column;
+       
+    }
+    .p3{ width: 100%;
+        flex-direction: column;
+    }
+    .container3{
+      flex-direction: column;
+    }
+    .container4{
+        flex-direction: column;
+    }
+    
+}

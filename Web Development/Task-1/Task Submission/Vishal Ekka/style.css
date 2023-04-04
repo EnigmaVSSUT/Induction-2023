@@ -1,0 +1,178 @@
+body {
+    background-image: url(bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hello {
+    text-align: center;
+}
+
+.gallery {
+    text-align: center;
+}
+
+p {
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight:400;
+    font-size: 17px;
+  }
+  
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.content {
+    width:700px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: auto;
+}
+.contact {
+    text-align: center;
+}
+
+.mine {
+    width:300px;
+    padding:35px;
+}
+
+
+
+.me {
+    width:350px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-left:7px;
+}
+.me1 {
+    width:300px;padding: 7px;
+}
+
+.ipicsa {
+    width:600px;padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.ipicsb {
+    width:600px;padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    border-radius: 80px;
+
+}
+.aboutme {
+    width: 300px;
+    float:right;
+}
+
+
+
+.ipics {
+    width:200px;padding: 7px;
+
+}
+
+.intrestme {
+    padding-top:30px;
+    padding-bottom:40px;
+    width: 300px;
+    float:left;
+}
+.ipics1 {
+    width:200px;padding: 7px;
+
+}
+
+.ipics2 {
+    width:200px;padding: 7px;
+
+}
+.ipics3 {
+    width:200px;padding: 7px;
+
+}
+.ipics4 {
+    width:400px;padding: 7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.ipics5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;padding: 7px;
+
+}
+
+.right {
+    text-align: center;
+}
+
+
+.ipics10 {
+    width:600px;padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ipics9 {
+    width:600px;padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.ipics8 {
+    width:600px;padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ipics7 {
+    width:600px;padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ipics6 {
+    width:600px;padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.icon1 {
+    width:40px;
+    padding:10px;
+}
+
+.icon2 {
+    width:40px;
+    padding:10px;
+}
+
+.icon3 {
+    width:40px;
+    padding:10px;
+}
+
+.stellar {
+    text-align: center;
+}
