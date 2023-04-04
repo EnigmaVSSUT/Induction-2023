@@ -24,7 +24,12 @@ h1{
         max-width: 30%;
       }
       
-
+      #gallery img {
+        margin: 10px; /* add margin to space out images */
+        width: 300px; /* ensure images don't exceed container width */
+        height: 300px; /* scale images proportionally */
+       
+    }
 
 
 gallery-item {
@@ -80,7 +85,7 @@ section {
     
     justify-content: center;
     align-items: center;
-    font-size: 48px;
+    font-size: 46px;
     background-color: #f0f0f0;
     border-bottom: 2px solid #ccc;
 }
@@ -91,7 +96,7 @@ img{
     border-radius: 10px;   /*makes the edges round*/
     float: left;   /*push the image to left side*/ 
     margin-right: 20px; /*creates space after the image */
-
+    margin-top: 30px;
 }
 @media  (orientation:portrait ){
     section  {
@@ -104,13 +109,16 @@ img{
         border-bottom: 0px;
         color: aqua;
     }
+    #gallary{
+        height: 700px;
+    }
 }
 a{
     color: blue;
 }
 @media  (orientation:portrait ){
     img{
-        width: 500px;
+   
         height: 250px;
         object-fit: cover;  /*makes the image quality better*/
         border-radius: 10px;   /*makes the edges round*/
@@ -122,3 +130,29 @@ a{
         color: aqua;
     }
 }
+@media  (orientation:portrait ){
+  #gallery 	 {
+    display: flex; /* use flexbox to align images in a row */
+    flex-wrap: wrap; /* allow images to wrap to next line if necessary */
+    height: 1000px;
+}
+
+   #gallery img {
+    margin: 10px; /* add margin to space out images */
+    width: 500px; /* ensure images don't exceed container width */
+    height: 250px; /* scale images proportionally */
+    margin-left: 300px;
+}
+}
+
+ 
+  
+     #contact-me img {
+      margin: 10px; /* add margin to space out images */
+      max-width: 100px; /* ensure images don't exceed container width */
+      height: 100px; /* scale images proportionally */
+      margin-left: 150px;
+  }
+  
+
+ 
