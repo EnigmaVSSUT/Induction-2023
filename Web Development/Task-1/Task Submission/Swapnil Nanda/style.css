@@ -1,0 +1,114 @@
+body {
+    background-color: black;
+    
+}
+#main_area{
+    background-color: #121212;
+    height:max-content;
+    width:60%;
+    color: ghostwhite;
+    margin:auto;
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 30px;
+    
+    border: 2.5px;
+    
+    
+}
+#myimage{
+    border-radius: 50%;
+    height: 20rem;
+    width:auto;
+    
+}
+.mainheading
+{
+    text-align: center;
+    color:rgb(255, 0, 0);
+    font-size: xx-large;
+    
+}
+.text{
+    
+    width:fit-content;
+    font-size: 2rem;
+    color: greenyellow;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.heading{
+    font-size: xxx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:dodgerblue;
+    text-align: center;
+    background-color:#32272f;
+    border-radius: 12%;
+    
+}
+#myinterestpic{
+    border-radius: 10%;
+    height: 15rem;
+    width: auto;
+}
+#my_interests_text{
+    
+    color:rgb(239, 100, 188);
+}
+#div1{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 55rem) {
+    #div1{
+        display: flex;
+        flex-direction: column;
+    }
+    #div2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media (max-width:80rem) {
+    #div3{
+        display: flex;
+        flex-direction: column;
+    }
+}
+#div2{
+    display: flex;
+    margin-top: 20px;
+}
+#div3{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: center;
+}
+#div4{
+    display: flex;
+    align-items: center;
+    float: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+}
+.gallerypic{
+    border-radius: 10%;
+    height: 25rem;
+    width: auto;
+    border-color:blanchedalmond;
+    border-style:groove;
+    border-width: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+    
+    
+}
+.contact_logo{
+    height:5rem;
+    width:5rem;
+    
+}
