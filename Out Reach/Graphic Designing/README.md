@@ -11,7 +11,7 @@ You will have to design 2 posters (Any 1 topic from each event). Some posters ar
 * Technical Posters
   * Hackathon
   * App development workshop
-  * Make an Instagram post describing Artificial intelligence
+  * Make an Instagram post describing Artificial intelligence 
 
 # Submission
 * You can use any designing tool for this task.
