@@ -23,3 +23,4 @@ You will have to design 2 posters (Any 1 topic from each event). Some posters ar
 
 <img src="./assets/republic enigma.png">
 <img src="./assets/ganesh chaturthi.jpeg">
+<img src="./assets/DEBUG_BATTLE-01.png">
