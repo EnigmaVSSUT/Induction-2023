@@ -2,7 +2,8 @@
 
 Competitive programming involves programmers competing against each other to solve programming questions in a limited amount of time. These events are usually held over the Internet or a local network. The contestants of the events are known as sport programmers.
 
-Here is a list of question you can practise to grasp on some core concepts:
+The questions are for your practice. So, everyone should solve them and we will be having a contest on 8th of April which will be considered for evaluation.You don't need to submit the solution, just practice them on your own.
+
 * [Question 1](https://www.codechef.com/problems/ATM2)
 * [Question 2](https://www.codechef.com/problems/MAXCOUNT)
 * [Question 3](https://www.codechef.com/problems/PRODUCT)
