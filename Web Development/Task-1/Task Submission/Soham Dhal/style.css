@@ -1,7 +1,8 @@
 body{
     background-image:url(images/bg1.jpg);
-    background-attachment:scroll;
+    background-attachment:fixed;
     text-align: center;
+    display: flex;
 }
 .heading{
     color:rgb(236, 177, 177);
@@ -90,4 +91,7 @@ body{
     color: aliceblue;
     font-weight: bold;
     font-size: 20px;
+}
+@media (min-width: 320px) and (max-width: 425px){
+flex-direction: column;
 }
