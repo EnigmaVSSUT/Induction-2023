@@ -1,0 +1,42 @@
+body {
+			background: linear-gradient(to bottom, #bdc3c7, #2c3e50); /* Gradient background */
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #fff;
+			box-shadow: 0 2px 5px rgba(0,0,0,.3); /* Box shadow for header */
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+			font-size: 36px;
+			color: #2c3e50;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 20px;
+			justify-content: center;
+			align-items: center;
+		}
+		.box {
+			background-color: #fff;
+			box-shadow: 0 2px 5px rgba(0,0,0,.3); /* Box shadow for each box */
+			padding: 20px;
+			margin: 20px;
+			text-align: center;
+			flex-basis: calc(25% - 40px); /* Width of each box */
+		}
+		img {
+			width: 100%;
+			height: auto;
+			margin-bottom: 10px;
+		}
+		p {
+			margin: 0;
+			font-size: 18px;
+			color: #2c3e50;
+		}
