@@ -24,7 +24,7 @@ In this task, you will be creating an UI design for Live TV website using Figma.
 
 - User flow should be animated starting from Landing page to Home page (Example: You can add splash screen).
 - Your design should look like atleast like real web application.
-- Creativity in design will be more preferable
+- Creativity and Prototyping in design will be more preferable. 
 
 ## Evaluation
 
@@ -41,14 +41,14 @@ You will have 10 days to complete this task. Please submit your completed work b
 
 ## Submission
 
-After completion of your task create a folder of your name in [Task Submission](https://github.com/EnigmaVSSUT/Induction-2023-2nd-year-and-MCA/tree/main/ui-ux/Task%20Submission) folder. Then in that folder add images of your design and add design & prototype link in a text file in that folder of your name. For better understanding check Soham.txt file, there all the steps are defined clearly.
+After completion of your task create a folder of your name in [Task Submission](https://github.com/EnigmaVSSUT/Induction-2023/tree/main/Out%20Reach/UI%20UX/Task%20Submission) folder. Then in that folder add images of your design and add design link,name, branch in a text file in that folder of your name. For better understanding check Soham.txt file, there all the steps are defined clearly.
 
 ## Resources
 
 If you need any help or inspiration, here are some resources you may find useful:
 
 - [Dribble](https://dribbble.com/tags/live_tv)
-- [Sample Video](https://youtu.be/KfgS6zCTMrA)
+- [Sample Video](https://youtu.be/nGqwQPvjwuA)
 
 If you have any questions or need any help, don't hesitate to ask!
 
