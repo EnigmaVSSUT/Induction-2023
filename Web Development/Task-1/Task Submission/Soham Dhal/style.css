@@ -1,0 +1,97 @@
+body{
+    background-image:url(images/bg1.jpg);
+    background-attachment:fixed;
+    text-align: center;
+    display: flex;
+}
+.heading{
+    color:rgb(236, 177, 177);
+    padding: 50px 10px;
+    font-family: 'New Rocker','Jim Nightshade','Beau Rivage', cursive;
+    display:block;
+    font-size: 130px;
+    margin-bottom: 14%;
+}
+.text{
+    color:rgb(151, 119, 230);
+    padding: 60px 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(19deg, #dde0ecf8 55%, #000000ec 170%);
+    border-radius: 10%;
+    filter: opacity(80%);
+}
+.contact a{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(35, 36, 36);
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-top: 1%;
+    padding: 15px;
+    background-image: linear-gradient(19deg, #fffffff8 50%, #fbfbfbf8 40%);
+    border-radius: 10%;
+    margin-top: 2%;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 10%;
+    justify-content:center;
+    font-size: 30px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-top: 3%
+}
+
+.options h2{
+    color:rgb(1, 1, 1);
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(19deg, #dde0ecf8 55%, #000000ec 170%);
+    border-radius: 10%;
+    filter: opacity(80%);
+    font-size: 60px;
+    margin-inline-start:0px; 
+    margin-inline-end: 0px;  
+}
+.text a{
+    background-image: linear-gradient(19deg, #605f63f8 20%, #fffffff8 80%);
+    border-radius: 15%;
+    font-size: 45px; 
+}
+.options h3{
+    color:rgb(228, 220, 220);
+    margin-left: 60%;
+    margin-right: 60%;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(19deg, #3944d9f8 55%, #338ec2ec 170%);
+    border-radius: 50%;
+    filter: opacity(90%);
+    font-size: 40px;
+    margin-inline-start:0px; 
+    margin-inline-end: 0px;   
+}
+.footer{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+@media (min-width: 320px) and (max-width: 425px){
+flex-direction: column;
+}
