@@ -1,0 +1,133 @@
+body {
+  background-color: #f8bb23;
+  font-family: cursive, "Lucida Handwriting", Times, serif;
+  text-align: center;
+  border-top: 0px solid #d3756b;
+  border-bottom: 0px solid #d3756b;
+  border-right: 140px solid #d3756b;
+  border-left: 140px solid #d3756b;
+}
+
+#head {
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.centre {
+  text-align: center;
+}
+
+#div1 {
+  background-color: #ec5e0b;
+  width: 1200px;
+  margin: auto;
+  margin-top: 19px;
+  border-bottom: 0px;
+  height: 1000px;
+}
+
+#fiv0 {
+  display: flex;
+  margin: auto;
+  width: 753px;
+  margin-top: 30px;
+  padding-top: 45px;
+}
+
+#div2 {
+  margin: auto;
+  width: 900px;
+  display: flex;
+
+  flex-direction: column;
+}
+
+#fiv2 {
+  margin-right: 20px;
+  margin-top: 14px;
+}
+
+.body {
+  width: 90%;
+  margin: 10px auto 10px;
+}
+#fiv3 {
+  margin: auto;
+}
+
+#fiv1 {
+  display: flex;
+  flex-direction: row;
+}
+
+#p2 {
+  margin-top: 2px;
+}
+
+#div3 {
+  display: flex;
+  flex-direction: column;
+}
+
+#fiv4 {
+  display: flex;
+  justify-content: space-around;
+  margin: -10px;
+}
+
+#fiv5 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#img2 {
+  width: 201px;
+  margin-inline-start: -31px;
+  border-radius: 10px;
+}
+
+#img1 {
+  width: 286px;
+  margin-left: 40px;
+  float: right;
+  border-radius: 20px;
+}
+
+#img3 {
+  width: 190px;
+  margin-inline-start: 17px;
+}
+
+#img4 {
+  width: 194px;
+  margin-inline-start: 24px;
+}
+
+#img5 {
+  margin-inline-start: 32px;
+  width: 193px;
+  margin-inline-end: -6px;
+}
+.tag {
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 80px;
+  color: black;
+
+  height: 50px;
+  width: 100%;
+  background-color: #d3756b;
+}
+hr {
+  background-color: none;
+  border-style: dotted none none;
+  border-color: #ffc3a1;
+  border-width: 6px;
+  height: 0;
+  width: 6%;
+  margin: 50px auto;
+}
+img:hover {
+  transform: scale(1.2);
+}
