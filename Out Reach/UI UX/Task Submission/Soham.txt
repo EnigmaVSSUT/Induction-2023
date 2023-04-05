@@ -1,3 +1,8 @@
 Name: <NAME>
 Branch: <BRANCH>
-Figma Link: <>
+Figma Link: <LINK>
+
+
+1. Create a folder of your name in task submission folder.
+2. In that folder upload images of your design.
+3. Create a text file in that folder and add Figma link of your design with other necessary details in that folder (i.e name and branch).
