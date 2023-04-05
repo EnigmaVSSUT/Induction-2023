@@ -15,9 +15,9 @@ In this task, you will be creating an UI design for Live TV website using Figma.
 ## Requirements
 
 - Your design should be desktop oriented.
-- Your design should contain atleast 4 page.
+- Your design should contain atleast 4 pages.
 - Landing Page, Signup page, User info page, Home page.
-- Home page should contain one Movie carousel for different genres like live show, movie gallery and etc.
+- Home page should contain one carousel for different genres like live show, movie gallery and etc.
 
 
 ## Deliverables
