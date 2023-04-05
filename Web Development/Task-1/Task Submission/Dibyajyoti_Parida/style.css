@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(211, 208, 23);
+}
+
+h1 {text-align: center;}
+.box1{
+    background-color: azure;
+    margin-top: 20px;
+    padding: 5px 50px 100px 50px;
+    width: 85%;
+    align-self: center;
+    align-items: center;
+    margin: auto;
+}
+.box2{
+    background-color: azure;
+    padding: 0px 50px 60px 50px;
+    width: 85%;
+    align-items: center;
+    margin: auto;
+    font-size: larger;
+}
+.box3{
+    background-color: azure;
+    padding: 0px 50px 150px 50px;
+    width: 85%;
+    align-items: center;
+    margin: auto;
+    font-size: larger;
+}
+h4{
+    width: 85%;
+    font-size: larger;
+    text-align: left;
+}
+
+.main_photo{
+    float: right;
+    margin: 0px 0px 0px 0px;
+    padding-right: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
+    border-radius: 10%;
+    width: 15%;
+    height: 15%;
+}
+
+.img2{
+    float: left;
+    margin: 0px 10px 10px 0px;
+    padding-right: 30px;
+    width: 20%;
+    height: 20%;
+}
+.gallery{
+    float: left;
+    width: 18%;
+}
+.box4 i{
+    float: left;
+    align-items: center;
+}
+.box4{
+    background-color: azure;
+    padding: 0px 50px 5px 50px;
+    width: 85%;
+    align-items: center;
+    margin: auto;
+    font-size: larger;
+}
+
+.box5 i{
+    float: left;
+    align-items: center;
+}
+.box5{
+    background-color: azure;
+    padding: 0px 50px 5px 50px;
+    width: 85%;
+    align-items: center;
+    margin: auto;
+    font-size: larger;
+}
+h6{
+    padding-left;:20px
+}
+
+
