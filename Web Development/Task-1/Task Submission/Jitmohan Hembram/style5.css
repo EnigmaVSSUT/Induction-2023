@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(52, 29, 41);
+
+}
+*{
+    margin: 20px;
+    padding: 0;
+}
+
+h1{
+   color: rgb(41, 209, 47);
+   font-size: 60px;
+
+}
+.container1{
+    height: 1800px;
+    width: 1400px;
+     background-color: #aec0d0;
+
+
+}
+h2{
+    margin: px;
+    padding: 30px;
+    font-size: 40px;
+    color: #24042a;
+
+
+} .text{
+    font-size: 20px;
+    margin: 1px;
+    padding-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.image{
+   padding-right: 50px;
+    margin-right: 10px;
+    float: left;
+
+}
+
+.container3{
+
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    float: left;
+
+}
+.image2{
+    float: left;
+}
+.pics {
+  display: flex;
+}
+
+.links{
+    color: rgb(25, 26, 25);
+    font-size: 40px;
+    display: flex;
+    width: 2 px;
+}
+.me {
+  text-align: center;
+}
+center h2{
+  color: black;
+}
+center h2.glla{
+  color: #00020f;
+  position: center;
+  
+}
+
+.ame {
+  
+  font-size: 27px;
+}
+.mypic{
+  float: right;
+}
+.container2 {
+  color:#040500
+}
+.intme {
+  font-size: 27px;
+  text-align: center;
+}
+.head {
+  color:green;
+}
