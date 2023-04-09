@@ -25,13 +25,13 @@ The notebook evaluation will be based on:
 Please submit your completed work by 13th April 11:59 PM IST.
 
 # Submission 
-After completion of your task add a text file in [Task submission]() folder with your project's repo link
+After completion of your task add a text file in [Task submission](https://github.com/EnigmaVSSUT/Induction-2023/tree/main/AI/Task%20Submission) folder with your project's repo link
 
 # Resources
 For any help, you may refer the following:
 * [Streamlit Gallery](https://streamlit.io/gallery)
-* [Streamlit YouTube Tutorial](https://www.youtube.com/watch?v=VqgUkExPvLY)
-
+* [Streamlit YouTube Tutorial 1](https://www.youtube.com/watch?v=VqgUkExPvLY)
+* [Streamlit YouTube Tutorial 2](https://www.youtube.com/playlist?list=PLa6CNrvKM5QU7AjAS90zCMIwi9RTFNIIW)
 
 
 If you have any questions or need any help, don't hesitate to ask!
