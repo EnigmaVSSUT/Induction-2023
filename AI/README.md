@@ -8,6 +8,11 @@ AI/ML—short for artificial intelligence (AI) and machine learning (ML)—repre
 ## Overview
 Streamlit is a framework used to build webapps with python. You have to create a webapp that has a navigation menu containing two sub-items: image and video. Each of the sections should have options to either select a local file or use the camera to capture the image/video. The selected file should then be displayed with a caption (for this, a textbox should be provided for taking input).
 
+## Additional Tips
+* Download python from here: https://www.python.org/downloads/ and install the required type. During installation, do check the `ADD TO PATH` checkbox in the installer. Alternatively, you can grab python from Microsoft Store(for windows). Version 3.10 is recommended.
+* Preferably, the project should be made in a virtual environment. To create a virtual environment, run `python -m venv <name-of-the-directory>`. To activate the virtual environment, run `<name-of-your-virtual-env>/scripts/activate`. Reference: [Here](https://python.land/virtual-environments/virtualenv)
+* To install streamlit, run `pip install streamlit`.
+
 ## Requirements
 * The project must be hosted (in streamlit) and marked as `public`
 * Menus for 'image' and 'video' should be implemented.
@@ -32,6 +37,7 @@ For any help, you may refer the following:
 * [Streamlit Gallery](https://streamlit.io/gallery)
 * [Streamlit YouTube Tutorial 1](https://www.youtube.com/watch?v=VqgUkExPvLY)
 * [Streamlit YouTube Tutorial 2](https://www.youtube.com/playlist?list=PLa6CNrvKM5QU7AjAS90zCMIwi9RTFNIIW)
+* [Python Tutorail](https://www.youtube.com/watch?v=kqtD5dpn9C8)
 
 
 If you have any questions or need any help, don't hesitate to ask!
