@@ -63,7 +63,7 @@ Competitive Programming<br>
 <br>
 Fourth week is a walk through the revolutionary domain of AI/ML with an exciting task to boost your interest and give you an overview of the field.
   <br>
-    - [Task: WebApp](./AI)
+    - <a href="https://github.com/EnigmaVSSUT/Induction-2023/tree/main/AI">Task: WebApp</a><br>
 <hr>
 
 ## SUBMISSION:
