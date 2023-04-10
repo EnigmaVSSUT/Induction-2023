@@ -37,7 +37,7 @@ For any help, you may refer the following:
 * [Streamlit Gallery](https://streamlit.io/gallery)
 * [Streamlit YouTube Tutorial 1](https://www.youtube.com/watch?v=VqgUkExPvLY)
 * [Streamlit YouTube Tutorial 2](https://www.youtube.com/playlist?list=PLa6CNrvKM5QU7AjAS90zCMIwi9RTFNIIW)
-* [Python Tutorail](https://www.youtube.com/watch?v=kqtD5dpn9C8)
+* [Python Tutorial](https://www.youtube.com/watch?v=kqtD5dpn9C8)
 
 
 If you have any questions or need any help, don't hesitate to ask!
