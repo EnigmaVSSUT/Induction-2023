@@ -62,7 +62,8 @@ Competitive Programming<br>
 ## Week-4 (9 - 14 April) | Artificial Intelligence and Machine Learning <img src="./assets/Ai.gif" width="60">
 <br>
 Fourth week is a walk through the revolutionary domain of AI/ML with an exciting task to boost your interest and give you an overview of the field.
-
+  <br>
+    - [Task: WebApp](./AI)
 <hr>
 
 ## SUBMISSION:
