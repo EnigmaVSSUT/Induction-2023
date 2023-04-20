@@ -37,7 +37,7 @@ Your work will be evaluated based on the following criteria:
 
 ## Deadline
 
-You will have 10 days to complete this task. Please submit your completed work by 11th April 11:59 PM.
+Please submit your completed work by 15th April 11:59 PM IST.
 
 ## Submission
 

@@ -59,10 +59,11 @@ Third week starts with a rigorous learning of competitive coding with some inter
 Competitive Programming<br>
     - [Task: Question Practice](./competitive%20programming)
 <br>
-## Week-4 (9 - 14 April) | Artificial Intelligence and Machine Learning <img src="./assets/Ai.gif" width="60">
+## Week-4 (9 - 13 April) | Artificial Intelligence and Machine Learning <img src="./assets/Ai.gif" width="60">
 <br>
 Fourth week is a walk through the revolutionary domain of AI/ML with an exciting task to boost your interest and give you an overview of the field.
-
+  <br>
+    - <a href="https://github.com/EnigmaVSSUT/Induction-2023/tree/main/AI">Task: WebApp</a><br>
 <hr>
 
 ## SUBMISSION:
@@ -72,7 +73,7 @@ N.B.<br>
 
 __Non-Tech Induction (Graphic Designing, Video Editing, Content Writing) to start from 5th April__
 
-**Personal Interview Round to commence from 15th April**
+**Personal Interview Round to commence from 14th April**
 
 <hr>
 
