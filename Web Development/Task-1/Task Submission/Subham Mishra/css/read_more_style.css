@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(243, 243, 243);
+    background: #0d1420;
     font-family: sans-serif;
 }
 
@@ -14,7 +16,7 @@
 h1{
     font-size: 50px;
     font-weight: 400;
-    color: rgb(50, 180, 255);
+    color: rgb(0, 144, 144);
     margin-bottom: 20px;
 }
 img{
@@ -27,7 +29,7 @@ img{
 p{
     font-size: 20px;
     font-weight: 200;
-    color: #444;
+    color: aliceblue;
 }
 
 .interests{
@@ -77,8 +79,8 @@ p{
 .home button{
     margin: 0px 15px;
     display: inline-block;
-    color: #fff;
-    background-color: rgb(50, 180, 255);
+    color: aliceblue;
+    background-color: rgb(0, 144, 144);
     border: none;
     border-radius: 5px;
     padding: 12px 20px;
@@ -87,14 +89,13 @@ p{
     transition: 0.08s ease-in;
 }
 .home button:hover{
-    background-color: rgb(0, 144, 227);
-    box-shadow: #444;
+    background-color: rgb(0, 97, 97);
 }
 
 footer{
     max-width: 100%;
     padding: 20px;
-    background-color: rgb(50, 180, 255);
+    background-color: rgb(0, 144, 144);
     text-align: center;
     margin-top: 30px;
 }

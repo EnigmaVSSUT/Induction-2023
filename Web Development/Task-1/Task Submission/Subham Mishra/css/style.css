@@ -1,8 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(243, 243, 243);
-    font-family: sans-serif;
+    background: #0d1420;
+    font-family: "Raleway", sans-serif;
+}
+nav{
+    background: black;
+    padding: 20px;
+    display: flex;
+}
+nav .pages{
+    background-color: black;
+}
+nav .home{
+    margin: 0px 30px 0px 50px;
+}
+nav .pages a{
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 7px;
+}
+nav .pages a:hover{
+    background-color: aliceblue;
+    color: black;
 }
 header{
     text-align: center;
@@ -14,15 +40,16 @@ header{
     margin-top: 25px;
 }
 .heading h1{
+    font-family: sans-serif;
     font-size: 50px;
     font-weight: 800;
-    color: rgb(50, 180, 255);
+    color: rgb(0, 144, 144);
     margin-bottom: 10px;
 }
 .heading p{
     font-size: 20px;
     font-weight: 200;
-    color: #444;
+    color: aliceblue;
 }
 .content{
     display: flex;
@@ -43,11 +70,11 @@ header{
 }
 .message h2{
     margin: 15px;
-    color: #444;
+    color: aliceblue;
     font-size: 24px;
 }
 .message p{
-    color: #444;
+    color: aliceblue;
     font-size: 18px;
     line-height: 1.5em;
     margin: 15px;
@@ -70,19 +97,19 @@ header{
     max-width: 100%;
     max-height: 100%;
     padding: 5px;
-    border: 0;
+    border: none;
     border-radius: 20px;
 }
 .links li img:hover{
-    background-color: #ccc;
+    background-color: #24334d;
 }
 
 
 .read_more{
     margin: 0px 15px;
     display: inline-block;
-    color: #fff;
-    background-color: rgb(50, 180, 255);
+    color: aliceblue;
+    background-color: rgb(0, 144, 144);
     border: none;
     border-radius: 5px;
     padding: 12px 20px;
@@ -100,7 +127,8 @@ footer{
     max-width: 100%;
     margin: 60px 0px 0px 0px;
     padding: 20px;
-    background-color: rgb(50, 180, 255);
+    background-color: rgb(0, 144, 144);
+    color: black;
     text-align: center;
 }
 
@@ -200,7 +228,19 @@ footer{
         font-size: 14px;
     }
 }
-
+@media screen and (max-width:420px){
+    nav{
+        padding: 12px;
+    }
+    .home{
+        margin: 0px 15px 0px 30px;
+    }
+    .pages a{
+        font-size: 16px;
+        border-radius: 8px;
+        padding: 5px 7px;
+    }
+}
 
 @media screen and (max-width: 400px){
     .content .cover{
